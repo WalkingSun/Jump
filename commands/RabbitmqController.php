@@ -7,7 +7,7 @@ use yii\console\Controller;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 use PhpAmqpLib\Message\AMQPMessage;
 
-class JumpController extends Controller
+class RabbitmqController extends Controller
 {
     public $host = '192.168.33.30';
     public $port = '5672';
