@@ -39,7 +39,7 @@ $config = [
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
                 'host' => 'smtp.qq.com',  //每种邮箱的host配置不一样
-                'username' => 'zhang.email.wei@qq.com',
+                'username' => '',
                 'password' => '',
                 'port' => '25',
                 'encryption' => 'tls',
@@ -60,7 +60,7 @@ $config = [
                 ],
             ]
         ],
-//        'db' => require(__DIR__ . '/../../config/db.php'),
+        'db' => require(__DIR__ . '/db.php'),
 //        'redis' => require(__DIR__ . '/../../config/redis.php'),
 //        'session' => [
 //            'class' => 'yii\redis\Session',

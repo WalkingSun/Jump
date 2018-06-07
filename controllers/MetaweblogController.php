@@ -9,11 +9,22 @@
 namespace app\controllers;
 
 
+use app\models\DB;
 use app\models\MetaWeblog;
 use yii\web\Controller;
 
 class MetaweblogController extends Controller
 {
+    public $modelClass= 'app\models\JpBlogRecord';
+    public $data;
+    public $result;
+
+    public function init()
+    {
+        parent::init();
+
+        $this->data = array_merge(\Yii::$app->request->get(),\Yii::$app->request->post());
+    }
 
     /**
      *各大博客MetaWeblog地址
@@ -25,8 +36,6 @@ class MetaweblogController extends Controller
     http://www.cnblogs.com/博客名称/services/metaweblog.aspx	cnblogs
     http://blog.chinaunix.net/xmlrpc.php?r=rpc/server	chinaunix
      */
-
-
     public function  actionAdd(){
 
         $url = "http://www.cnblogs.com/followyou/services/metablogapi.aspx";
@@ -66,6 +75,34 @@ class MetaweblogController extends Controller
 
     }
 
+    public function actionIndex(){
+        $d = $this->data;
+        $model =$this->modelClass;
 
+        $filter = [];
+        $offset = !empty($d['page']) ? $d['page']:1;
+        $limit = !empty($d['size']) ? $d['size']:20;
+        $orderType = ['createtime'=>SORT_DESC];
+        $this->result = $model::getList($cols = array(), $filter , $offset , $limit , $andWhere='', $orWhere='', $orderType ,$andWhereArray = []);
+        return $this->render('index',['result'=>$this->result]);
+    }
+
+    public function actionQueue(){
+        $d = $this->data;
+        $model = 'app\models\JpBlogQueue';
+
+        $DB = new DB();
+        $data = [
+            'blogId'    => $d['blogId'],
+            'action'    => $d['action'],
+            'publishStatus'    => '',
+            'response'    => '',
+            'createtime'    => date('Y-m-d'),
+            'updatetime'    => date('Y-m-d'),
+        ];
+        $DB->insert($model::tableName(),$data);
+
+        echo json_encode(['code'=>200,'msg'=>'success']);
+    }
 
 }
