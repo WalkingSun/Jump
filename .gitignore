@@ -1,3 +1,3 @@
 ./runtime
 ./idea
-./config/params.php
+params.*
