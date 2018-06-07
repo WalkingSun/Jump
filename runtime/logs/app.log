@@ -1,0 +1,859 @@
+2018-06-07 10:00:42 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:00:42 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:00:43 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:00:43 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:00:43 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:00:43 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:00:43 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: ''
+2018-06-07 10:00:43 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/error
+2018-06-07 10:00:43 [192.168.33.1][-][-][trace][yii\base\Action::runWithParams] Running action: yii\web\ErrorAction::run()
+2018-06-07 10:00:43 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/site/error.php
+2018-06-07 10:00:43 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+2018-06-07 10:00:44 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+2018-06-07 10:00:44 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:00:42 [192.168.33.1][-][-][info][application] $_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '56521'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528336842.247
+    'REQUEST_TIME' => 1528336842
+]
+2018-06-07 10:01:19 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:01:19 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:01:19 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:01:19 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:01:19 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:01:19 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:01:19 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: ''
+2018-06-07 10:01:19 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/error
+2018-06-07 10:01:19 [192.168.33.1][-][-][trace][yii\base\Action::runWithParams] Running action: yii\web\ErrorAction::run()
+2018-06-07 10:01:19 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/site/error.php
+2018-06-07 10:01:19 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+2018-06-07 10:01:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+2018-06-07 10:01:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:01:19 [192.168.33.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1Y¶0ЌТgз]Ґэ7#ЉLh6Х‚f6zЖtа#°Ы<\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%131Y%B60%8D%D2g%E7%5D%A5%FD7%23%8ALh6%D5%82%98f6z%C6t%E0%14%23%B0%DB%3C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '56530'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/metaweblog/add'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528336879.0405
+    'REQUEST_TIME' => 1528336879
+]
+2018-06-07 10:01:33 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:01:33 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:01:33 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:01:33 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:01:33 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:01:33 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:01:33 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'jump/send'
+2018-06-07 10:01:33 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/error
+2018-06-07 10:01:33 [192.168.33.1][-][-][trace][yii\base\Action::runWithParams] Running action: yii\web\ErrorAction::run()
+2018-06-07 10:01:33 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/site/error.php
+2018-06-07 10:01:33 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+2018-06-07 10:01:33 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+2018-06-07 10:01:33 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:01:33 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'jump/send'
+]
+
+$_COOKIE = [
+    '_csrf' => '0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1Y¶0ЌТgз]Ґэ7#ЉLh6Х‚f6zЖtа#°Ы<\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%131Y%B60%8D%D2g%E7%5D%A5%FD7%23%8ALh6%D5%82%98f6z%C6t%E0%14%23%B0%DB%3C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '56530'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=jump/send'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=jump/send'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528336892.9511
+    'REQUEST_TIME' => 1528336892
+]
+2018-06-07 10:01:40 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:01:40 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:01:40 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:01:40 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:01:40 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:01:40 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:01:40 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-07 10:01:40 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-07 10:01:40 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-07 10:01:40 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:01:40 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1Y¶0ЌТgз]Ґэ7#ЉLh6Х‚f6zЖtа#°Ы<\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%131Y%B60%8D%D2g%E7%5D%A5%FD7%23%8ALh6%D5%82%98f6z%C6t%E0%14%23%B0%DB%3C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '56530'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog/add'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog/add'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528336900.2971
+    'REQUEST_TIME' => 1528336900
+]
+2018-06-07 10:03:54 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:03:54 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:03:54 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:03:54 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:03:54 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:03:54 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:03:54 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-07 10:03:54 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-07 10:03:54 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-07 10:03:54 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:03:53 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1Y¶0ЌТgз]Ґэ7#ЉLh6Х‚f6zЖtа#°Ы<\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%131Y%B60%8D%D2g%E7%5D%A5%FD7%23%8ALh6%D5%82%98f6z%C6t%E0%14%23%B0%DB%3C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '56629'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog/add'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog/add'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528337033.7308
+    'REQUEST_TIME' => 1528337033
+]
+2018-06-07 10:10:54 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:10:54 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:10:54 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:10:54 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:10:54 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:10:54 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:10:54 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-07 10:10:54 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-07 10:10:54 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-07 10:10:54 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:10:54 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1Y¶0ЌТgз]Ґэ7#ЉLh6Х‚f6zЖtа#°Ы<\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%131Y%B60%8D%D2g%E7%5D%A5%FD7%23%8ALh6%D5%82%98f6z%C6t%E0%14%23%B0%DB%3C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '57425'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog/add'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog/add'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528337454.268
+    'REQUEST_TIME' => 1528337454
+]
+2018-06-07 10:11:13 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:11:13 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:11:13 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:11:13 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:11:13 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:11:13 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:11:13 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-07 10:11:13 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-07 10:11:13 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-07 10:11:13 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:11:13 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1Y¶0ЌТgз]Ґэ7#ЉLh6Х‚f6zЖtа#°Ы<\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%131Y%B60%8D%D2g%E7%5D%A5%FD7%23%8ALh6%D5%82%98f6z%C6t%E0%14%23%B0%DB%3C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '57433'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog/add'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog/add'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528337472.7726
+    'REQUEST_TIME' => 1528337472
+]
+2018-06-07 10:20:14 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:20:14 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:20:14 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:20:14 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:20:14 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:20:14 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:20:14 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-07 10:20:14 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-07 10:20:14 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-07 10:20:14 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:20:14 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1Y¶0ЌТgз]Ґэ7#ЉLh6Х‚f6zЖtа#°Ы<\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%131Y%B60%8D%D2g%E7%5D%A5%FD7%23%8ALh6%D5%82%98f6z%C6t%E0%14%23%B0%DB%3C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '57931'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog/add'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog/add'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528338014.3608
+    'REQUEST_TIME' => 1528338014
+]
+2018-06-07 10:27:38 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:27:38 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:27:38 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:27:38 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:27:38 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:27:38 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:27:38 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-07 10:27:38 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-07 10:27:38 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-07 10:27:39 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:27:38 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1Y¶0ЌТgз]Ґэ7#ЉLh6Х‚f6zЖtа#°Ы<\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%131Y%B60%8D%D2g%E7%5D%A5%FD7%23%8ALh6%D5%82%98f6z%C6t%E0%14%23%B0%DB%3C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '58453'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog/add'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog/add'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528338458.5171
+    'REQUEST_TIME' => 1528338458
+]
+2018-06-07 10:27:50 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:27:50 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:27:50 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:27:50 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:27:50 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:27:50 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:27:50 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-07 10:27:51 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-07 10:27:51 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-07 10:27:51 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:27:50 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1Y¶0ЌТgз]Ґэ7#ЉLh6Х‚f6zЖtа#°Ы<\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%131Y%B60%8D%D2g%E7%5D%A5%FD7%23%8ALh6%D5%82%98f6z%C6t%E0%14%23%B0%DB%3C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '58453'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog/add'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog/add'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528338470.6376
+    'REQUEST_TIME' => 1528338470
+]
+2018-06-07 10:28:00 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:28:00 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:28:00 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:28:00 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:28:00 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:28:00 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:28:00 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-07 10:28:00 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-07 10:28:00 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-07 10:28:00 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:28:00 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1Y¶0ЌТgз]Ґэ7#ЉLh6Х‚f6zЖtа#°Ы<\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%131Y%B60%8D%D2g%E7%5D%A5%FD7%23%8ALh6%D5%82%98f6z%C6t%E0%14%23%B0%DB%3C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '58453'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog/add'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog/add'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528338480.2655
+    'REQUEST_TIME' => 1528338480
+]
+2018-06-07 10:28:04 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:28:04 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:28:04 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:28:04 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:28:04 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:28:04 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:28:04 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-07 10:28:04 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-07 10:28:04 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-07 10:28:04 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:28:04 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1Y¶0ЌТgз]Ґэ7#ЉLh6Х‚f6zЖtа#°Ы<\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%131Y%B60%8D%D2g%E7%5D%A5%FD7%23%8ALh6%D5%82%98f6z%C6t%E0%14%23%B0%DB%3C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '58453'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog/add'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog/add'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528338483.9502
+    'REQUEST_TIME' => 1528338483
+]
+2018-06-07 10:29:20 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:29:20 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:29:20 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:29:20 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:29:20 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:29:20 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:29:20 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-07 10:29:20 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-07 10:29:20 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-07 10:29:20 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:29:20 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1Y¶0ЌТgз]Ґэ7#ЉLh6Х‚f6zЖtа#°Ы<\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%131Y%B60%8D%D2g%E7%5D%A5%FD7%23%8ALh6%D5%82%98f6z%C6t%E0%14%23%B0%DB%3C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '58485'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog/add'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog/add'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528338559.8658
+    'REQUEST_TIME' => 1528338559
+]
+2018-06-07 10:35:25 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:35:25 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:35:25 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:35:25 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:35:25 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:35:25 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:35:25 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-07 10:35:25 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-07 10:35:25 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-07 10:35:25 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:35:25 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1Y¶0ЌТgз]Ґэ7#ЉLh6Х‚f6zЖtа#°Ы<\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%131Y%B60%8D%D2g%E7%5D%A5%FD7%23%8ALh6%D5%82%98f6z%C6t%E0%14%23%B0%DB%3C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '59082'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog/add'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog/add'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528338925.0479
+    'REQUEST_TIME' => 1528338925
+]
+2018-06-07 10:37:57 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:37:57 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:37:57 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:37:57 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:37:57 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:37:57 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:37:57 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-07 10:37:57 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-07 10:37:57 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-07 10:37:57 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:37:57 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1Y¶0ЌТgз]Ґэ7#ЉLh6Х‚f6zЖtа#°Ы<\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%131Y%B60%8D%D2g%E7%5D%A5%FD7%23%8ALh6%D5%82%98f6z%C6t%E0%14%23%B0%DB%3C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '59202'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog/add'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog/add'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528339077.4191
+    'REQUEST_TIME' => 1528339077
+]
+2018-06-07 10:40:09 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-07 10:40:09 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-07 10:40:10 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-07 10:40:10 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-07 10:40:10 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-07 10:40:10 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-07 10:40:10 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-07 10:40:10 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-07 10:40:10 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-07 10:40:10 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-07 10:40:09 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1Y¶0ЌТgз]Ґэ7#ЉLh6Х‚f6zЖtа#°Ы<\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=0d0f6a60c8cc091c87c00754196f03e79ec2da98f58599f8d21972d85e7466fca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%131Y%B60%8D%D2g%E7%5D%A5%FD7%23%8ALh6%D5%82%98f6z%C6t%E0%14%23%B0%DB%3C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '59280'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog/add'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog/add'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528339209.6798
+    'REQUEST_TIME' => 1528339209
+]
