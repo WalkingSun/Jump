@@ -6,5 +6,7 @@
  * Time: 15:20
  */
 return [
+    'cnblogs'   =>  [
 
+    ]
 ];
