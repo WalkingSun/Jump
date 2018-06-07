@@ -6,5 +6,8 @@
  * Time: 19:57
  */
 return [
-
+        'cnblogs'   =>   [
+            'username'      =>      'jueze',
+            'password'      =>      'yi877900230!',
+        ]
 ];
