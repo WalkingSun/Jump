@@ -4,21 +4,27 @@ namespace app\commands;
 
 use app\models\Common;
 use app\models\DB;
+use app\models\MetaWeblog;
 use yii\console\Controller;
 
 class MetaweblogController extends Controller
 {
     public $modelClass= 'app\models\JpBlogQueue';
+
     public function actionIndex(){
         $model = $this->modelClass;
         $modelBlogRecord = 'app\models\JpBlogRecord';
-        $data = $model->find()->where(['publishStatus'=>0])->asArray()->all();
+        $data = $model::find()->where(['publishStatus'=>0])->asArray()->all();
+
+        Common::addLog('error.log',$data);
 
         if( $data ){
             foreach ($data as $v){
-                $blogMetaweblogUrl = Common::MetaweblogUrl($v['blogType']);
-                $target = new MetaWeblog( $blogMetaweblogUrl );
                 $blogName = Common::blogParamName($v['blogType']);
+                $blogid = $v['blogType']==6 ? \Yii::$app->params[$blogName]['blogid']:'';
+
+                $blogMetaweblogUrl = Common::MetaweblogUrl($v['blogType'],$blogid);
+                $target = new MetaWeblog( $blogMetaweblogUrl );
                 $username = \Yii::$app->params[$blogName]['username'];
                 $passwd = \Yii::$app->params[$blogName]['password'];
                 $target->setAuth( $username,$passwd );
@@ -56,16 +62,18 @@ class MetaweblogController extends Controller
             'description'=> $content,
             'categories'=> [ 1 ]
         ];
+        Common::addLog('error.log',$params);
         if( !$blogIteam ){
             if( $target->newPost( $params ) ){
                 $blog_id = $target->getBlogId();
                 $DB->update($modelBlogRecord::tableName(),[$blogName.'Id'=>$blog_id],['id'=>$blog['id']]);
             }else{
-                var_dump( $target,$target->getErrorMessage() );
+                Common::addLog('error.log',$target->getErrorMessage());
+//                var_dump( $target,$target->getErrorMessage() );
             }
         }else{
             if( !$target->editPost( $blogIteam,$params ) ){
-                var_dump( $target->getErrorMessage() );
+                Common::addLog('error.log',$target->getErrorMessage());
             }
         }
 

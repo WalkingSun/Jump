@@ -61,4 +61,31 @@ class Common
         return $data[$id];
     }
 
+    public  static function echoJson( $code,$msg,$data=[] ){
+
+        $data = [
+            'code' => $code,
+            'msg' => $msg,
+            'data' => $data,
+        ];
+
+        echo json_encode($data);
+        exit();
+    }
+
+    /**
+     * @param $file  日志文件名称
+     * @param string $msg   消息
+     * @param int $end  中断 1 是，0 否
+     */
+    public static function addLog( $file , $msg='', $end=0 ){
+
+        $msg = is_string($msg) ? $msg : var_export($msg,1);
+
+        error_log(date("Y-m-d H:i:s") . "：{$msg}\r\n\r\n", 3, \Yii::$app->basePath . '/runtime/logs/'.$file);
+
+        if( $end ){
+            exit();
+        }
+    }
 }

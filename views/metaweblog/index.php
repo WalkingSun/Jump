@@ -14,9 +14,11 @@
 
 </style>
 
+博客自动化发布
+
 <div class="site-index">
 
-    <div> 添加 </div>
+    <div> <a href="<?=\yii\helpers\Url::to(['metaweblog/add'])?>"> 添加 </a> </div>
 
     <table id="newspaper-c" summary="Personal Movie Rating">
         <thead>
@@ -40,7 +42,7 @@
             <td ><?=$v['fileurl'];?></td>
             <td ><?=$v['cnblogId'];?></td>
             <td ><?=$v['createtime'];?></td>
-            <td ><a onclick="action('<?=$v['id'];?>','<?=$v['cnblogId']?2:1;?>')" ><?=$v['cnblogId']?'发送修改':'发送新增';?></>  <a onclick="action('<?=$v['id'];?>',3)">删除</a></td>
+            <td ><a onclick="action('<?=$v['id'];?>','<?=$v['cnblogId']?2:1;?>')" ><?=$v['cnblogId']?'发送队列':'发送队列';?></>  <a onclick="action('<?=$v['id'];?>',3)">删除</a></td>
         </tr>
         <?php    }
         }
@@ -54,6 +56,18 @@
 </div>
 <script>
     function action(blogId, type ){
+        if( type==3 ){
+            var url = '<?php echo \yii\helpers\Url::to(['metaweblog/del'])?>';
+            $.post(url,{blogId:blogId},function (r) {
+                if(r.code==200){
+                    alert(r.msg);
+                    location.href='<?php echo \yii\helpers\Url::to(['metaweblog/index'])?>';
+                }  else{
+                    alert(r.msg);
+                }
+            },'json');
+            return false;
+        }
         var url = '<?php echo \yii\helpers\Url::to(['metaweblog/queue'])?>&type='+type;
        $.post(url,{blogId:blogId,action:type},function (r) {
              if(r.code==200){

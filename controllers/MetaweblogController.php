@@ -9,6 +9,7 @@
 namespace app\controllers;
 
 
+use app\models\Common;
 use app\models\DB;
 use app\models\MetaWeblog;
 use yii\web\Controller;
@@ -36,7 +37,7 @@ class MetaweblogController extends Controller
     http://www.cnblogs.com/博客名称/services/metaweblog.aspx	cnblogs
     http://blog.chinaunix.net/xmlrpc.php?r=rpc/server	chinaunix
      */
-    public function  actionAdd(){
+    public function  actionAdd_bak(){
 
         $url = "http://www.cnblogs.com/followyou/services/metablogapi.aspx";
 //        $url = "https://my.oschina.net/action/xmlrpc";
@@ -79,7 +80,7 @@ class MetaweblogController extends Controller
         $d = $this->data;
         $model =$this->modelClass;
 
-        $filter = [];
+        $filter = ['isDelete'=>0];
         $offset = !empty($d['page']) ? $d['page']:1;
         $limit = !empty($d['size']) ? $d['size']:20;
         $orderType = ['createtime'=>SORT_DESC];
@@ -95,15 +96,53 @@ class MetaweblogController extends Controller
         $data = [
             'blogId'    => $d['blogId'],
             'action'    => $d['action'],
-            'publishStatus'    => '',
+            'publishStatus'    => '0',
             'response'    => '',
             'createtime'    => date('Y-m-d'),
             'updatetime'    => date('Y-m-d'),
+            'blogType'=> 6
         ];
         $DB->insert($model::tableName(),$data);
 
         echo json_encode(['code'=>200,'msg'=>'success']);
     }
 
+    public function actionAdd(){
+        $model = $this->modelClass;
+        $d = $this->data;
 
+        if( !empty($d['edit']) ){
+            $insertData['title'] = !empty($d['title']) ? $d['title']:Common::echoJson(403,'请输入标题');
+            $insertData['content'] = !empty($d['content']) ? $d['content']:'';
+            $insertData['fileurl'] = !empty($d['fileurl']) ? $d['fileurl']:'';
+            if(  !$insertData['content'] && !$insertData['fileurl']  ) Common::echoJson(403,'请输入博客内容');
+
+            $insertData['cnblogId'] = '';
+            $insertData['51ctoId'] = '';
+            $insertData['sinaId'] = '';
+            $insertData['csdnId'] = '';
+            $insertData['163Id'] = '';
+            $insertData['oschinaId'] = '';
+            $insertData['chinaunixId'] = '';
+            $insertData['createtime'] = date('Y-m-d');
+            $DB = new DB();
+            $DB->insert($model::tableName(),$insertData);
+            Common::echoJson('200','success');
+        }
+
+        return $this->render('add');
+    }
+
+    public function actionDel(){
+        $d = $this->data;
+        $model = $this->modelClass;
+
+        $id = !empty($d['blogId'])?$d['blogId']:Common::echoJson(403,'id缺失');
+
+        $blog = $model::find()->where(['id'=>$id])->asArray()->one() or Common::echoJson(404,'记录不存在或已删除');
+
+        $DB = new DB();
+        $DB->update($model::tableName(),['isDelete'=>1],['id'=>$id]);
+        Common::echoJson(200,'操作成功');
+    }
 }
