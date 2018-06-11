@@ -69,7 +69,7 @@ class MetaweblogController extends Controller
                 $DB->update($modelBlogRecord::tableName(),[$blogName.'Id'=>$blog_id],['id'=>$blog['id']]);
             }else{
                 Common::addLog('error.log',$target->getErrorMessage());
-//                var_dump( $target,$target->getErrorMessage() );
+//                var_dump( $target,$target->getErrorMessage() );v
             }
         }else{
             if( !$target->editPost( $blogIteam,$params ) ){

@@ -2,67 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0536f1b7-3fbb-4e09-82fd-3d643c64fbb6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b1e84db31f2d.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b1e8535d3b7c.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b1e857d7f035.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b1e87478bb37.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b1e879ad1f9a.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b1e87c272a33.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/logs/error.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/metaweblog/add.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/commands/MetaweblogController.php" afterPath="$PROJECT_DIR$/commands/MetaweblogController.php" />
-      <change beforePath="$PROJECT_DIR$/config/console.php" afterPath="$PROJECT_DIR$/config/console.php" />
-      <change beforePath="$PROJECT_DIR$/controllers/MetaweblogController.php" afterPath="$PROJECT_DIR$/controllers/MetaweblogController.php" />
-      <change beforePath="$PROJECT_DIR$/models/Basic.php" afterPath="$PROJECT_DIR$/models/Basic.php" />
-      <change beforePath="$PROJECT_DIR$/models/Common.php" afterPath="$PROJECT_DIR$/models/Common.php" />
-      <change beforePath="$PROJECT_DIR$/models/JpBlogRecord.php" afterPath="$PROJECT_DIR$/models/JpBlogRecord.php" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b18e7f89b6e9.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b193478471a1.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1934c8a2316.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1934cda8458.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1934e62c583.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1934eba09d2.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1934f34ada0.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b193512d94d0.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b19351712ef4.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b19384cea159.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b19385c8befd.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b193879e9fc5.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b19389892a81.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1939138b567.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1939252484f.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b19393976ced.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1939b0abb11.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b193a3d78364.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b193a47ef2ba.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b193ae8cc21c.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b193bf498b70.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b193c210d982.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b193c44a7a76.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b193d676c49d.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b193e06ba678.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b193e4641d8c.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b19425606469.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1942788cc77.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b19427e4cb5e.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1942a866784.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1942adca892.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1942c60646c.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1942ca2d7d3.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1942f7289e4.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b19430b8bba3.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b194344cd370.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b19434942b3f.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b19469ac33d6.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1d335f586f4.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1d3399c570e.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1d33e4473e2.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1d33f93afeb.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/index.data" afterPath="$PROJECT_DIR$/runtime/debug/index.data" />
-      <change beforePath="$PROJECT_DIR$/runtime/gii-2.0.12/yii-gii-generators-model-Generator.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/logs/app.log" afterPath="$PROJECT_DIR$/runtime/logs/app.log" />
-      <change beforePath="$PROJECT_DIR$/views/metaweblog/index.php" afterPath="$PROJECT_DIR$/views/metaweblog/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,8 +20,8 @@
       <file leaf-file-name="MetaweblogController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/commands/MetaweblogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+            <state relative-caret-position="581">
+              <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
               <folding>
                 <element signature="e#32#54#0#PHP" expanded="true" />
               </folding>
@@ -202,25 +143,6 @@
                 <element signature="e#12680#12813#0#PHP" expanded="false" />
                 <element signature="e#12819#13251#0#PHP" expanded="false" />
                 <element signature="e#12853#13223#0#PHP" expanded="false" />
-                <marker date="1528336110342" expanded="true" signature="5121:5471" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="5171:5471" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="5199:5258" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="5299:5359" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="5400:5458" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="5584:5629" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="5806:5823" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="6043:6186" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="6100:6164" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="6412:6526" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="6473:6526" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="6499:6526" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="6626:6712" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="12875:13217" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="12885:13199" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="12897:13188" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="12912:13175" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="12929:13030" ph="..." />
-                <marker date="1528336110342" expanded="true" signature="13047:13159" ph="..." />
               </folding>
             </state>
           </provider>
@@ -504,7 +426,7 @@
       <workItem from="1528378948204" duration="4793000" />
       <workItem from="1528640339854" duration="4668000" />
       <workItem from="1528681613914" duration="145000" />
-      <workItem from="1528719518698" duration="8005000" />
+      <workItem from="1528719518698" duration="8658000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1528354923483</created>
@@ -527,16 +449,23 @@
       <option name="project" value="LOCAL" />
       <updated>1528644896868</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Metaweblog 博客自动化">
+      <created>1528727550274</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528727550274</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32144000" />
+    <option name="totallyTimeSpent" value="32797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26349893" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26349893" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -691,25 +620,6 @@
             <element signature="e#12680#12813#0#PHP" expanded="false" />
             <element signature="e#12819#13251#0#PHP" expanded="false" />
             <element signature="e#12853#13223#0#PHP" expanded="false" />
-            <marker date="1528336110342" expanded="true" signature="5121:5471" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="5171:5471" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="5199:5258" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="5299:5359" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="5400:5458" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="5584:5629" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="5806:5823" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="6043:6186" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="6100:6164" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="6412:6526" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="6473:6526" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="6499:6526" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="6626:6712" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="12875:13217" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="12885:13199" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="12897:13188" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="12912:13175" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="12929:13030" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="13047:13159" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1072,25 +982,6 @@
             <element signature="e#12680#12813#0#PHP" expanded="false" />
             <element signature="e#12819#13251#0#PHP" expanded="false" />
             <element signature="e#12853#13223#0#PHP" expanded="false" />
-            <marker date="1528336110342" expanded="true" signature="5121:5471" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="5171:5471" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="5199:5258" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="5299:5359" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="5400:5458" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="5584:5629" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="5806:5823" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="6043:6186" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="6100:6164" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="6412:6526" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="6473:6526" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="6499:6526" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="6626:6712" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="12875:13217" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="12885:13199" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="12897:13188" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="12912:13175" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="12929:13030" ph="..." />
-            <marker date="1528336110342" expanded="true" signature="13047:13159" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1134,8 +1025,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/commands/MetaweblogController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+        <state relative-caret-position="581">
+          <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
           <folding>
             <element signature="e#32#54#0#PHP" expanded="true" />
           </folding>
