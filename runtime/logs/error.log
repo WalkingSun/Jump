@@ -1,20 +1,49 @@
-2018-06-11 22:33:12：array (
+2018-06-13 21:51:15：array (
   0 => 
   array (
-    'queueId' => 9,
+    'queueId' => 10,
     'blogId' => 5,
     'action' => 1,
     'publishStatus' => 0,
     'response' => '',
-    'createtime' => '2018-06-11',
-    'updatetime' => '2018-06-11',
+    'createtime' => '2018-06-13',
+    'updatetime' => '2018-06-13',
     'blogType' => 6,
   ),
 )
 
-2018-06-11 22:33:12：array (
-  'title' => 'redis主从，哨兵，集群',
-  'description' => '﻿本次所有操作在docker下进行，搭建方便，迅速构建redis集群。
+2018-06-13 21:51:15：<?xml version="1.0" encoding="utf-8"?>
+<methodCall>
+<methodName>metaWeblog.newPost</methodName>
+<params>
+    <param>
+        <value>
+        <string>1</string>
+        </value>
+    </param>
+    <param>
+        <value>
+        <string>jueze</string>
+        </value>
+    </param>
+    <param>
+        <value>
+        <string>yi877900230!</string>
+        </value>
+    </param>
+    <param>
+       <value>
+        <struct>
+            <member>
+              <name>title</name>
+              <value>
+                <string>redis主从，哨兵，集群</string>
+              </value>
+            </member>
+            <member>
+              <name>description</name>
+              <value>
+                <string>﻿本次所有操作在docker下进行，搭建方便，迅速构建redis集群。
 
 #### 1. docker安装redis
 -  获取redis:latest（使用官方最新的） 镜像
@@ -68,7 +97,7 @@ $ docker run -it -v /vagrant/app/redis/redis-slave2.conf:/usr/local/etc/redis/re
 
     三台redis容器服务器，互相启动一个redis哨兵。
 
-    查看容器ip，docker inspect <容器id>
+    查看容器ip，docker inspect 容器id
 ```
 docker inspect redis-master
 ```
@@ -95,55 +124,77 @@ redis-sentinel /usr/local/etc/redis/sentinel.conf
 
 ![image](https://images2018.cnblogs.com/blog/628201/201806/628201-20180607172416358-1320667988.png)
     
-    可以看到，redis-slave1已升级为master',
-  'categories' => 
-  array (
-    0 => 1,
-  ),
-)
+    可以看到，redis-slave1已升级为mast</string>
+              </value>
+            </member>
+            <member>
+                <name>categories</name>
+                <value>
+                  <array>
+                    <data>
+                        <value>
+                            <string>[Markdown]</string>
+                        </value>
+                     </data>
+                   </array>
+                  </value>
+            </member>
+        </struct>
+       </value>
+    </param>
+    <param>
+       <value>
+        <boolean>1</boolean>
+       </value>
+    </param>
+</params></methodCall>
 
-2018-06-11 22:33:12：Request from client does not contain valid XML.
-
-2018-06-11 22:36:17：array (
+2018-06-13 21:52:19：array (
   0 => 
   array (
-    'queueId' => 9,
+    'queueId' => 10,
     'blogId' => 5,
     'action' => 1,
     'publishStatus' => 0,
     'response' => '',
-    'createtime' => '2018-06-11',
-    'updatetime' => '2018-06-11',
+    'createtime' => '2018-06-13',
+    'updatetime' => '2018-06-13',
     'blogType' => 6,
   ),
 )
 
-2018-06-11 22:36:17：array (
-  'title' => 'redis主从，哨兵，集群',
-  'description' => '111111111111111111111',
-  'categories' => 
-  array (
-    0 => 1,
-  ),
-)
-
-2018-06-11 22:38:35：array (
-  0 => 
-  array (
-    'queueId' => 9,
-    'blogId' => 5,
-    'action' => 1,
-    'publishStatus' => 0,
-    'response' => '',
-    'createtime' => '2018-06-11',
-    'updatetime' => '2018-06-11',
-    'blogType' => 6,
-  ),
-)
-
-2018-06-11 22:38:35：array (
-  'title' => 'redis主从，哨兵，集群',
-  'description' => '﻿本次所有操作在docker下进行，搭建方便，迅速构建redis集群。
+2018-06-13 21:52:19：<?xml version="1.0" encoding="utf-8"?>
+<methodCall>
+<methodName>metaWeblog.newPost</methodName>
+<params>
+    <param>
+        <value>
+        <string>1</string>
+        </value>
+    </param>
+    <param>
+        <value>
+        <string>jueze</string>
+        </value>
+    </param>
+    <param>
+        <value>
+        <string>yi877900230!</string>
+        </value>
+    </param>
+    <param>
+       <value>
+        <struct>
+            <member>
+              <name>title</name>
+              <value>
+                <string>redis主从，哨兵，集群</string>
+              </value>
+            </member>
+            <member>
+              <name>description</name>
+              <value>
+                <string>﻿本次所有操作在docker下进行，搭建方便，迅速构建redis集群。
 
 #### 1. docker安装redis
 -  获取redis:latest（使用官方最新的） 镜像
@@ -197,7 +248,7 @@ $ docker run -it -v /vagrant/app/redis/redis-slave2.conf:/usr/local/etc/redis/re
 
     三台redis容器服务器，互相启动一个redis哨兵。
 
-    查看容器ip，docker inspect <容器id>
+    查看容器ip，docker inspect 容器id
 ```
 docker inspect redis-master
 ```
@@ -224,12 +275,28 @@ redis-sentinel /usr/local/etc/redis/sentinel.conf
 
 ![image](https://images2018.cnblogs.com/blog/628201/201806/628201-20180607172416358-1320667988.png)
     
-    可以看到，redis-slave1已升级为master',
-  'categories' => 
-  array (
-    0 => 1,
-  ),
-)
-
-2018-06-11 22:38:36：Request from client does not contain valid XML.
+    可以看到，redis-slave1已升级为mast</string>
+              </value>
+            </member>
+            <member>
+                <name>categories</name>
+                <value>
+                  <array>
+                    <data>
+                        <value>
+                            <string>[Markdown]</string>
+                        </value>
+                     </data>
+                   </array>
+                  </value>
+            </member>
+        </struct>
+       </value>
+    </param>
+    <param>
+       <value>
+        <boolean>1</boolean>
+       </value>
+    </param>
+</params></methodCall>
 

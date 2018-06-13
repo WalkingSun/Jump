@@ -66,7 +66,9 @@ class MetaWeblog {
         	$this->blog_id = 895030;
 		}
         $this->buildXML( $params );
-        $res_xml = $this->doPost();;
+        Common::addLog('error.log',$this->xml);
+        //print_r($this->xml);die;
+        $res_xml = $this->doPost();
 		if( !$res_xml ){
 			$this->error = new MetaWeblog_Error(-32700, 'response is empty');
 			return false;

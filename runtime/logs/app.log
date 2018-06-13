@@ -673,3 +673,423 @@ LINE 1: UPDATE "jp_blogRecord" SET "Id"=$1 WHERE "id"=$2
     ]
     'argc' => 2
 ]
+2018-06-12 19:50:29 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "Id" of relation "jp_blogRecord" does not exist
+LINE 1: UPDATE "jp_blogRecord" SET "Id"=$1 WHERE "id"=$2
+                                   ^ in /app/space/Jump/vendor/yiisoft/yii2/db/Command.php:842
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(842): PDOStatement->execute()
+#1 /app/space/Jump/models/DB.php(66): yii\db\Command->execute()
+#2 /app/space/Jump/commands/MetaweblogController.php(76): app\models\DB->update('jp_blogRecord', Array, Array)
+#3 /app/space/Jump/commands/MetaweblogController.php(38): app\commands\MetaweblogController->save(Object(app\models\MetaWeblog), Array)
+#4 [internal function]: app\commands\MetaweblogController->actionIndex()
+#5 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('index', Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('index', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('metaweblog/inde...', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('metaweblog/inde...', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 /app/space/Jump/yii(20): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\Exception: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "Id" of relation "jp_blogRecord" does not exist
+LINE 1: UPDATE "jp_blogRecord" SET "Id"=$1 WHERE "id"=$2
+                                   ^
+The SQL being executed was: UPDATE "jp_blogRecord" SET "Id"='9174787' WHERE "id"=5 in /app/space/Jump/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'UPDATE "jp_blog...')
+#1 /app/space/Jump/models/DB.php(66): yii\db\Command->execute()
+#2 /app/space/Jump/commands/MetaweblogController.php(76): app\models\DB->update('jp_blogRecord', Array, Array)
+#3 /app/space/Jump/commands/MetaweblogController.php(38): app\commands\MetaweblogController->save(Object(app\models\MetaWeblog), Array)
+#4 [internal function]: app\commands\MetaweblogController->actionIndex()
+#5 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('index', Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('index', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('metaweblog/inde...', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('metaweblog/inde...', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 /app/space/Jump/yii(20): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42703
+    [1] => 7
+    [2] => ERROR:  column "Id" of relation "jp_blogRecord" does not exist
+LINE 1: UPDATE "jp_blogRecord" SET "Id"=$1 WHERE "id"=$2
+                                   ^
+)
+
+2018-06-12 19:50:28 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1528804228.6172
+    'REQUEST_TIME' => 1528804228
+    'argv' => [
+        0 => 'yii'
+        1 => 'metaweblog/index'
+    ]
+    'argc' => 2
+]
+2018-06-13 21:27:06 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-13 21:27:06 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-13 21:27:07 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-13 21:27:07 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-13 21:27:07 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-13 21:27:07 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-13 21:27:07 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-06-13 21:27:07 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-13 21:27:07 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-13 21:27:07 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-13 21:27:07 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-13 21:27:07 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-13 21:27:08 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-13 21:27:08 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-13 21:27:08 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-13 21:27:06 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.7'
+    'REMOTE_PORT' => '56709'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528896425.6861
+    'REQUEST_TIME' => 1528896425
+]
+2018-06-13 21:27:40 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-13 21:27:40 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-13 21:27:40 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-13 21:27:40 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-13 21:27:40 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-13 21:27:40 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-13 21:27:40 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/queue'
+2018-06-13 21:27:40 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/queue
+2018-06-13 21:27:40 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionQueue()
+2018-06-13 21:27:40 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-13 21:27:40 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-13 21:27:40 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-13 21:27:40 [192.168.33.1][-][-][info][yii\db\Command::execute] INSERT INTO "jp_blogQueue" ("blogId", "action", "publishStatus", "response", "createtime", "updatetime", "blogType") VALUES (5, 1, 0, '', '2018-06-13', '2018-06-13', 6)
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-13 21:27:40 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-13 21:27:40 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/queue'
+    'type' => '1'
+]
+
+$_POST = [
+    'blogId' => '5'
+    'action' => '1'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'b56abf10d0993b85263ff6b20daeb4086edfd2f54244d42eef633e045925654ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"»	P¸¨ØšÐØÕ¨—aM!-²“
+«jr|ÏòÂ¥DF\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=b56abf10d0993b85263ff6b20daeb4086edfd2f54244d42eef633e045925654ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%1A%BB%09P%B8%A8%9D%D8%9A%D0%D8%D5%A8%97aM%21-%B2%93%0A%0E%ABjr%7C%CF%F2%C2%A5DF%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => '4S19FB20jC1engkOqHolpOO-_kF7ajiHUdRH4wBasoj7lnREpRwR9cRO0dsA7UTpwpNM0nFkk-0jqIgRwv_2zg=='
+    'HTTP_ORIGIN' => 'http://192.168.33.30:82'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_LENGTH' => '17'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.7'
+    'REMOTE_PORT' => '56709'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog%2Fqueue&type=1'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '17'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=metaweblog%2Fqueue&type=1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528896460.2389
+    'REQUEST_TIME' => 1528896460
+]
+2018-06-13 21:47:48 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "Id" of relation "jp_blogRecord" does not exist
+LINE 1: UPDATE "jp_blogRecord" SET "Id"=$1 WHERE "id"=$2
+                                   ^ in /app/space/Jump/vendor/yiisoft/yii2/db/Command.php:842
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(842): PDOStatement->execute()
+#1 /app/space/Jump/models/DB.php(66): yii\db\Command->execute()
+#2 /app/space/Jump/commands/MetaweblogController.php(74): app\models\DB->update('jp_blogRecord', Array, Array)
+#3 /app/space/Jump/commands/MetaweblogController.php(38): app\commands\MetaweblogController->save(Object(app\models\MetaWeblog), Array)
+#4 [internal function]: app\commands\MetaweblogController->actionIndex()
+#5 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('index', Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('index', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('metaweblog/inde...', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('metaweblog/inde...', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 /app/space/Jump/yii(20): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\Exception: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "Id" of relation "jp_blogRecord" does not exist
+LINE 1: UPDATE "jp_blogRecord" SET "Id"=$1 WHERE "id"=$2
+                                   ^
+The SQL being executed was: UPDATE "jp_blogRecord" SET "Id"='9180338' WHERE "id"=5 in /app/space/Jump/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'UPDATE "jp_blog...')
+#1 /app/space/Jump/models/DB.php(66): yii\db\Command->execute()
+#2 /app/space/Jump/commands/MetaweblogController.php(74): app\models\DB->update('jp_blogRecord', Array, Array)
+#3 /app/space/Jump/commands/MetaweblogController.php(38): app\commands\MetaweblogController->save(Object(app\models\MetaWeblog), Array)
+#4 [internal function]: app\commands\MetaweblogController->actionIndex()
+#5 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('index', Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('index', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('metaweblog/inde...', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('metaweblog/inde...', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 /app/space/Jump/yii(20): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42703
+    [1] => 7
+    [2] => ERROR:  column "Id" of relation "jp_blogRecord" does not exist
+LINE 1: UPDATE "jp_blogRecord" SET "Id"=$1 WHERE "id"=$2
+                                   ^
+)
+
+2018-06-13 21:47:43 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1528897663.4049
+    'REQUEST_TIME' => 1528897663
+    'argv' => [
+        0 => 'yii'
+        1 => 'metaweblog/index'
+    ]
+    'argc' => 2
+]
+2018-06-13 21:51:20 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "Id" of relation "jp_blogRecord" does not exist
+LINE 1: UPDATE "jp_blogRecord" SET "Id"=$1 WHERE "id"=$2
+                                   ^ in /app/space/Jump/vendor/yiisoft/yii2/db/Command.php:842
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(842): PDOStatement->execute()
+#1 /app/space/Jump/models/DB.php(66): yii\db\Command->execute()
+#2 /app/space/Jump/commands/MetaweblogController.php(74): app\models\DB->update('jp_blogRecord', Array, Array)
+#3 /app/space/Jump/commands/MetaweblogController.php(38): app\commands\MetaweblogController->save(Object(app\models\MetaWeblog), Array)
+#4 [internal function]: app\commands\MetaweblogController->actionIndex()
+#5 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('index', Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('index', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('metaweblog/inde...', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('metaweblog/inde...', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 /app/space/Jump/yii(20): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\Exception: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "Id" of relation "jp_blogRecord" does not exist
+LINE 1: UPDATE "jp_blogRecord" SET "Id"=$1 WHERE "id"=$2
+                                   ^
+The SQL being executed was: UPDATE "jp_blogRecord" SET "Id"='9180359' WHERE "id"=5 in /app/space/Jump/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'UPDATE "jp_blog...')
+#1 /app/space/Jump/models/DB.php(66): yii\db\Command->execute()
+#2 /app/space/Jump/commands/MetaweblogController.php(74): app\models\DB->update('jp_blogRecord', Array, Array)
+#3 /app/space/Jump/commands/MetaweblogController.php(38): app\commands\MetaweblogController->save(Object(app\models\MetaWeblog), Array)
+#4 [internal function]: app\commands\MetaweblogController->actionIndex()
+#5 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('index', Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('index', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('metaweblog/inde...', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('metaweblog/inde...', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 /app/space/Jump/yii(20): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42703
+    [1] => 7
+    [2] => ERROR:  column "Id" of relation "jp_blogRecord" does not exist
+LINE 1: UPDATE "jp_blogRecord" SET "Id"=$1 WHERE "id"=$2
+                                   ^
+)
+
+2018-06-13 21:51:15 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1528897875.3861
+    'REQUEST_TIME' => 1528897875
+    'argv' => [
+        0 => 'yii'
+        1 => 'metaweblog/index'
+    ]
+    'argc' => 2
+]

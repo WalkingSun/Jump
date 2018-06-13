@@ -52,7 +52,7 @@ $ docker run -it -v /vagrant/app/redis/redis-slave2.conf:/usr/local/etc/redis/re
 
     三台redis容器服务器，互相启动一个redis哨兵。
 
-    查看容器ip，docker inspect <容器id>
+    查看容器ip，docker inspect 容器id
 ```
 docker inspect redis-master
 ```
