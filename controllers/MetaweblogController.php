@@ -117,7 +117,7 @@ class MetaweblogController extends Controller
             $insertData['fileurl'] = !empty($d['fileurl']) ? $d['fileurl']:'';
             if(  !$insertData['content'] && !$insertData['fileurl']  ) Common::echoJson(403,'请输入博客内容');
 
-            $insertData['cnblogId'] = '';
+            $insertData['cnblogsId'] = '';
             $insertData['51ctoId'] = '';
             $insertData['sinaId'] = '';
             $insertData['csdnId'] = '';
