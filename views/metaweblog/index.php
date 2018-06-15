@@ -9,11 +9,15 @@
     <?php $this->registerCssFile("@web/css/style.css");?>
     -->
 
-    table thead th{
-        /*display:inline-block;*/
-        border-collapse: collapse;
-        border-spacing: 0;
-        margin: 0 auto;
+    table
+    {
+        table-layout: fixed;
+        word-wrap: break-word;
+        width: 100% !important;
+    }
+
+    table td,table th{
+        text-align: center;
     }
 </style>
 
@@ -24,13 +28,13 @@
 <div class="site-index">
 
     <div>
-        <a href="<?=\yii\helpers\Url::to(['metaweblog/init'])?>"> 自动化配置 </a>
+        <a style="margin-right: 15px;" href="<?=\yii\helpers\Url::to(['metaweblog/init'])?>"> 自动化配置 </a>
 
         <a href="<?=\yii\helpers\Url::to(['metaweblog/add'])?>"> 添加 </a>
 
     </div>
 
-    <table id="hor-zebra" summary="Employee Pay Sheet">
+    <table id="hor-zebra" summary="Employee Pay Sheet" border="1">
         <thead>
         <tr>
             <th  scope="col">Id</th>

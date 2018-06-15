@@ -127,7 +127,7 @@ class MetaweblogController extends Controller
             $insertData['createtime'] = date('Y-m-d');
             $DB = new DB();
             $DB->insert($model::tableName(),$insertData);
-            Common::echoJson('200','success');
+            Common::echoJson('200','添加成功');
         }
 
         return $this->render('add');

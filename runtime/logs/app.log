@@ -5464,3 +5464,1891 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1528970718.5595
     'REQUEST_TIME' => 1528970718
 ]
+2018-06-14 20:40:19 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 20:40:19 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 20:40:20 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 20:40:20 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 20:40:20 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 20:40:20 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 20:40:20 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-06-14 20:40:20 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-14 20:40:20 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-14 20:40:20 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:40:20 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:40:20 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:40:21 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:40:21 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:40:21 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 20:40:19 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '50079'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528980018.706
+    'REQUEST_TIME' => 1528980018
+]
+2018-06-14 20:45:09 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 20:45:09 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 20:45:09 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 20:45:09 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 20:45:09 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 20:45:09 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 20:45:09 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-06-14 20:45:09 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-14 20:45:09 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-14 20:45:09 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:45:09 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:45:09 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:45:09 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:45:09 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:45:09 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 20:45:09 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '50960'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528980309.0312
+    'REQUEST_TIME' => 1528980309
+]
+2018-06-14 20:46:09 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 20:46:09 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 20:46:10 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 20:46:10 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 20:46:10 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 20:46:10 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 20:46:10 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-06-14 20:46:10 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-14 20:46:10 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-14 20:46:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:46:10 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:46:10 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:46:10 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:46:10 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:46:10 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 20:46:09 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '51100'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528980369.1812
+    'REQUEST_TIME' => 1528980369
+]
+2018-06-14 20:46:18 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 20:46:18 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 20:46:18 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 20:46:18 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 20:46:18 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 20:46:18 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 20:46:18 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-06-14 20:46:18 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-14 20:46:18 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-14 20:46:18 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:46:18 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:46:18 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:46:18 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:46:18 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:46:18 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 20:46:18 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '51100'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528980377.7333
+    'REQUEST_TIME' => 1528980377
+]
+2018-06-14 20:46:49 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 20:46:49 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 20:46:49 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 20:46:49 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 20:46:49 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 20:46:49 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 20:46:49 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-06-14 20:46:49 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-14 20:46:49 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-14 20:46:49 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:46:49 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:46:49 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:46:49 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:46:49 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:46:49 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 20:46:49 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '51100'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528980408.7379
+    'REQUEST_TIME' => 1528980408
+]
+2018-06-14 20:47:06 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 20:47:06 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 20:47:06 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 20:47:06 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 20:47:06 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 20:47:06 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 20:47:06 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-06-14 20:47:06 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-14 20:47:06 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-14 20:47:06 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:47:06 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:47:06 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:47:06 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:47:06 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:47:06 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 20:47:06 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '51231'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528980426.207
+    'REQUEST_TIME' => 1528980426
+]
+2018-06-14 20:48:46 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 20:48:46 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 20:48:46 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 20:48:46 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 20:48:46 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 20:48:46 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 20:48:46 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-06-14 20:48:46 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-14 20:48:46 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-14 20:48:47 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:48:47 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:48:47 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:48:47 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:48:47 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:48:47 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 20:48:46 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '51405'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528980526.191
+    'REQUEST_TIME' => 1528980526
+]
+2018-06-14 20:51:45 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 20:51:45 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 20:51:45 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 20:51:45 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 20:51:45 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 20:51:45 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 20:51:45 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-06-14 20:51:45 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-14 20:51:45 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-14 20:51:46 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:51:46 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:51:46 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:51:46 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:51:46 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:51:46 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 20:51:45 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '51696'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528980705.2989
+    'REQUEST_TIME' => 1528980705
+]
+2018-06-14 20:52:08 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 20:52:08 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 20:52:08 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 20:52:08 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 20:52:08 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 20:52:08 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 20:52:08 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-06-14 20:52:08 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-14 20:52:08 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-14 20:52:08 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:52:08 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 20:52:08 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:52:08 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:52:08 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 20:52:08 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 20:52:07 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '51696'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528980727.2573
+    'REQUEST_TIME' => 1528980727
+]
+2018-06-14 21:08:02 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 21:08:02 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 21:08:03 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 21:08:03 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 21:08:03 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 21:08:03 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 21:08:03 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-06-14 21:08:03 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-14 21:08:03 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-14 21:08:03 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 21:08:03 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 21:08:03 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 21:08:03 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 21:08:03 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 21:08:03 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 21:08:02 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '54073'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528981682.6651
+    'REQUEST_TIME' => 1528981682
+]
+2018-06-14 21:09:41 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 21:09:41 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 21:09:41 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 21:09:41 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 21:09:41 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 21:09:41 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 21:09:41 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-06-14 21:09:41 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-14 21:09:41 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-14 21:09:41 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 21:09:41 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 21:09:41 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 21:09:41 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 21:09:41 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 21:09:41 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 21:09:41 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '54297'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528981780.861
+    'REQUEST_TIME' => 1528981780
+]
+2018-06-14 21:09:49 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 21:09:49 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 21:09:49 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 21:09:49 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 21:09:49 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 21:09:49 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 21:09:49 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-06-14 21:09:49 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-14 21:09:49 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-14 21:09:49 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 21:09:49 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 21:09:49 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 21:09:49 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 21:09:49 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 21:09:49 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 21:09:49 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '54297'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528981788.8576
+    'REQUEST_TIME' => 1528981788
+]
+2018-06-14 21:11:23 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 21:11:23 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 21:11:23 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 21:11:23 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 21:11:23 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 21:11:23 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 21:11:23 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-14 21:11:23 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-14 21:11:23 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-14 21:11:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/add.php
+    in /app/space/jump/controllers/MetaweblogController.php:133
+2018-06-14 21:11:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:133
+2018-06-14 21:11:23 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:133
+2018-06-14 21:11:23 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 21:11:22 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '54516'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog%2Fadd'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528981882.321
+    'REQUEST_TIME' => 1528981882
+]
+2018-06-14 22:31:51 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 22:31:51 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 22:31:51 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 22:31:51 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 22:31:51 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 22:31:51 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 22:31:51 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-14 22:31:51 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-14 22:31:51 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-14 22:31:51 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/add.php
+    in /app/space/jump/controllers/MetaweblogController.php:133
+2018-06-14 22:31:51 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:133
+2018-06-14 22:31:51 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:133
+2018-06-14 22:31:51 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 22:31:51 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '65060'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog%2Fadd'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528986711.0425
+    'REQUEST_TIME' => 1528986711
+]
+2018-06-14 22:33:14 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 22:33:14 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 22:33:14 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 22:33:14 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 22:33:14 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 22:33:14 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 22:33:14 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-06-14 22:33:14 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-06-14 22:33:15 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-06-14 22:33:15 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:129
+2018-06-14 22:33:15 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogRecord'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:129
+2018-06-14 22:33:15 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogRecord'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:129
+2018-06-14 22:33:15 [192.168.33.1][-][-][info][yii\db\Command::execute] INSERT INTO "jp_blogRecord" ("title", "content", "fileurl", "cnblogsId", "51ctoId", "sinaId", "csdnId", "163Id", "oschinaId", "chinaunixId", "createtime") VALUES ('å¾®ä¿¡å…¬ä¼—å·-æ¨¡æ¿æ¶ˆæ¯é€šç”¨æŽ¥å£å°è£…', '', 'http://192.168.33.30:82/markdown/wechat_official_templateMessage.md', '', '', '', '', '', '', '', '2018-06-14')
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:129
+2018-06-14 22:33:14 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_POST = [
+    'edit' => '1'
+    'id' => ''
+    'title' => 'å¾®ä¿¡å…¬ä¼—å·-æ¨¡æ¿æ¶ˆæ¯é€šç”¨æŽ¥å£å°è£…'
+    'content' => ''
+    'fileurl' => 'http://192.168.33.30:82/markdown/wechat_official_templateMessage.md'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog%2Fadd'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'vsN2eeUTTzhGt1ZWdMk8wQUQuiYKIUeEGeGtZ3_Xr9jIszDAFOTSXEF-LtmZocf_zuht1CBZXXwjKGQg4q6szA=='
+    'HTTP_ORIGIN' => 'http://192.168.33.30:82'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_LENGTH' => '250'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '65200'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '250'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=metaweblog%2Fadd'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528986794.5002
+    'REQUEST_TIME' => 1528986794
+]
+2018-06-14 22:33:18 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 22:33:18 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 22:33:18 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 22:33:18 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 22:33:18 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 22:33:18 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 22:33:18 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/index'
+2018-06-14 22:33:18 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-14 22:33:18 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-14 22:33:18 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 22:33:18 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 22:33:18 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 22:33:18 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 22:33:18 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 22:33:18 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 22:33:18 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog%2Fadd'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '65200'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog%2Findex'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528986797.7527
+    'REQUEST_TIME' => 1528986797
+]
+2018-06-14 22:33:23 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 22:33:23 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 22:33:24 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 22:33:24 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 22:33:24 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 22:33:24 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 22:33:24 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/queue'
+2018-06-14 22:33:24 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/queue
+2018-06-14 22:33:24 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionQueue()
+2018-06-14 22:33:24 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-14 22:33:24 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-14 22:33:24 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-14 22:33:24 [192.168.33.1][-][-][info][yii\db\Command::execute] INSERT INTO "jp_blogQueue" ("blogId", "action", "publishStatus", "response", "createtime", "updatetime", "blogType") VALUES (5, 2, 0, '', '2018-06-14', '2018-06-14', 6)
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-14 22:33:24 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 22:33:23 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/queue'
+    'type' => '2'
+]
+
+$_POST = [
+    'blogId' => '5'
+    'action' => '2'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog%2Findex'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'gZsWRapCeX5FesNaaXzUduYE3kR-5Rdmp99Kk8sWV8f361D8W7XkGkKzu9WEFC9ILfwJtlSdDZ6dFoPUVm9U0w=='
+    'HTTP_ORIGIN' => 'http://192.168.33.30:82'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_LENGTH' => '17'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '65200'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog%2Fqueue&type=2'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '17'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=metaweblog%2Fqueue&type=2'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528986803.5447
+    'REQUEST_TIME' => 1528986803
+]
+2018-06-14 22:38:31 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 22:38:31 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 22:38:31 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 22:38:31 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 22:38:31 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 22:38:31 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 22:38:31 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/queue'
+2018-06-14 22:38:31 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/queue
+2018-06-14 22:38:31 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionQueue()
+2018-06-14 22:38:31 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-14 22:38:31 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-14 22:38:31 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-14 22:38:31 [192.168.33.1][-][-][info][yii\db\Command::execute] INSERT INTO "jp_blogQueue" ("blogId", "action", "publishStatus", "response", "createtime", "updatetime", "blogType") VALUES (5, 2, 0, '', '2018-06-14', '2018-06-14', 6)
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-14 22:38:31 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 22:38:31 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/queue'
+    'type' => '2'
+]
+
+$_POST = [
+    'blogId' => '5'
+    'action' => '2'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog%2Findex'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'gZsWRapCeX5FesNaaXzUduYE3kR-5Rdmp99Kk8sWV8f361D8W7XkGkKzu9WEFC9ILfwJtlSdDZ6dFoPUVm9U0w=='
+    'HTTP_ORIGIN' => 'http://192.168.33.30:82'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_LENGTH' => '17'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '49553'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog%2Fqueue&type=2'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '17'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=metaweblog%2Fqueue&type=2'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528987111.1648
+    'REQUEST_TIME' => 1528987111
+]
+2018-06-14 22:38:48 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 22:38:48 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 22:38:48 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 22:38:48 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 22:38:48 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 22:38:48 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 22:38:48 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/queue'
+2018-06-14 22:38:48 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/queue
+2018-06-14 22:38:48 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionQueue()
+2018-06-14 22:38:48 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-14 22:38:48 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-14 22:38:48 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-14 22:38:48 [192.168.33.1][-][-][info][yii\db\Command::execute] INSERT INTO "jp_blogQueue" ("blogId", "action", "publishStatus", "response", "createtime", "updatetime", "blogType") VALUES (12, 1, 0, '', '2018-06-14', '2018-06-14', 6)
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-14 22:38:48 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 22:38:48 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/queue'
+    'type' => '1'
+]
+
+$_POST = [
+    'blogId' => '12'
+    'action' => '1'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog%2Findex'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'gZsWRapCeX5FesNaaXzUduYE3kR-5Rdmp99Kk8sWV8f361D8W7XkGkKzu9WEFC9ILfwJtlSdDZ6dFoPUVm9U0w=='
+    'HTTP_ORIGIN' => 'http://192.168.33.30:82'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_LENGTH' => '18'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '49603'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog%2Fqueue&type=1'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '18'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=metaweblog%2Fqueue&type=1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528987128.216
+    'REQUEST_TIME' => 1528987128
+]
+2018-06-14 22:44:42 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-14 22:44:42 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-14 22:44:42 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-14 22:44:42 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-14 22:44:42 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-14 22:44:42 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-14 22:44:42 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/index'
+2018-06-14 22:44:42 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-14 22:44:42 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-14 22:44:42 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 22:44:42 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-14 22:44:42 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 22:44:42 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 22:44:42 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-14 22:44:42 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-14 22:44:42 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => 'a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vpF¹ñ÷dÉxíhû>Ëø×ò*xø:ÉÉGy\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=a1e5bed6498c529803bd934c6e81644236c307891db3cbd7167fe64d77e7c472a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vpF%B9%F1%F7%9Dd%07%C9x%8F%EDh%FB%3E%CB%F8%D7%F2%2Ax%1A%F8%3A%C9%C9G%9Dy%03%14%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog%2Fadd'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.6'
+    'REMOTE_PORT' => '50576'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog%2Findex'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528987481.7135
+    'REQUEST_TIME' => 1528987481
+]
+2018-06-15 13:56:31 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-15 13:56:31 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-15 13:56:32 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-15 13:56:32 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-15 13:56:32 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-15 13:56:32 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-15 13:56:32 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-06-15 13:56:32 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-06-15 13:56:32 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-06-15 13:56:32 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-15 13:56:32 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-06-15 13:56:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-15 13:56:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-15 13:56:32 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-06-15 13:56:32 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-15 13:56:31 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '57975'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1529042191.4524
+    'REQUEST_TIME' => 1529042191
+]
+2018-06-15 13:56:38 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-06-15 13:56:38 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-06-15 13:56:38 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-06-15 13:56:38 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-06-15 13:56:38 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-06-15 13:56:38 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-06-15 13:56:38 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/queue'
+2018-06-15 13:56:38 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/queue
+2018-06-15 13:56:38 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionQueue()
+2018-06-15 13:56:38 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-15 13:56:38 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-15 13:56:38 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-15 13:56:38 [192.168.33.1][-][-][info][yii\db\Command::execute] INSERT INTO "jp_blogQueue" ("blogId", "action", "publishStatus", "response", "createtime", "updatetime", "blogType") VALUES (12, 1, 0, '', '2018-06-15', '2018-06-15', 6)
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:105
+2018-06-15 13:56:38 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-06-15 13:56:38 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/queue'
+    'type' => '1'
+]
+
+$_POST = [
+    'blogId' => '12'
+    'action' => '1'
+]
+
+$_COOKIE = [
+    'Hm_lvt_382f81c966395258f239157654081890' => '1528720197'
+    '_csrf' => '2fe7ebbd3eb6334b1508353635ce4d4a2514c7a61e64a14e07417914e81614bda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"§À¿”/N¡E5ÇßŠÓ?(ë¿yÜóªà’¿¦Ë×¢X\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'Hm_lvt_382f81c966395258f239157654081890=1528720197; _csrf=2fe7ebbd3eb6334b1508353635ce4d4a2514c7a61e64a14e07417914e81614bda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A7%08%C0%BF%94%2FN%A1E5%C7%DF%8A%D3%3F%28%EB%BFy%DC%F3%AA%E0%17%92%19%BF%A6%CB%D7%A2X%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'ch6gMGJMyf4iE5NrdiKE2nDM6iPlbck8BPnIwRCOBZHVFmCP9mOHX2cmVLT88bvym3OT_xbHKSuW4Hdn21mnyQ=='
+    'HTTP_ORIGIN' => 'http://192.168.33.30:82'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_LENGTH' => '18'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.68.4'
+    'REMOTE_PORT' => '57975'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog%2Fqueue&type=1'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '18'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=metaweblog%2Fqueue&type=1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1529042198.0018
+    'REQUEST_TIME' => 1529042198
+]

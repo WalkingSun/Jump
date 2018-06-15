@@ -2,20 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0536f1b7-3fbb-4e09-82fd-3d643c64fbb6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b226234139db.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b22635588a11.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b22639208e90.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b22639a6c0da.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2263b940377.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2263ca992b5.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b22642ee3a10.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2264e1d82d0.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2264f8572aa.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2268b3082ca.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b22691550223.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b22691d5c553.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b22697b2130d.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b227c575f021.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b227caaebf61.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b227cae260c4.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b227cb40dc0b.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b227de7a3b31.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b227df88d409.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b227f5a30a31.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2355100dce7.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b23551654221.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/markdown/wechat_official_templateMessage.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/commands/MetaweblogController.php" afterPath="$PROJECT_DIR$/commands/MetaweblogController.php" />
       <change beforePath="$PROJECT_DIR$/controllers/MetaweblogController.php" afterPath="$PROJECT_DIR$/controllers/MetaweblogController.php" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1e84db31f2d.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1e8535d3b7c.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1e857d7f035.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1e87478bb37.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1e879ad1f9a.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b1e87c272a33.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b211bab15708.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b211bcca9a00.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223331b2aa1.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22334d0119d.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22336b4971f.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2233d744f17.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2233eb9b483.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22340f98394.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22344e6d98d.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22349db009c.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2234aa2784c.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22355746917.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22355a8f72f.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2235ab514bc.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2235b500563.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2235be3bd8e.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2235e6a97c7.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2235f8ef44b.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2236044e914.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22360cebdb4.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22361c600cc.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223624d3a5a.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22362d6b9fb.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223636eea47.data" afterPath="" />
       <change beforePath="$PROJECT_DIR$/runtime/debug/index.data" afterPath="$PROJECT_DIR$/runtime/debug/index.data" />
       <change beforePath="$PROJECT_DIR$/runtime/logs/app.log" afterPath="$PROJECT_DIR$/runtime/logs/app.log" />
+      <change beforePath="$PROJECT_DIR$/runtime/logs/error.log" afterPath="$PROJECT_DIR$/runtime/logs/error.log" />
       <change beforePath="$PROJECT_DIR$/views/metaweblog/index.php" afterPath="$PROJECT_DIR$/views/metaweblog/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +70,8 @@
       <file leaf-file-name="MetaweblogController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commands/MetaweblogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="638">
+              <caret line="89" column="14" lean-forward="true" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
               <folding>
                 <element signature="e#32#54#0#PHP" expanded="true" />
               </folding>
@@ -42,56 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/metaweblog/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1528970716312" expanded="true" signature="401:418" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MetaweblogController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/MetaweblogController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="122" column="39" lean-forward="true" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
-              <folding>
-                <element signature="e#942#2111#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="error.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runtime/logs/error.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="612">
+              <caret line="889" column="0" lean-forward="true" selection-start-line="889" selection-start-column="0" selection-end-line="889" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redis_master_salve-cnblog.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="redis_master_salve-cnblog.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/markdown/redis_master_salve-cnblog.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1944">
+              <first_editor relative-caret-position="738">
                 <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="30" />
                 <folding />
               </first_editor>
@@ -227,10 +229,11 @@
         <option value="$PROJECT_DIR$/models/Parsedown.php" />
         <option value="$PROJECT_DIR$/models/MetaWeblog.php" />
         <option value="$PROJECT_DIR$/web/markdown/redis_master_salve-cnblog.md" />
+        <option value="$PROJECT_DIR$/views/metaweblog/index.php" />
+        <option value="$PROJECT_DIR$/web/markdown/wechat_official_templateMessage.md" />
+        <option value="$PROJECT_DIR$/controllers/MetaweblogController.php" />
         <option value="$PROJECT_DIR$/runtime/logs/error.log" />
         <option value="$PROJECT_DIR$/commands/MetaweblogController.php" />
-        <option value="$PROJECT_DIR$/controllers/MetaweblogController.php" />
-        <option value="$PROJECT_DIR$/views/metaweblog/index.php" />
       </list>
     </option>
   </component>
@@ -298,7 +301,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -382,6 +384,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,6 +448,8 @@
       <workItem from="1528940873174" duration="7000" />
       <workItem from="1528960973735" duration="658000" />
       <workItem from="1528963184509" duration="6743000" />
+      <workItem from="1528979930730" duration="7200000" />
+      <workItem from="1529028894851" duration="3164000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1528354923483</created>
@@ -492,30 +497,29 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51966000" />
+    <option name="totallyTimeSpent" value="62330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29697624" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30777538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,13 +538,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -782,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,19 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/markdown/redis_master_salve-cnblog.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1944">
-            <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="30" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/redis_master_salve-cnblog.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -905,24 +887,6 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime/logs/error.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/MetaweblogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="122" column="39" lean-forward="true" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
-          <folding>
-            <element signature="e#942#2111#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -946,7 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
           <caret line="296" column="27" lean-forward="false" selection-start-line="296" selection-start-column="27" selection-end-line="296" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,28 +917,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1486">
           <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commands/MetaweblogController.php">
+    <entry file="file://$PROJECT_DIR$/web/markdown/wechat_official_templateMessage.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="252">
+            <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/MetaweblogController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="962">
+          <caret line="129" column="40" lean-forward="false" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="40" />
           <folding>
-            <element signature="e#32#54#0#PHP" expanded="true" />
+            <element signature="e#942#2111#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/metaweblog/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="37" column="15" lean-forward="false" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1528970716312" expanded="true" signature="401:418" ph="..." />
+            <marker date="1528981800493" expanded="true" signature="427:472" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/logs/error.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="889" column="0" lean-forward="true" selection-start-line="889" selection-start-column="0" selection-end-line="889" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/MetaweblogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="89" column="14" lean-forward="true" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+          <folding>
+            <element signature="e#32#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/markdown/redis_master_salve-cnblog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="738">
+            <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
