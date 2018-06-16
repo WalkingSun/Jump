@@ -145,4 +145,34 @@ class MetaweblogController extends Controller
         $DB->update($model::tableName(),['isDelete'=>1],['id'=>$id]);
         Common::echoJson(200,'操作成功');
     }
+
+    //查看队列
+    public function actionCheckqueue(){
+        $this->layout = false;
+        $d = $this->data;
+        $model = 'app\models\JpBlogQueue';
+
+        $result = [];
+        if( $d['blogid'] ){
+
+            $result = $model::find()->where(['blogId'=>$d['blogid']])->asArray()->all();
+
+        }
+
+        return $this->render('checkqueue',['result'=>$result]);
+    }
+
+    //更新队列
+    public function actionUpdatequeue(){
+        $this->layout = false;
+        $d = $this->data;
+        $model = 'app\models\JpBlogQueue';
+        if( !$d['queueid'] ){
+            Common::echoJson(403,'参数缺失');
+        }
+
+        $DB = new DB();
+        $DB->update($model::tableName(),['publishStatus'=>0],['queueId'=>$d['queueid']]);
+        Common::echoJson(200,'添加成功！');
+    }
 }

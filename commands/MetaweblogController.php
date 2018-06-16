@@ -5,7 +5,6 @@ namespace app\commands;
 use app\models\Common;
 use app\models\DB;
 use app\models\MetaWeblog;
-use app\models\Parsedown;
 use yii\console\Controller;
 
 class MetaweblogController extends Controller
@@ -84,12 +83,12 @@ class MetaweblogController extends Controller
                 $DB->update($modelBlogRecord::tableName(),[$blogName.'Id'=>$blog_id],['id'=>$blog['id']]);
                 $DB->update($model::tableName(),['publishStatus'=>2],['queueId'=>$v['queueId']]);                   //更新队列状态  发布成功
             }else{
-                $DB->update($model::tableName(),['publishStatus'=>3],['queueId'=>$v['queueId']]);                   //更新队列状态  发布失败
+                $DB->update($model::tableName(),['publishStatus'=>3,'response'=>$target->getErrorMessage()],['queueId'=>$v['queueId']]);                   //更新队列状态  发布失败
                 Common::addLog('error.log',$target->getErrorMessage());
             }
         }else{
             if( !$target->editPost( $blogIteam,$params ) ){
-                $DB->update($model::tableName(),['publishStatus'=>3],['queueId'=>$v['queueId']]);                   //更新队列状态  发布失败
+                $DB->update($model::tableName(),['publishStatus'=>3,'response'=>$target->getErrorMessage()],['queueId'=>$v['queueId']]);                   //更新队列状态  发布失败
                 Common::addLog('error.log',$target->getErrorMessage());
             }
         }
