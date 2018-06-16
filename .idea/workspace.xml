@@ -2,129 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0536f1b7-3fbb-4e09-82fd-3d643c64fbb6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2507420ade7.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b25075ac3e52.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b25076e0f421.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250771de4c3.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b25078128a5a.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2507f625cbb.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2507f991c2f.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b25081a4494a.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b25085223a23.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2508b6a1218.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b25095d70405.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b25097782d6d.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250a11b57b6.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250ae70c62e.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250b0e84ef8.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250b1eab685.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250b23e9b35.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250b92a622c.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250bc77e651.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250bd695470.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250bed121b8.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250e06a7b86.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250e5405a9a.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250e82538c9.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250ea89e4d2.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250f00833ce.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250f1e7b2b1.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250f6a2b785.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250fa51607c.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250fb5f14ff.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b250fcca5baa.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b251051a623d.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b25107a25e93.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2510bd082e3.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2511067ca2a.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b25111a214f8.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b25114d9a23c.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b251161ac95f.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b25116c86582.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b251173475af.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b25119631cd9.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2511abe34d0.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2511fd5cdc4.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2512b486dc9.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2512f2625d8.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2513963d2bf.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b25139c95992.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2513b5e37c5.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2513d3b9840.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2513dbf2c67.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2513df0378f.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b2513fc83f6b.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b25147b9e92b.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b251484a6eb4.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b25148845ff7.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/metaweblog/checkqueue.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-3.3.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/layer/layer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/layer/mobile/layer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/layer/mobile/need/layer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/layer/theme/default/icon-ext.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/layer/theme/default/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/layer/theme/default/layer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/layer/theme/default/loading-0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/layer/theme/default/loading-1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/layer/theme/default/loading-2.gif" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/commands/MetaweblogController.php" afterPath="$PROJECT_DIR$/commands/MetaweblogController.php" />
-      <change beforePath="$PROJECT_DIR$/controllers/MetaweblogController.php" afterPath="$PROJECT_DIR$/controllers/MetaweblogController.php" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22364d697e6.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22368d6e62e.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2236a024214.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2236a96d3f4.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2236e87aab9.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22372d2742e.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2237369f295.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22393f7afac.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2239401c53b.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223962efffc.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22396be4dd2.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223a2c08f7f.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223a54cea51.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223a896d246.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223b074d277.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223b2d79999.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223b5d07aa9.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223c2eb745c.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223c4b30fcd.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223cf254f7e.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223d4596940.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223d50e26d1.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223d63f36c2.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223d6ab1ad5.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223db27dfbb.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223dcc82e04.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223dd7350b0.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b223ddeddd69.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b226234139db.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22635588a11.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22639208e90.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22639a6c0da.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2263b940377.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2263ca992b5.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22642ee3a10.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2264e1d82d0.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2264f8572aa.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2268b3082ca.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22691550223.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22691d5c553.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b22697b2130d.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b227c575f021.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b227caaebf61.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b227cae260c4.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b227cb40dc0b.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b227de7a3b31.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b227df88d409.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b227f5a30a31.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b2355100dce7.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b23551654221.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/index.data" afterPath="$PROJECT_DIR$/runtime/debug/index.data" />
-      <change beforePath="$PROJECT_DIR$/runtime/logs/app.log" afterPath="$PROJECT_DIR$/runtime/logs/app.log" />
-      <change beforePath="$PROJECT_DIR$/runtime/logs/error.log" afterPath="$PROJECT_DIR$/runtime/logs/error.log" />
-      <change beforePath="$PROJECT_DIR$/views/metaweblog/index.php" afterPath="$PROJECT_DIR$/views/metaweblog/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -566,7 +444,7 @@
       <workItem from="1528963184509" duration="6743000" />
       <workItem from="1528979930730" duration="7200000" />
       <workItem from="1529028894851" duration="3204000" />
-      <workItem from="1529151212609" duration="5391000" />
+      <workItem from="1529151212609" duration="5412000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1528354923483</created>
@@ -617,11 +495,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529044189602</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Metaweblog 博客自动化">
+      <created>1529156608515</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1529156608515</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67761000" />
+    <option name="totallyTimeSpent" value="67782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
