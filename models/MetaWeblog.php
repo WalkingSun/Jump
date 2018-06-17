@@ -104,6 +104,7 @@ class MetaWeblog {
         $this->blog_id = $blog_id;
         $this->method = "metaWeblog.editPost";
         $this->buildXML( $params );
+        Common::addLog('error.log',$this->xml);
         $res_xml = $this->doPost();;
         if( !$res_xml ){
 			$this->error = new MetaWeblog_Error(-32700, 'response is empty');

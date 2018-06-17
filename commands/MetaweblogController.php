@@ -71,7 +71,6 @@ class MetaweblogController extends Controller
         $content = str_replace("'",'&apos;',$content);
         $content = str_replace(">",'&gt;',$content);
         $content = str_replace("<",'&lt;',$content);
-
         $params = [
             'title'=> $blog['title'],
             'description'=> $content,
@@ -81,7 +80,7 @@ class MetaweblogController extends Controller
             if( $target->newPost( $params ) ){
                 $blog_id = $target->getBlogId();
                 $DB->update($modelBlogRecord::tableName(),[$blogName.'Id'=>$blog_id],['id'=>$blog['id']]);
-                $DB->update($model::tableName(),['publishStatus'=>2],['queueId'=>$v['queueId']]);                   //更新队列状态  发布成功
+                $DB->update($model::tableName(),['publishStatus'=>2,'response'=>'success'],['queueId'=>$v['queueId']]);                   //更新队列状态  发布成功
             }else{
                 $DB->update($model::tableName(),['publishStatus'=>3,'response'=>$target->getErrorMessage()],['queueId'=>$v['queueId']]);                   //更新队列状态  发布失败
                 Common::addLog('error.log',$target->getErrorMessage());
@@ -90,6 +89,9 @@ class MetaweblogController extends Controller
             if( !$target->editPost( $blogIteam,$params ) ){
                 $DB->update($model::tableName(),['publishStatus'=>3,'response'=>$target->getErrorMessage()],['queueId'=>$v['queueId']]);                   //更新队列状态  发布失败
                 Common::addLog('error.log',$target->getErrorMessage());
+            }else{
+                $DB->update($modelBlogRecord::tableName(),[$blogName.'Id'=>$blogIteam],['id'=>$blog['id']]);
+                $DB->update($model::tableName(),['publishStatus'=>2,'response'=>'success'],['queueId'=>$v['queueId']]);                   //更新队列状态  发布成功
             }
         }
 

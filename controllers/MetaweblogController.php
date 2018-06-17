@@ -104,7 +104,7 @@ class MetaweblogController extends Controller
         ];
         $DB->insert($model::tableName(),$data);
 
-        echo json_encode(['code'=>200,'msg'=>'success']);
+        echo json_encode(['code'=>200,'msg'=>'添加成功']);
     }
 
     public function actionAdd(){
