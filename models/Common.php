@@ -88,4 +88,50 @@ class Common
             exit();
         }
     }
+
+
+    /**
+     * http psot
+     * @param $url String url
+     * @param $port String 端口号
+     * @param $header Array 头信息
+     * @param $data Array 数据
+     */
+    public static function httpPost($url,$port='',$header=[],$data='',$returnHeader=false,$cookie=[]){
+        $result = [];
+        $curl = curl_init();
+        $dd =  array(
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "POST",
+            CURLOPT_POSTFIELDS => http_build_query($data),
+            CURLOPT_HTTPHEADER => $header,
+            CURLOPT_FOLLOWLOCATION =>  1,
+            CURLOPT_COOKIEJAR => 'cookie.txt',
+//            CURLOPT_COOKIEJAR => self::$cookie
+        );
+        if($port) $dd[CURLOPT_PORT] = $port;
+        if( $returnHeader ) $dd[CURLOPT_HEADER] = 1;   //返回头部信息
+        if( $cookie ) $dd[CURLOPT_COOKIE] = $cookie;        //发送cookie
+
+        curl_setopt_array($curl, $dd);
+
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+
+        if ($err) {
+            echo "cURL Error #:" . $err;
+        } else {
+            preg_match("/set\-cookie:([^\r\n]*)/i",$response,$str); //正则匹配
+            $result['cookie'] = $str;
+            $result['response'] = $response;
+            return $result;
+        }
+        curl_close($curl);
+
+    }
 }

@@ -11,7 +11,7 @@ class MetaweblogController extends Controller
 {
     public $modelClass= 'app\models\JpBlogQueue';
 
-    public function actionIndex(){
+    public function actionIndex(){Common::addLog('error.log',1111111);
         $model = $this->modelClass;
         $modelBlogRecord = 'app\models\JpBlogRecord';
         $data = $model::find()->where(['publishStatus'=>0])->asArray()->all();

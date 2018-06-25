@@ -1,7 +1,6 @@
 <?php
 
 ?>
-<?php //$this->registerJsFile("@web/js/jquery-3.3.1.min.js");?>
 <style type="text/css">
     <!--
     @import url();
@@ -43,7 +42,9 @@
                     <td >
                         <?php if( $v['publishStatus']==1 || $v['publishStatus']==3 ){ ?>
                             <a href="javascript:parent.UpdateQueue('<?=$v['queueId'];?>')"> 点击重试</a>
-                        <?php }?>
+                        <?php }else{
+                            echo '--';
+                        }?>
                     </td>
                 </tr>
             <?php    }
