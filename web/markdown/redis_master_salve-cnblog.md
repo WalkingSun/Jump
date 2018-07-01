@@ -1,5 +1,6 @@
 ﻿本次所有操作在docker下进行，搭建方便，迅速构建redis集群。
 
+
 #### 1. docker安装redis
 -  获取redis:latest（使用官方最新的） 镜像
 ```
@@ -37,7 +38,7 @@ $ docker run -it -v /vagrant/app/redis/redis-slave2.conf:/usr/local/etc/redis/re
 
     连接后，使用info replication 查看当前机器角色，都为master主机；
 
-    在redis-slave1、redis-slave2下，使用 SALVEOF master 6379 命令，建立主从联系；再次使用 info replication查看当前role
+    在redis-slave1、redis-slave2下，使用 slaveof master 6379 命令，建立主从联系；再次使用 info replication查看当前role
 
 ![image](https://images2018.cnblogs.com/blog/628201/201806/628201-20180607172417091-1005886924.png)
 
@@ -52,7 +53,7 @@ $ docker run -it -v /vagrant/app/redis/redis-slave2.conf:/usr/local/etc/redis/re
 
     三台redis容器服务器，互相启动一个redis哨兵。
 
-    查看容器ip，docker inspect 容器id
+    查看容器ip，docker inspect <容器id>
 ```
 docker inspect redis-master
 ```
@@ -78,5 +79,78 @@ redis-sentinel /usr/local/etc/redis/sentinel.conf
     dockers stop redis-master 停止redis-master服务再启动，打开容器redis-slave1(可能redis-slave2)，执行redis-cli，info查看：
 
 ![image](https://images2018.cnblogs.com/blog/628201/201806/628201-20180607172416358-1320667988.png)
-    
+
     可以看到，redis-slave1已升级为master
+
+----
+
+
+   ***==redis 配置文件实现主从==***
+
+所有redis.conf文件中 所有bind ip 改为 0.0.0.0    （任意ip可连）
+```
+ docker run -it -p 6379:6379 -v  /vagrant/app/redis/redis-master.conf:/usr/local/etc/redis/redis.conf  --name redis-master -d redis redis-server /usr/local/etc/redis/redis.conf
+
+docker run -d -p 6380:6379 -v /vagrant/app/redis/redis-slave1.conf:/usr/local/etc/redis/redis.conf --link redis-master:master --name redis-slave1 redis redis-server /usr/local/etc/redis/redis.conf
+
+docker run -d -p 6381:6379 -v /vagrant/app/redis/redis-slave2.conf:/usr/local/etc/redis/redis.conf --link redis-master:master --name redis-slave2 redis redis-server /usr/local/etc/redis/redis.conf
+```
+
+查看容器日志，可以帮助我们快速找到问题
+```
+    docker logs <容器id>
+```
+不出意外主从配置完成，接下来配置sentinel：
+- 修改配置文件 sentinel.conf
+
+sentinel-master.conf
+```
+    protected-mode no
+
+    sentinel monitor mymaster master 6379 2  # master 别名，定位reids-master ip
+
+```
+sentinel-slave1.conf
+```
+    protected-mode no
+
+    sentinel monitor mymaster slave1 6379 2  # slave1 别名，定位redis-slave1 ip
+
+```
+sentinel-slave2.conf
+```
+    protected-mode no  #是否开启保护模式，默认开启。要是配置里没有指定bind和密码。开启该参数后，redis只会本地进行访问，拒绝外部访问。要是开启了密码   和bind，可以开启。否   则最好关闭，设置为no。
+
+    sentinel monitor mymaster slave2 6379 2  #Sentinel去监视一个名为mymaster的主redis实例， slave2 别名，定位redis-slave2 ip
+
+```
+
+启动sentinel服务：
+```
+# 监控redis-master节点
+docker run -d -p 5000:26379 -v /vagrant/app/redis/sentinel-master.conf:/usr/local/etc/redis/sentinel.conf --link redis-master:master --name sentinel-master redis redis-server /usr/local/etc/redis/sentinel.conf --sentinel
+
+# 监控redis-slave1节点
+docker run -d -p 5001:26379 -v /vagrant/app/redis/sentinel-slave1.conf:/usr/local/etc/redis/sentinel.conf --link redis-slave1:slave1 --name sentinel-slave1 redis redis-server /usr/local/etc/redis/sentinel.conf --sentinel
+
+# 监控redis-slave2节点
+docker run -d -p 5002:26379 -v /vagrant/app/redis/sentinel-slave1.conf:/usr/local/etc/redis/sentinel.conf --link redis-slave2:slave2 --name sentinel-slave2 redis redis-server /usr/local/etc/redis/sentinel.conf --sentinel
+```
+sentinel 可通过主节点找到下列所有子节点，进行故障调度，为每个节点设定sentinel，相互监控，安全可靠性高。
+
+如此实现哨兵，主从。优点，方便启动，易于调整，故障处理风险低；
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

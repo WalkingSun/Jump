@@ -1,40 +1,4 @@
-2018-06-25 16:24:55 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: sign/login in /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php:127
-Stack trace:
-#0 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('login', Array)
-#1 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('login', Array)
-#2 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('sign/login', Array)
-#3 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('sign/login', Array)
-#4 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
-#5 /app/space/Jump/yii(20): yii\base\Application->run()
-#6 {main}
-
-Next yii\console\UnknownCommandException: Unknown command "sign/login". in /app/space/Jump/vendor/yiisoft/yii2/console/Application.php:183
-Stack trace:
-#0 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('sign/login', Array)
-#1 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
-#2 /app/space/Jump/yii(20): yii\base\Application->run()
-#3 {main}
-2018-06-25 16:24:54 [-][-][-][info][application] $_SERVER = [
-    'HOSTNAME' => '49a263f703fe'
-    'SHLVL' => '1'
-    'OLDPWD' => '/app'
-    'HOME' => '/root'
-    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
-    'PWD' => '/app/space/Jump'
-    'PHP_SELF' => 'yii'
-    'SCRIPT_NAME' => 'yii'
-    'SCRIPT_FILENAME' => 'yii'
-    'PATH_TRANSLATED' => 'yii'
-    'DOCUMENT_ROOT' => ''
-    'REQUEST_TIME_FLOAT' => 1529915094.6442
-    'REQUEST_TIME' => 1529915094
-    'argv' => [
-        0 => 'yii'
-        1 => 'sign/login'
-    ]
-    'argc' => 2
-]
-2018-06-25 17:59:41 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 1 in /app/space/Jump/models/Common.php:123
+2018-07-01 13:13:30 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 1 in /app/space/Jump/commands/SignController.php:125
 Stack trace:
 #0 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): app\commands\SignController->actionIndex()
 #1 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array ()')
@@ -46,10 +10,68 @@ Stack trace:
 #7 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
 #8 /app/space/Jump/yii(20): yii\base\Application->run()
 #9 {main}
-2018-06-25 17:59:36 [-][-][-][info][application] $_SERVER = [
+2018-07-01 13:13:29 [-][-][-][info][application] $_SERVER = [
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HOSTNAME' => '49a263f703fe'
+    'HOME' => '/root'
+    'PHP_SELF' => '/app/space/Jump/yii'
+    'SCRIPT_NAME' => '/app/space/Jump/yii'
+    'SCRIPT_FILENAME' => '/app/space/Jump/yii'
+    'PATH_TRANSLATED' => '/app/space/Jump/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1530422009.428
+    'REQUEST_TIME' => 1530422009
+    'argv' => [
+        0 => '/app/space/Jump/yii'
+        1 => 'sign/index'
+    ]
+    'argc' => 2
+]
+2018-07-01 13:14:48 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 1 in /app/space/Jump/commands/SignController.php:126
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): app\commands\SignController->actionIndex()
+#1 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array ()')
+#2 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('array ()')
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction(''index'', 'array ()')
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction(''index'', 'array ()')
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction(''sign/index'', 'array ()')
+#6 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction(''sign/index'', 'array ()')
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
+#8 /app/space/Jump/yii(20): yii\base\Application->run()
+#9 {main}
+2018-07-01 13:14:47 [-][-][-][info][application] $_SERVER = [
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HOSTNAME' => '49a263f703fe'
+    'HOME' => '/root'
+    'PHP_SELF' => '/app/space/Jump/yii'
+    'SCRIPT_NAME' => '/app/space/Jump/yii'
+    'SCRIPT_FILENAME' => '/app/space/Jump/yii'
+    'PATH_TRANSLATED' => '/app/space/Jump/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1530422087.675
+    'REQUEST_TIME' => 1530422087
+    'argv' => [
+        0 => '/app/space/Jump/yii'
+        1 => 'sign/index'
+    ]
+    'argc' => 2
+]
+2018-07-01 13:16:47 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 1 in /app/space/Jump/commands/SignController.php:126
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): app\commands\SignController->actionIndex()
+#1 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array ()')
+#2 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('array ()')
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction(''index'', 'array ()')
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction(''index'', 'array ()')
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction(''sign/index'', 'array ()')
+#6 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction(''sign/index'', 'array ()')
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
+#8 /app/space/Jump/yii(20): yii\base\Application->run()
+#9 {main}
+2018-07-01 13:16:47 [-][-][-][info][application] $_SERVER = [
     'HOSTNAME' => '49a263f703fe'
     'SHLVL' => '1'
-    'OLDPWD' => '/app'
+    'OLDPWD' => '/'
     'HOME' => '/root'
     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
     'PWD' => '/app/space/Jump'
@@ -58,34 +80,29 @@ Stack trace:
     'SCRIPT_FILENAME' => 'yii'
     'PATH_TRANSLATED' => 'yii'
     'DOCUMENT_ROOT' => ''
-    'REQUEST_TIME_FLOAT' => 1529920775.9786
-    'REQUEST_TIME' => 1529920775
+    'REQUEST_TIME_FLOAT' => 1530422206.9296
+    'REQUEST_TIME' => 1530422206
     'argv' => [
         0 => 'yii'
         1 => 'sign/index'
     ]
     'argc' => 2
 ]
-2018-06-25 18:09:28 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: sign/login in /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php:127
+2018-07-01 13:18:57 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: JSESSIONID_ahmobile in /app/space/Jump/commands/SignController.php:60
 Stack trace:
-#0 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('login', Array)
-#1 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('login', Array)
-#2 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('sign/login', Array)
-#3 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('sign/login', Array)
-#4 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
-#5 /app/space/Jump/yii(20): yii\base\Application->run()
-#6 {main}
-
-Next yii\console\UnknownCommandException: Unknown command "sign/login". in /app/space/Jump/vendor/yiisoft/yii2/console/Application.php:183
-Stack trace:
-#0 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('sign/login', Array)
-#1 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
-#2 /app/space/Jump/yii(20): yii\base\Application->run()
-#3 {main}
-2018-06-25 18:09:28 [-][-][-][info][application] $_SERVER = [
+#0 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array ()')
+#1 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('array ()')
+#2 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction(''index'', 'array ()')
+#3 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction(''index'', 'array ()')
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction(''sign/index'', 'array ()')
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction(''sign/index'', 'array ()')
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
+#7 /app/space/Jump/yii(20): yii\base\Application->run()
+#8 {main}
+2018-07-01 13:18:57 [-][-][-][info][application] $_SERVER = [
     'HOSTNAME' => '49a263f703fe'
     'SHLVL' => '1'
-    'OLDPWD' => '/app'
+    'OLDPWD' => '/'
     'HOME' => '/root'
     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
     'PWD' => '/app/space/Jump'
@@ -94,31 +111,29 @@ Stack trace:
     'SCRIPT_FILENAME' => 'yii'
     'PATH_TRANSLATED' => 'yii'
     'DOCUMENT_ROOT' => ''
-    'REQUEST_TIME_FLOAT' => 1529921368.0835
-    'REQUEST_TIME' => 1529921368
+    'REQUEST_TIME_FLOAT' => 1530422336.7941
+    'REQUEST_TIME' => 1530422336
     'argv' => [
         0 => 'yii'
-        1 => 'sign/login'
+        1 => 'sign/index'
     ]
     'argc' => 2
 ]
-2018-06-25 18:13:25 [-][-][-][error][Error] Error: Access to undeclared static property: app\models\Common::$cookie in /app/space/Jump/models/Common.php:115
+2018-07-01 13:58:13 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: ZhangTing_http in /app/space/Jump/commands/SignController.php:73
 Stack trace:
-#0 /app/space/Jump/commands/SignController.php(43): app\models\Common::httpPost('https://api.ahm...', '', Array, Array)
-#1 [internal function]: app\commands\SignController->actionIndex()
-#2 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
-#3 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
-#4 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('index', Array)
-#5 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('index', Array)
-#6 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('sign/index', Array)
-#7 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('sign/index', Array)
-#8 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
-#9 /app/space/Jump/yii(20): yii\base\Application->run()
-#10 {main}
-2018-06-25 18:13:24 [-][-][-][info][application] $_SERVER = [
+#0 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array ()')
+#1 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('array ()')
+#2 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction(''index'', 'array ()')
+#3 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction(''index'', 'array ()')
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction(''sign/index'', 'array ()')
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction(''sign/index'', 'array ()')
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
+#7 /app/space/Jump/yii(20): yii\base\Application->run()
+#8 {main}
+2018-07-01 13:58:12 [-][-][-][info][application] $_SERVER = [
     'HOSTNAME' => '49a263f703fe'
     'SHLVL' => '1'
-    'OLDPWD' => '/app'
+    'OLDPWD' => '/'
     'HOME' => '/root'
     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
     'PWD' => '/app/space/Jump'
@@ -127,8 +142,133 @@ Stack trace:
     'SCRIPT_FILENAME' => 'yii'
     'PATH_TRANSLATED' => 'yii'
     'DOCUMENT_ROOT' => ''
-    'REQUEST_TIME_FLOAT' => 1529921604.6028
-    'REQUEST_TIME' => 1529921604
+    'REQUEST_TIME_FLOAT' => 1530424692.5109
+    'REQUEST_TIME' => 1530424692
+    'argv' => [
+        0 => 'yii'
+        1 => 'sign/index'
+    ]
+    'argc' => 2
+]
+2018-07-01 13:58:52 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: ZhangTing_http in /app/space/Jump/commands/SignController.php:73
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array ()')
+#1 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('array ()')
+#2 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction(''index'', 'array ()')
+#3 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction(''index'', 'array ()')
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction(''sign/index'', 'array ()')
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction(''sign/index'', 'array ()')
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
+#7 /app/space/Jump/yii(20): yii\base\Application->run()
+#8 {main}
+2018-07-01 13:58:51 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1530424731.0514
+    'REQUEST_TIME' => 1530424731
+    'argv' => [
+        0 => 'yii'
+        1 => 'sign/index'
+    ]
+    'argc' => 2
+]
+2018-07-01 14:00:06 [-][-][-][error][Error] Error: Call to undefined method app\models\Common::httpPost() in /app/space/Jump/commands/SignController.php:88
+Stack trace:
+#0 [internal function]: app\commands\SignController->actionIndex()
+#1 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('index', Array)
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('index', Array)
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('sign/index', Array)
+#6 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('sign/index', Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /app/space/Jump/yii(20): yii\base\Application->run()
+#9 {main}
+2018-07-01 14:00:05 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1530424804.9081
+    'REQUEST_TIME' => 1530424804
+    'argv' => [
+        0 => 'yii'
+        1 => 'sign/index'
+    ]
+    'argc' => 2
+]
+2018-07-01 16:34:25 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: JSESSIONID_ahmobile in /app/space/Jump/commands/SignController.php:53
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array ()')
+#1 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('array ()')
+#2 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction(''index'', 'array ()')
+#3 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction(''index'', 'array ()')
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction(''sign/index'', 'array ()')
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction(''sign/index'', 'array ()')
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
+#7 /app/space/Jump/yii(20): yii\base\Application->run()
+#8 {main}
+2018-07-01 16:34:19 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1530434059.0435
+    'REQUEST_TIME' => 1530434059
+    'argv' => [
+        0 => 'yii'
+        1 => 'sign/index'
+    ]
+    'argc' => 2
+]
+2018-07-01 16:35:09 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: JSESSIONID_ahmobile in /app/space/Jump/commands/SignController.php:53
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array ()')
+#1 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('array ()')
+#2 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction(''index'', 'array ()')
+#3 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction(''index'', 'array ()')
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction(''sign/index'', 'array ()')
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction(''sign/index'', 'array ()')
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
+#7 /app/space/Jump/yii(20): yii\base\Application->run()
+#8 {main}
+2018-07-01 16:35:04 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1530434104.0424
+    'REQUEST_TIME' => 1530434104
     'argv' => [
         0 => 'yii'
         1 => 'sign/index'

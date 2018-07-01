@@ -1,93 +1,15 @@
-2018-06-25 16:46:57：{"activitiesId":"A_WODECHOUJIANG,A_WODEYOUHUIQUAN,A_QIANDAONEW,A_QIANDAO343,A_YAOQINGHAOYOU","areaCode":"11","checkFlag":null,"checkTips":null,"date":"2018-06-25 16:46:55","errorMsg":null,"hasError":null,"idNo":"HIzMZCLEPmTvjKzJ7dnWEUMyY\/bFvELDGAjjOw8ivCuKIg++xIVZ9ovZhM0EZFUs3b6fHqgYqeBHVSq5LNMDxdoj9Mm52wipt2V6haUq0RrOA0sSDNlMCA8N2LkhK9foBdAGK4AB0iWWemSURfBg6ceQU\/r9b\/VYyocswmxiihw=","message":null,"name":"＊＊伟","phoneNo":"15256587052","result":"o","sessionId":"sso_backup_92!!5WE2H9z4O6mYdKQuYQtlsYlaY8DO0DrefOkg1r0HZBUx4XirKUb5!-1686366390","url":null}
-
-2018-06-25 16:48:30：{"activitiesId":"A_WODECHOUJIANG,A_WODEYOUHUIQUAN,A_QIANDAONEW,A_QIANDAO343,A_YAOQINGHAOYOU","areaCode":"11","checkFlag":null,"checkTips":null,"date":"2018-06-25 16:46:55","errorMsg":null,"hasError":null,"idNo":"HIzMZCLEPmTvjKzJ7dnWEUMyY\/bFvELDGAjjOw8ivCuKIg++xIVZ9ovZhM0EZFUs3b6fHqgYqeBHVSq5LNMDxdoj9Mm52wipt2V6haUq0RrOA0sSDNlMCA8N2LkhK9foBdAGK4AB0iWWemSURfBg6ceQU\/r9b\/VYyocswmxiihw=","message":null,"name":"＊＊伟","phoneNo":"15256587052","result":"o","sessionId":"sso_backup_92!!5WE2H9z4O6mYdKQuYQtlsYlaY8DO0DrefOkg1r0HZBUx4XirKUb5!-1686366390","url":null}
-
-2018-06-25 17:03:17：{Session:false}
-
-2018-06-25 17:21:08：
-
-2018-06-25 18:26:34：array (
-  'cookie' => 
-  array (
-    0 => 'Set-Cookie: JSESSIONID_ahmobile=2c7ffa71-6e81-4c2b-a970-60e586208371;',
-    1 => ' JSESSIONID_ahmobile=2c7ffa71-6e81-4c2b-a970-60e586208371',
-  ),
-  'response' => 'HTTP/1.1 200 OK
+2018-07-01 19:09:20：HTTP/1.1 200 OK
 Server: openresty
-Date: Mon, 25 Jun 2018 10:26:32 GMT
-Content-Type: text/html;charset=UTF-8
-Content-Length: 460
-Accept: */*
-Accept-Encoding: deflate, gzip
-BlueWareGuid: c853b507c97a7cf8
-breadcrumbId: ID-Ah-Mobile-13272-1528982973145-0-398156215
-clientVersion: 5.1.4
-Content-Encoding: gzip
-Content-Language: zh-CN
-Cookie: ZT_PeiZhiFuWu_g=ZT_PeiZhiFuWu_03; JSESSIONID_ahmobile=e3752e21-07ab-4d39-955d-fe17d71a4e9a; JSESSIONID=HoUxlwSmryn_7T7zji3p8t8bUGa0zmIEkYSIBy1XuXhyT_89FP1Z!-1980067697; ZhangTing_g=ZhangTing_04
-eip_serv_id: app.ssoLogin
-Expires: 0
-imei: nbNj5ZcDziH3IhrMd7tZAdygUP7SnOLl2rRXMidGlUB70yd9ga0/6Fhp46s1boCRBj1Vp2H/AAfyRQhUdb9fGAQxiKC5FRhj/TyjHd7C3kNbyQyVAlg32hmwPYdm+Cdkcy56HFwGhR1vnGovFbJ+OrGYVoUgiR4wcpK+1DzC3vE=
-imsi: DXPhHanFLe/CrvgmvvQkDJqxwKyZr4Rns3ruxbfly7u48ysUVxGxYmmtM7GYfZz+phsKKOmZAGBUP9Evk09sWyaCoOejs3rg5upfJBNM+fffJMslRs85XPF8n/SQ4xyHj3sfuv/x8wkBU6a//+RbFvk5dmeXBW6ZEH4bfN/Tubc=
-loginClass: 4
-msgFlag: 0
-paramType: 1
-postman-token: 75237515-571f-66f1-2675-863b18d1dad0
-Set-Cookie: JSESSIONID_ahmobile=2c7ffa71-6e81-4c2b-a970-60e586208371; HttpOnly; path=/;
-Set-Cookie: zt_ah=52d045a8ac50854ee615b0726214c052; expires=Mon, 25-Jun-2018 10:41:32 GMT; path=/; secure
-token: 8370d4cd5f3cbc80bc1a64d75f7630ee
-type: 0
-userIn.phone_no: 15256587052
-userIn.userPasswd: kJb479t/iRY7gkdgdF9tMsyxKkPwsbzFgoRqhI3VlcfyQKwPIs9eIT4SGkS94wcNCNvmqd3ky8z2nPNFaYqd6f98CEs3s3FpTPe+Yg28qpgEx6tPA4MBcoygmT7EDzeGy2OMqTebeweVrpoX8Lqr8hAX31H3d7G08bgbJobAf/E=
-X-BlueWare-App-Data: Olx7QXdmeFoQETA0NUEzBBkPNg0IESw+YQEuBEcyJhcCRzsFBDJ6ChIRDg0pOzRUHmRleFERfkhaQGRKUU96VnpheFpcMzk6TRExUl9dN0xRSSFbeTNtFVR+dws=
-X-Forwarded-For: 116.228.90.46
-ytnb: true
-Connection: Keep-alive
-Via: 1.1 ID-0314217266170452 uproxy-32
-
-{"activitiesId":"A_WODECHOUJIANG,A_WODEYOUHUIQUAN,A_QIANDAONEW,A_QIANDAO343,A_YAOQINGHAOYOU","areaCode":"11","checkFlag":null,"checkTips":null,"date":"2018-06-25 18:26:32","errorMsg":null,"hasError":null,"idNo":"RZdnLljDuq0GUiE4clcEDdvZ2a932IDe6hZHbYNrosW2YYx9CYO92kGxrrBaGorTZnvvBhfGxDzxPjK3A2UpP9gfVbp4eB+ajMXoBD\\/6jlVa\\/QCB65oc6iSB34sv0Ea6ZAwwwDLfQ3RP8YeicAECyQAGVJyddc6WMgdwNRnc\\/Tk=","message":null,"name":"＊＊伟","phoneNo":"15256587052","result":"o","sessionId":"sso_backup_92!!RpM2exGTp3xsV2cwZf2JCP-c3pYrwMLfSVU8I0GrUzna_KVtOxkC!-1686366390","url":null}',
-)
-
-2018-06-25 18:41:37：array (
-  'cookie' => 
-  array (
-  ),
-  'response' => '{"activitiesId":"A_WODECHOUJIANG,A_WODEYOUHUIQUAN,A_QIANDAONEW,A_QIANDAO343,A_YAOQINGHAOYOU","areaCode":"11","checkFlag":null,"checkTips":null,"date":"2018-06-25 18:41:35","errorMsg":null,"hasError":null,"idNo":"WaAUiCm0LI3b7X0DzEpCRTVl\\/LlFDFPa00Thh0VHTuhAzCFQHpsm4WM64bzylD7Lvc17zP17XY3qvdWOIIkKmTRKADParnE3OPsQoy+fdbzJF58hGoqk5fb71QOjphc2F3ZdFLsQaiHop06DsE7QlLGwp+jwTd5\\/75iq01x5ghY=","message":null,"name":"＊＊伟","phoneNo":"15256587052","result":"o","sessionId":"sso_backup_43!!UJo2iNlxk2xMj6GLIEKPKOWbsOPKJBCFSLSIKZ5CgBQRyZQ2pvho!1764438953","url":null}',
-)
-
-2018-06-25 18:43:36：array (
-  'cookie' => 
-  array (
-  ),
-  'response' => '{"activitiesId":"A_WODECHOUJIANG,A_WODEYOUHUIQUAN,A_QIANDAONEW,A_QIANDAO343,A_YAOQINGHAOYOU","areaCode":"11","checkFlag":null,"checkTips":null,"date":"2018-06-25 18:43:34","errorMsg":null,"hasError":null,"idNo":"VyJA95\\/MGK8XOm8fNsPCTlakfxF9drFEJ9JuKyCtY0jeBMYVvxNn7f31oVsqIr6oCSNiuHIPIwCX9kgql4sRNBaPKJoUDSbp63oQ9sCNds1h1ititpoe5s5EQqO+k8jQEYRHXNry0Ke0HgiEqZ\\/DRj3Z8YDF+K763MCgOE\\/7O8I=","message":null,"name":"＊＊伟","phoneNo":"15256587052","result":"o","sessionId":"sso_backup_06!!_eA2iqpSReNnx_TZfUAgaB9-yC0doDdVTpEFV2Eu5ZWaSg1AYAFn!-901357962","url":null}',
-)
-
-2018-06-25 18:44:01：array (
-  'cookie' => 
-  array (
-  ),
-  'response' => '{"activitiesId":"A_WODECHOUJIANG,A_WODEYOUHUIQUAN,A_QIANDAONEW,A_QIANDAO343,A_YAOQINGHAOYOU","areaCode":"11","checkFlag":null,"checkTips":null,"date":"2018-06-25 18:43:59","errorMsg":null,"hasError":null,"idNo":"hPWvcihKOUYcD+KKu0EwF0MoFBxNPzObqXNuKM5Tfx526O6tk\\/68my5CvOWCdXYHmcwUPVWUc8UQKdNgmphIZNyMwA+EQJvAmA83YSv0OCq9XYfYm8RABEz\\/cD+YksUJS7RLYhNTo8eoQZ60J46dg6u0DqXraX4Peaq2RBunfiE=","message":null,"name":"＊＊伟","phoneNo":"15256587052","result":"o","sessionId":"sso_backup_22!!z642iwwbu4YuwIu-b1TkGgXdnUFYogL14eVX6RIIyDczrghGCYIu!-1161573776","url":null}',
-)
-
-2018-06-25 18:44:55：array (
-  'cookie' => 
-  array (
-    0 => 'Set-Cookie: JSESSIONID_ahmobile=b21e55e6-71f5-400b-928c-1a23f5b835ce;',
-    1 => ' JSESSIONID_ahmobile=b21e55e6-71f5-400b-928c-1a23f5b835ce',
-  ),
-  'response' => 'HTTP/1.1 200 OK
-Server: openresty
-Date: Mon, 25 Jun 2018 10:44:53 GMT
+Date: Sun, 01 Jul 2018 11:23:38 GMT
 Content-Type: text/html;charset=UTF-8
 Content-Length: 459
 Accept: */*
 Accept-Encoding: deflate, gzip
-BlueWareGuid: 982f67f157671110
-breadcrumbId: ID-ahmobile64-41432-1528982646638-0-398082556
+BlueWareGuid: 1a1cdebe3a04fde8
+breadcrumbId: ID-ahmobile64-21224-1528982642014-0-627556328
 clientVersion: 5.1.4
 Content-Encoding: gzip
 Content-Language: zh-CN
-Cookie: ZT_PeiZhiFuWu_g=ZT_PeiZhiFuWu_03; JSESSIONID_ahmobile=e3752e21-07ab-4d39-955d-fe17d71a4e9a; JSESSIONID=HoUxlwSmryn_7T7zji3p8t8bUGa0zmIEkYSIBy1XuXhyT_89FP1Z!-1980067697; ZhangTing_g=ZhangTing_04
 eip_serv_id: app.ssoLogin
 Expires: 0
 imei: nbNj5ZcDziH3IhrMd7tZAdygUP7SnOLl2rRXMidGlUB70yd9ga0/6Fhp46s1boCRBj1Vp2H/AAfyRQhUdb9fGAQxiKC5FRhj/TyjHd7C3kNbyQyVAlg32hmwPYdm+Cdkcy56HFwGhR1vnGovFbJ+OrGYVoUgiR4wcpK+1DzC3vE=
@@ -96,40 +18,33 @@ loginClass: 4
 msgFlag: 0
 paramType: 1
 postman-token: 75237515-571f-66f1-2675-863b18d1dad0
-Set-Cookie: JSESSIONID_ahmobile=b21e55e6-71f5-400b-928c-1a23f5b835ce; HttpOnly; path=/;
-Set-Cookie: zt_ah=8a49a3268d94994e83ca866e2ae307da; expires=Mon, 25-Jun-2018 10:59:53 GMT; path=/; secure
+Set-Cookie: JSESSIONID_ahmobile=25954a1b-b829-403f-9583-345dfeb5dcfb; HttpOnly; path=/;
+Set-Cookie: zt_ah=8a49a3268d94994e83ca866e2ae307da; expires=Sun, 01-Jul-2018 11:38:38 GMT; path=/; secure
 token: 8370d4cd5f3cbc80bc1a64d75f7630ee
 type: 0
 userIn.phone_no: 15256587052
 userIn.userPasswd: kJb479t/iRY7gkdgdF9tMsyxKkPwsbzFgoRqhI3VlcfyQKwPIs9eIT4SGkS94wcNCNvmqd3ky8z2nPNFaYqd6f98CEs3s3FpTPe+Yg28qpgEx6tPA4MBcoygmT7EDzeGy2OMqTebeweVrpoX8Lqr8hAX31H3d7G08bgbJobAf/E=
-X-BlueWare-App-Data: Olx7QXdjeFoQETA0NUEzBBkPNg0IESw+YQEuBEcyJhcCRzsFBDJ6ChIRDg0pOzRUHmRleFERfkhaQGROU090UWx+NANeKnl0WAtgDFxZM0hUSXRVf2NrRhAb
-X-Forwarded-For: 116.228.90.46
+X-BlueWare-App-Data: Olx7QXdjeFoQETA0NUEzBBkPNg0IESw+YQEuBEcyJhcCRzsFBDJ6ChIRDg0pOzRUHmRleFERfkhaQGRLV01yUn9reFpcMzk6TRFjC1sNMRwDG3EDfmY8Eld+dws=
+X-Forwarded-For: 222.65.209.232
 ytnb: true
+Set-Cookie: ZhangTing_g=ZhangTing_04
 Connection: Keep-alive
-Via: 1.1 ID-0314217266170452 uproxy-36
+Via: 1.1 ID-0314217266170452 uproxy-39
 
-{"activitiesId":"A_WODECHOUJIANG,A_WODEYOUHUIQUAN,A_QIANDAONEW,A_QIANDAO343,A_YAOQINGHAOYOU","areaCode":"11","checkFlag":null,"checkTips":null,"date":"2018-06-25 18:44:53","errorMsg":null,"hasError":null,"idNo":"hOSySkySLprzkSy2KfhCB85lirN2ubcVhZLSSdMO\\/lhi3PalPr6QqbmvYfKj2x0mitkuZgzAJ8z2SBs8KWkuLna7SSVSZOjU0EAAqcxLYttLfyiUUWrNUG0++Y702U1YPCIiYHtEKX0MVW6EarX6BAYq\\/IvnsM39NOZosT5+Ha4=","message":null,"name":"＊＊伟","phoneNo":"15256587052","result":"o","sessionId":"sso_backup_60!!jXw2i91RQdg5w9WmMNGZV4mDd0qrrTUp1adE4q4xBO2UOV9OJiSJ!283640766","url":null}',
-)
+{"activitiesId":"A_WODECHOUJIANG,A_WODEYOUHUIQUAN,A_QIANDAONEW,A_QIANDAO343,A_YAOQINGHAOYOU","areaCode":"11","checkFlag":null,"checkTips":null,"date":"2018-07-01 19:23:38","errorMsg":null,"hasError":null,"idNo":"CO+6hU7wlmGUclkOTcV6CUbokqZ\/fmQ+0qf5r9qEJKb3W4g76W3JBBreAqSPqGqRlhdSHUDn7R+Hmh0a6EQ7xAtBC9rrxJRBFF5WhSnBpXWU8BeR3Wh6mXoLopPCZoONrR\/sdmSKDOpukhXwQKF062XewsusHyGXPto07OnbYXk=","message":null,"name":"＊＊伟","phoneNo":"15256587052","result":"o","sessionId":"sso_backup_07!!xuVVlX-60ilL8Ti1sKIoqgx2X0hbT-K_8DiG2iMa3el2OMT6pgpY!960131191","url":null}
 
-2018-06-25 18:50:07：array (
-  'cookie' => 
-  array (
-    0 => 'Set-Cookie: JSESSIONID_ahmobile=080985f4-5a40-4098-9d33-af5eb8d41d5d; HttpOnly; path=/;',
-    1 => ' JSESSIONID_ahmobile=080985f4-5a40-4098-9d33-af5eb8d41d5d; HttpOnly; path=/;',
-  ),
-  'response' => 'HTTP/1.1 200 OK
+2018-07-01 19:10:03：HTTP/1.1 200 OK
 Server: openresty
-Date: Mon, 25 Jun 2018 10:50:05 GMT
+Date: Sun, 01 Jul 2018 11:24:21 GMT
 Content-Type: text/html;charset=UTF-8
 Content-Length: 457
 Accept: */*
 Accept-Encoding: deflate, gzip
-BlueWareGuid: 4c77c1f856262247
-breadcrumbId: ID-ahmobile25-36553-1528982528612-0-398237254
+BlueWareGuid: 50c58d9e9243748e
+breadcrumbId: ID-ahmobile73-15553-1528983063171-0-627400591
 clientVersion: 5.1.4
 Content-Encoding: gzip
 Content-Language: zh-CN
-Cookie: ZT_PeiZhiFuWu_g=ZT_PeiZhiFuWu_03; JSESSIONID_ahmobile=e3752e21-07ab-4d39-955d-fe17d71a4e9a; JSESSIONID=HoUxlwSmryn_7T7zji3p8t8bUGa0zmIEkYSIBy1XuXhyT_89FP1Z!-1980067697; ZhangTing_g=ZhangTing_04
 eip_serv_id: app.ssoLogin
 Expires: 0
 imei: nbNj5ZcDziH3IhrMd7tZAdygUP7SnOLl2rRXMidGlUB70yd9ga0/6Fhp46s1boCRBj1Vp2H/AAfyRQhUdb9fGAQxiKC5FRhj/TyjHd7C3kNbyQyVAlg32hmwPYdm+Cdkcy56HFwGhR1vnGovFbJ+OrGYVoUgiR4wcpK+1DzC3vE=
@@ -138,139 +53,94 @@ loginClass: 4
 msgFlag: 0
 paramType: 1
 postman-token: 75237515-571f-66f1-2675-863b18d1dad0
-Set-Cookie: JSESSIONID_ahmobile=080985f4-5a40-4098-9d33-af5eb8d41d5d; HttpOnly; path=/;
-Set-Cookie: zt_ah=8a49a3268d94994e83ca866e2ae307da; expires=Mon, 25-Jun-2018 11:05:05 GMT; path=/; secure
+Set-Cookie: JSESSIONID_ahmobile=c2f824bd-ea70-4240-aa69-f63107b1ad91; HttpOnly; path=/;
+Set-Cookie: zt_ah=6dd6c2720fb41f0152e796554e023767; expires=Sun, 01-Jul-2018 11:39:21 GMT; path=/; secure
 token: 8370d4cd5f3cbc80bc1a64d75f7630ee
 type: 0
 userIn.phone_no: 15256587052
 userIn.userPasswd: kJb479t/iRY7gkdgdF9tMsyxKkPwsbzFgoRqhI3VlcfyQKwPIs9eIT4SGkS94wcNCNvmqd3ky8z2nPNFaYqd6f98CEs3s3FpTPe+Yg28qpgEx6tPA4MBcoygmT7EDzeGy2OMqTebeweVrpoX8Lqr8hAX31H3d7G08bgbJobAf/E=
-X-BlueWare-App-Data: Olx7QXdjeFoQETA0NUEzBBkPNg0IESw+YQEuBEcyJhcCRzsFBDJ6ChIRDg0pOzRUHmRleFERfkhaQGRMVkZxV3dneFpcMzk6TRFmCV1ZNkgHRndUfGRoRAZxdws=
-X-Forwarded-For: 116.228.90.46
+X-BlueWare-App-Data: Olx7QXtqeFoQETA0NUEzBBkPNg0IESw+YQEuBEcyJhcCRzsFBDJ6ChIRDg0pOzRUHmRleFERfkhaQGdAVkhwV35keFpcMzk6TRFnWglbbR1YG3tQemFtQgojdws=
+X-Forwarded-For: 222.65.209.232
 ytnb: true
+Set-Cookie: ZhangTing_g=ZhangTing_03
+Connection: Keep-alive
+Via: 1.1 ID-0314217266170452 uproxy-29
+
+{"activitiesId":"A_WODECHOUJIANG,A_WODEYOUHUIQUAN,A_QIANDAONEW,A_QIANDAO343,A_YAOQINGHAOYOU","areaCode":"11","checkFlag":null,"checkTips":null,"date":"2018-07-01 19:24:21","errorMsg":null,"hasError":null,"idNo":"kh\/46KtbIe757fAwPxBEhuB+ouiMVSZ2mfsfgm\/Fq6aGqhm5VoCpo0vvuik\/IyCVwOE1aB+K7\/XxR1OsosV21n5TfVe7Z2hCnAr122nZal7g0HXEY1C2P2p1Ij5SsXcq+mYgogIK85dhOoD9H35Nh1xWx5UOv7kU53teJOpuI7s=","message":null,"name":"＊＊伟","phoneNo":"15256587052","result":"o","sessionId":"sso_backup_12!!RSpVlie0-54kHW3VqhS61FL1p32o8ilGlFddAJDDYn8jQnsuM0Y6!92424147","url":null}
+
+2018-07-01 19:10:03：HTTP/1.1 200 OK
+Server: openresty
+Date: Sun, 01 Jul 2018 11:24:21 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,en-US;q=0.9
+breadcrumbId: ID-ahmobile64-21224-1528982642014-0-627583526
+clientType: android
+Cookie: ssoId=sso_backup_12!!RSpVlie0-54kHW3VqhS61FL1p32o8ilGlFddAJDDYn8jQnsuM0Y6!92424147;JSESSIONID_ahmobile=c2f824bd-ea70-4240-aa69-f63107b1ad91;ZhangTing_H5_g=ZhangTing_H5_10;ZhangTing_http=ZhangTing_http_01;JSESSIONID=UIxVlikdFLaya59N2XBxBhU8afhaUq534jaZxB-BWYhhYToCGrS8!796423616;WT_FPC=id=23110e6cb435604383c1529984277593:lv=1529984277896:ss=1529984277593
+eip_serv_id: app.getLoginInfo
+Origin: http://api.ahmobile.cn:8081
+token: f9decb14d4a0aef3b1229eaa3f554e72
+X-Application-Context: queryDataflow:prodWeblogic:7094
+X-Forwarded-For: 222.65.209.232
+X-Requested-With: XMLHttpRequest
 Connection: Keep-alive
 Via: 1.1 ID-0314217266170452 uproxy-37
 
-{"activitiesId":"A_WODECHOUJIANG,A_WODEYOUHUIQUAN,A_QIANDAONEW,A_QIANDAO343,A_YAOQINGHAOYOU","areaCode":"11","checkFlag":null,"checkTips":null,"date":"2018-06-25 18:50:05","errorMsg":null,"hasError":null,"idNo":"P5i8OXKOCeA3M2pbET6E1MKawFmkV2fXbXH6S0611LQaKBuFWMqPWKdLV9s9HABUIqMqmWSVsx3pHF4VmVthw+B\\/KOC1\\/8DNkRCkk7TRKmOf0fAcsmhrhlXqpMVofqEOs1GcXOuMgP7s3sXiIH32XTKgGShBqskQzx5eFRgNl1g=","message":null,"name":"＊＊伟","phoneNo":"15256587052","result":"o","sessionId":"sso_backup_05!!Qas2kKEIwxyM3z9WlV3zNPHqYe64DnptJD4LIJOFiGnN3Nh2njNK!-593485133","url":null}',
-)
+{"message":"success","data":{"idNo":"iL3d/WriAb7hODd0/kmyB9bq8m/4vbzLJsXqg/DAe23neikJAhpqba5droXzhZq5NMa7vqtFP18o6RrKWX9TqPSuhOtOstDoAr9fg9I+hbrcfdC9Y7R1WIgzf6aXz9fa2WSiwTp0uncAmRD6taZGAHjgKbHkiC1wkzMTZNLPGpw=","phoneNo":"hXLyNM9GyxKIqsd/tFBHTi/omkZweJq9HYwq44hzRhK3/pAZaMQ84L2r717qv9oaVIOz7WQteBnjePlUgINwkU1SLTY76b/oxuAW2WS8d3x7FtVvDMHHX3RVTlbth+v0P1gbKapXYQNzla43bbr4eoWfK9PPw7dB/c12uaseXlo=","phoneNoFull":"15256587052","phoneNoStar":"152****7052"},"code":"0"}
 
-2018-06-25 18:55:54：array (
-  'cookie' => 
-  array (
-    0 => 'Set-Cookie: JSESSIONID_ahmobile=186510fa-cede-43d9-ba71-4749801f1dab; HttpOnly; path=/;',
-    1 => ' JSESSIONID_ahmobile=186510fa-cede-43d9-ba71-4749801f1dab; HttpOnly; path=/;',
-  ),
-  'response' => 'HTTP/1.1 200 OK
+2018-07-01 19:10:03：HTTP/1.1 200 OK
 Server: openresty
-Date: Mon, 25 Jun 2018 10:55:51 GMT
-Content-Type: text/html;charset=UTF-8
-Content-Length: 459
-Accept: */*
-Accept-Encoding: deflate, gzip
-BlueWareGuid: fab9e76dc7ef9b68
-breadcrumbId: ID-Ah-Mobile-13272-1528982973145-0-398730741
-clientVersion: 5.1.4
-Content-Encoding: gzip
+Date: Sun, 01 Jul 2018 11:24:22 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,en-US;q=0.9
+BlueWareGuid: 53d7128dcf2188ac
+breadcrumbId: ID-redhat6-5-02-42978-1528982790050-0-627484035
 Content-Language: zh-CN
-Cookie: ZT_PeiZhiFuWu_g=ZT_PeiZhiFuWu_03; JSESSIONID_ahmobile=e3752e21-07ab-4d39-955d-fe17d71a4e9a; JSESSIONID=HoUxlwSmryn_7T7zji3p8t8bUGa0zmIEkYSIBy1XuXhyT_89FP1Z!-1980067697; ZhangTing_g=ZhangTing_04
-eip_serv_id: app.ssoLogin
-Expires: 0
-imei: nbNj5ZcDziH3IhrMd7tZAdygUP7SnOLl2rRXMidGlUB70yd9ga0/6Fhp46s1boCRBj1Vp2H/AAfyRQhUdb9fGAQxiKC5FRhj/TyjHd7C3kNbyQyVAlg32hmwPYdm+Cdkcy56HFwGhR1vnGovFbJ+OrGYVoUgiR4wcpK+1DzC3vE=
-imsi: DXPhHanFLe/CrvgmvvQkDJqxwKyZr4Rns3ruxbfly7u48ysUVxGxYmmtM7GYfZz+phsKKOmZAGBUP9Evk09sWyaCoOejs3rg5upfJBNM+fffJMslRs85XPF8n/SQ4xyHj3sfuv/x8wkBU6a//+RbFvk5dmeXBW6ZEH4bfN/Tubc=
-loginClass: 4
-msgFlag: 0
-paramType: 1
-postman-token: 75237515-571f-66f1-2675-863b18d1dad0
-Set-Cookie: JSESSIONID_ahmobile=186510fa-cede-43d9-ba71-4749801f1dab; HttpOnly; path=/;
-Set-Cookie: zt_ah=7a1b2b30a32ab253221a9b62ac23f05e; expires=Mon, 25-Jun-2018 11:10:51 GMT; path=/; secure
-token: 8370d4cd5f3cbc80bc1a64d75f7630ee
-type: 0
-userIn.phone_no: 15256587052
-userIn.userPasswd: kJb479t/iRY7gkdgdF9tMsyxKkPwsbzFgoRqhI3VlcfyQKwPIs9eIT4SGkS94wcNCNvmqd3ky8z2nPNFaYqd6f98CEs3s3FpTPe+Yg28qpgEx6tPA4MBcoygmT7EDzeGy2OMqTebeweVrpoX8Lqr8hAX31H3d7G08bgbJobAf/E=
-X-BlueWare-App-Data: Olx7QXZreFoQETA0NUEzBBkPNg0IESw+YQEuBEcyJhcCRzsFBDJ6ChIRDg0pOzRUHmRleFERfkhaQGRPVk17UXxqeFpcMzk6TRE0CwhXME5XGiFVKzRjFAR+dws=
-X-Forwarded-For: 116.228.90.46
-ytnb: true
+Cookie: ssoId=sso_backup_12!!RSpVlie0-54kHW3VqhS61FL1p32o8ilGlFddAJDDYn8jQnsuM0Y6!92424147;JSESSIONID_ahmobile=c2f824bd-ea70-4240-aa69-f63107b1ad91;ZhangTing_H5_g=ZhangTing_H5_10;ZhangTing_http=ZhangTing_http_01;JSESSIONID=UIxVlikdFLaya59N2XBxBhU8afhaUq534jaZxB-BWYhhYToCGrS8!796423616;WT_FPC=id=23110e6cb435604383c1529984277593:lv=1529984277896:ss=1529984277593
+eip_serv_id: app.getCheckInDate
+Origin: http://api.ahmobile.cn:8081
+token: ffc6179a49cf4ddc411c7f93c28b56c6
+X-BlueWare-App-Data: Olx7QXZqeFoQETA0NUEzBBkPNg0IESw+YQEuBEcyJhcCRzsFBDJ6HgQKAQorMTE/XAI0IgQRfkhaQGVbTVxyTH5maEUCfmB0TV0nBgZCd0xSGnVTfGo+FVR0ZG5ZUjFINw==
+X-Forwarded-For: 222.65.209.232
+X-Requested-With: XMLHttpRequest
 Connection: Keep-alive
-Via: 1.1 ID-0314217266170452 uproxy-41
+Via: 1.1 ID-0314217266170452 uproxy-38
 
-{"activitiesId":"A_WODECHOUJIANG,A_WODEYOUHUIQUAN,A_QIANDAONEW,A_QIANDAO343,A_YAOQINGHAOYOU","areaCode":"11","checkFlag":null,"checkTips":null,"date":"2018-06-25 18:55:51","errorMsg":null,"hasError":null,"idNo":"EXu\\/OruPewrLOft4hm2TTU\\/rdRMsjeUd+qa\\/k+JBa8SXzkZjWWrc3su84wjVoTUjA5U8D+0BfAOqH82bdPU8tjGLr79jZHYXFQJ3EFDuaq+Zhh3opnGtBuKxf4yp1QKsLsC5sjTp19jwd\\/sGTYBJ8agn3wXUuYZ77J98pL3VUBM=","message":null,"name":"＊＊伟","phoneNo":"15256587052","result":"o","sessionId":"sso_backup_84!!5FY2lenwQiLcMY4RePw0H4Hh6c9h9WSIzB5lIZjOUOkK-Af9b9ko!2088488603","url":null}',
-)
+{"remainDay":"您本月还需要签到&nbsp;<span>6天<\/span>&nbsp;即可获得奖励","button2":"今日已签到","pictureUrls":"http:\/\/ah.10086.cn\/upfile\/h5\/h5_test\/images\/newSign\/bg.png\n\n","totalFlow":"30M","code":"0","msg":"获取签到日期成功","flag":"1","month":7,"year":2018,"ckNum":"2452068","activityRule":"<p>活动名称：签到领福利<\/p>\n      <p>活动时间：2018年7月1日-2018年7月31日<\/p>\n      <p>活动规则：<\/p>\n      <p>1、每月首签、7天、14天、21天可获得签到奖品及福袋1个；<\/p>\n      <p>2、福袋需要用户分享后才可以拆开，福袋有效期72个小时，过期自动失效；<\/p>\n      <p>3、每天签到均有一定几率获得福袋和刮刮卡；<\/p>\n      <p>4、活动获赠流量需到“手厅-我的移动-领奖中心”领取后方可生效，流量领取后24小时内生效，当月月底自动失效；<\/p>\n      <p>5、活动赠送的“套餐外优惠流量”将在您无套餐流量可用时使用；<\/p>\n      <p>6、部分套餐用户暂不支持流量奖品领取，欠费报停等状态异常客户不可参加；<\/p>\n      <p>7、部分奖品存在无法重复领取限制；<\/p>\n      <p>8、部分奖品体验优惠到期后，如不取消，将正常收取费用；<\/p>","day":1,"insertFlag":"0","activityTime":"活动时间：\n2017年10月1日-2017年12月31日","button1":"告诉小伙伴","dateList":[{"CHECKDATE":"2018-07-01"}]}
 
-2018-06-25 18:55:59：array (
-  'cookie' => 
-  array (
-  ),
-  'response' => '{Session:false}',
-)
-
-2018-06-25 18:56:40：array (
-  'cookie' => 
-  array (
-    0 => 'Set-Cookie: JSESSIONID_ahmobile=0e459ba7-8acf-47e3-9f6f-85d83e3e17d3; HttpOnly; path=/;',
-    1 => ' JSESSIONID_ahmobile=0e459ba7-8acf-47e3-9f6f-85d83e3e17d3; HttpOnly; path=/;',
-  ),
-  'response' => 'HTTP/1.1 200 OK
+2018-07-01 19:10:04：HTTP/1.1 200 OK
 Server: openresty
-Date: Mon, 25 Jun 2018 10:56:38 GMT
-Content-Type: text/html;charset=UTF-8
-Content-Length: 464
-Accept: */*
-Accept-Encoding: deflate, gzip
-BlueWareGuid: 8b2e1b200e2a5753
-breadcrumbId: ID-ahmobile64-41432-1528982646638-0-398312264
-clientVersion: 5.1.4
-Content-Encoding: gzip
-Content-Language: zh-CN
-Cookie: ZT_PeiZhiFuWu_g=ZT_PeiZhiFuWu_03; JSESSIONID_ahmobile=e3752e21-07ab-4d39-955d-fe17d71a4e9a; JSESSIONID=HoUxlwSmryn_7T7zji3p8t8bUGa0zmIEkYSIBy1XuXhyT_89FP1Z!-1980067697; ZhangTing_g=ZhangTing_04
-eip_serv_id: app.ssoLogin
-Expires: 0
-imei: nbNj5ZcDziH3IhrMd7tZAdygUP7SnOLl2rRXMidGlUB70yd9ga0/6Fhp46s1boCRBj1Vp2H/AAfyRQhUdb9fGAQxiKC5FRhj/TyjHd7C3kNbyQyVAlg32hmwPYdm+Cdkcy56HFwGhR1vnGovFbJ+OrGYVoUgiR4wcpK+1DzC3vE=
-imsi: DXPhHanFLe/CrvgmvvQkDJqxwKyZr4Rns3ruxbfly7u48ysUVxGxYmmtM7GYfZz+phsKKOmZAGBUP9Evk09sWyaCoOejs3rg5upfJBNM+fffJMslRs85XPF8n/SQ4xyHj3sfuv/x8wkBU6a//+RbFvk5dmeXBW6ZEH4bfN/Tubc=
-loginClass: 4
-msgFlag: 0
-paramType: 1
-postman-token: 75237515-571f-66f1-2675-863b18d1dad0
-Set-Cookie: JSESSIONID_ahmobile=0e459ba7-8acf-47e3-9f6f-85d83e3e17d3; HttpOnly; path=/;
-Set-Cookie: zt_ah=7a1b2b30a32ab253221a9b62ac23f05e; expires=Mon, 25-Jun-2018 11:11:38 GMT; path=/; secure
-token: 8370d4cd5f3cbc80bc1a64d75f7630ee
-type: 0
-userIn.phone_no: 15256587052
-userIn.userPasswd: kJb479t/iRY7gkdgdF9tMsyxKkPwsbzFgoRqhI3VlcfyQKwPIs9eIT4SGkS94wcNCNvmqd3ky8z2nPNFaYqd6f98CEs3s3FpTPe+Yg28qpgEx6tPA4MBcoygmT7EDzeGy2OMqTebeweVrpoX8Lqr8hAX31H3d7G08bgbJobAf/E=
-X-BlueWare-App-Data: Olx7QX1leFoQETA0NUEzBBkPNg0IESw+YQEuBEcyJhcCRzsFBDJ6ChIRDg0pOzRUHmRleFERfkhaQGRIVk5wUn1wdhhHKjl6QwswWA9fN0tRTidQL2dtQwFkCA==
-X-Forwarded-For: 116.228.90.46
-ytnb: true
-Connection: Keep-alive
-Via: 1.1 ID-0314217266170452 uproxy-42
-
-{"activitiesId":"A_WODECHOUJIANG,A_WODEYOUHUIQUAN,A_QIANDAONEW,A_QIANDAO343,A_YAOQINGHAOYOU","areaCode":"11","checkFlag":null,"checkTips":null,"date":"2018-06-25 18:56:38","errorMsg":null,"hasError":null,"idNo":"ELVH8TDK\\/G7k57aR9QERr3h3SpAA6\\/t6qYnvtolDfLndjZqIiHEA6Sqokpx2IyRZ3ovgxZzsiUf7O+mylxzQ1O+\\/szYmkN2cJNhVgV9QMTg\\/hXiOc8WTCPA7r+UMjuFbgfbYU75BLublvSJfTXW9oKfmGMAD\\/vXUljb94ort51c=","message":null,"name":"＊＊伟","phoneNo":"15256587052","result":"o","sessionId":"sso_backup_72!!kRQ2lqCOilaEEPskqtRdIrpQaJhK6MigznJ_OugvLeWSmvzQZa5I!-1215496698","url":null}',
-)
-
-2018-06-25 18:56:45：array (
-  'cookie' => 
-  array (
-    0 => 'Set-Cookie: JSESSIONID_ahmobile=3c4e8649-635f-4e75-8c33-e9dbeb9bcb3d; HttpOnly; path=/;',
-    1 => ' JSESSIONID_ahmobile=3c4e8649-635f-4e75-8c33-e9dbeb9bcb3d; HttpOnly; path=/;',
-  ),
-  'response' => 'HTTP/1.1 200 OK
-Server: openresty
-Date: Mon, 25 Jun 2018 10:56:43 GMT
+Date: Sun, 01 Jul 2018 11:24:22 GMT
+Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Accept: */*
 Accept-Encoding: gzip, deflate
 Accept-Language: zh-CN,en-US;q=0.9
-breadcrumbId: ID-ahmobile74-41228-1528983105482-0-398096348
-Cookie: {
+BlueWareGuid: b64f4b24f6042aea
+breadcrumbId: ID-localhost-bss-rh6-ztnewapi06-35-75-49069-1528983140326-0-627310016
+Content-Language: zh-CN
+Cookie: ssoId=sso_backup_12!!RSpVlie0-54kHW3VqhS61FL1p32o8ilGlFddAJDDYn8jQnsuM0Y6!92424147;JSESSIONID_ahmobile=c2f824bd-ea70-4240-aa69-f63107b1ad91;ZhangTing_H5_g=ZhangTing_H5_10;ZhangTing_http=ZhangTing_http_01;JSESSIONID=UIxVlikdFLaya59N2XBxBhU8afhaUq534jaZxB-BWYhhYToCGrS8!796423616;WT_FPC=id=23110e6cb435604383c1529984277593:lv=1529984277896:ss=1529984277593
 eip_serv_id: app.checkInIm
 newCheck: 1
-origin: http://api.ahmobile.cn:8081
-postman-token: e3093fe5-7aa5-e6a8-e6e7-87979e9ce3cc
-Set-Cookie: JSESSIONID_ahmobile=3c4e8649-635f-4e75-8c33-e9dbeb9bcb3d; HttpOnly; path=/;
-token: 38ba5ce88b090f4a00672f02026989a6
-X-Forwarded-For: 116.228.90.46
-x-requested-with: XMLHttpRequest
-Set-Cookie: ZhangTing_http=ZhangTing_http_04
+Origin: http://api.ahmobile.cn:8081
+token: 30ca7bbd399e5aaee9e734300f528a8a
+X-BlueWare-App-Data: Olx7QXpreFoQETA0NUEzBBkPNg0IESw+YQEuBEcyJhcCRzsFBDJ6GgkbIQkHPBMbEGp3Zk8DcEZIXntJUEZyVHdgb0AQajsjDV9+SAhYYR9VHHBWKGRqQgAnMDdDbg==
+X-Forwarded-For: 222.65.209.232
+X-Requested-With: XMLHttpRequest
 Connection: Keep-alive
-Via: 1.1 ID-0314217266170452 uproxy-31
+Via: 1.1 ID-0314217266170452 uproxy-39
 
-{Session:false}',
+{"message":"今日已签到","data":null,"code":"0"}
+
+2018-07-01 19:10:04：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"今日已签到","data":null,"code":"0"}',
 )
 

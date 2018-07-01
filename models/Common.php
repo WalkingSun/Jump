@@ -97,7 +97,7 @@ class Common
      * @param $header Array 头信息
      * @param $data Array 数据
      */
-    public static function httpPost($url,$port='',$header=[],$data='',$returnHeader=false,$cookie=[]){
+    public static function httpPostByCookie($url,$port='',$header=[],$data='',$returnHeader=false,$cookie=[]){
         $result = [];
         $curl = curl_init();
         $dd =  array(
@@ -111,7 +111,7 @@ class Common
             CURLOPT_POSTFIELDS => http_build_query($data),
             CURLOPT_HTTPHEADER => $header,
             CURLOPT_FOLLOWLOCATION =>  1,
-            CURLOPT_COOKIEJAR => 'cookie.txt',
+//            CURLOPT_COOKIEJAR => \Yii::$app->basePath.'/cookie.txt',
 //            CURLOPT_COOKIEJAR => self::$cookie
         );
         if($port) $dd[CURLOPT_PORT] = $port;
@@ -123,15 +123,63 @@ class Common
         $response = curl_exec($curl);
         $err = curl_error($curl);
 
+        curl_close($curl);
+        Common::addLog('sign.log',$response);
         if ($err) {
             echo "cURL Error #:" . $err;
         } else {
-            preg_match("/set\-cookie:([^\r\n]*)/i",$response,$str); //正则匹配
-            $result['cookie'] = $str;
-            $result['response'] = $response;
+            preg_match_all("/Set-Cookie:(.*)\n/iU",$response,$str); //正则匹配
+//            print_r($str);die;
+            $result['cookie'] = isset($str[1]) ?$str[1]:''; ;
+            preg_match("/{.+}/",$response,$str1);
+            $result['response'] =  isset($str1) ?array_pop($str1):''; ;
             return $result;
         }
-        curl_close($curl);
+
+    }
+
+
+    /**
+     * http get
+     * @param $url String url
+     * @param $port String 端口号
+     * @param $header Array 头信息
+     */
+    public static function httpGetByCookie($url,$port='',$header=[],$returnHeader=false,$cookie=[]){
+        $result = [];
+        $curl = curl_init();
+        $dd =  array(
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "GET",
+            CURLOPT_HTTPHEADER => $header,
+            CURLOPT_FOLLOWLOCATION =>  1,
+            CURLOPT_COOKIEJAR => \Yii::$app->basePath.'/cookie.txt',
+        );
+        if($port) $dd[CURLOPT_PORT] = $port;
+        if( $returnHeader ) $dd[CURLOPT_HEADER] = 1;   //返回头部信息
+        if( $cookie ) $dd[CURLOPT_COOKIE] = $cookie;        //发送cookie
+
+        curl_setopt_array($curl, $dd);
+
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+
+        curl_close($curl);//        Common::addLog('sign.log',$response);
+
+        if ($err) {
+            echo "cURL Error #:" . $err;
+        } else {
+            preg_match_all("/Set-Cookie:(.*)\n/iU",$response,$str); //正则匹配
+            $result['cookie'] = isset($str[1]) ?$str[1]:''; ;
+            preg_match("/{.+}/",$response,$str1);
+            $result['response'] =  isset($str1) ?array_pop($str1):''; ;
+            return $result;
+        }
 
     }
 }
