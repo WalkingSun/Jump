@@ -275,3 +275,3173 @@ Stack trace:
     ]
     'argc' => 2
 ]
+2018-07-02 17:01:58 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: loginInfoUrl in /app/space/Jump/commands/SignController.php:91
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array ()')
+#1 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('array ()')
+#2 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction(''index'', 'array ()')
+#3 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction(''index'', 'array ()')
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction(''sign/index'', 'array ()')
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction(''sign/index'', 'array ()')
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
+#7 /app/space/Jump/yii(20): yii\base\Application->run()
+#8 {main}
+2018-07-02 17:01:57 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1530522117.458
+    'REQUEST_TIME' => 1530522117
+    'argv' => [
+        0 => 'yii'
+        1 => 'sign/index'
+    ]
+    'argc' => 2
+]
+2018-07-02 17:52:07 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-07-02 17:52:07 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\Module::getModule] Loading module: debug
+2018-07-02 17:52:08 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-07-02 17:52:08 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\Module::getModule] Loading module: gii
+2018-07-02 17:52:08 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-07-02 17:52:08 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-07-02 17:52:08 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\web\Application::handleRequest] Route requested: 'jump/send'
+2018-07-02 17:52:08 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\Controller::runAction] Route to run: site/error
+2018-07-02 17:52:08 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\Action::runWithParams] Running action: yii\web\ErrorAction::run()
+2018-07-02 17:52:08 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/site/error.php
+2018-07-02 17:52:08 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+2018-07-02 17:52:09 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][info][yii\web\Session::open] Session started
+    in /app/space/jump/views/layouts/main.php:42
+2018-07-02 17:52:09 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+2018-07-02 17:52:09 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:52:07 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][info][application] $_GET = [
+    'r' => 'jump/send'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8f738c0da45117f9b4da2a1e9ededaee'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'PHPSESSID=8f738c0da45117f9b4da2a1e9ededaee'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.72.4'
+    'REMOTE_PORT' => '54177'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=jump/send'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=jump/send'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1530525127.4288
+    'REQUEST_TIME' => 1530525127
+]
+2018-07-02 17:52:20 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-07-02 17:52:20 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-07-02 17:52:20 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-07-02 17:52:20 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-07-02 17:52:20 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-07-02 17:52:20 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-07-02 17:52:20 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-07-02 17:52:20 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-07-02 17:52:20 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-07-02 17:52:20 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 20
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-07-02 17:52:20 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:87
+2018-07-02 17:52:20 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-07-02 17:52:20 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-07-02 17:52:20 [192.168.33.1][-][-][info][yii\web\Session::open] Session started
+    in /app/space/jump/views/layouts/main.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-07-02 17:52:20 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-07-02 17:52:20 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:52:20 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8f738c0da45117f9b4da2a1e9ededaee'
+    '_csrf' => 'b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"§+Bî‹%
+H©³µŽá×VÑÉ„mÞé)>ºü{¥\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'PHPSESSID=8f738c0da45117f9b4da2a1e9ededaee; _csrf=b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A7%1E%2BB%EE%8B%08%9D%25%0AH%A9%B3%B5%8E%E1%D7V%D1%C9%84m%DE%E9%29%3E%1F%07%BA%FC%7B%A5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.72.4'
+    'REMOTE_PORT' => '54201'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1530525139.8595
+    'REQUEST_TIME' => 1530525139
+]
+2018-07-02 17:52:27 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-07-02 17:52:27 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\Module::getModule] Loading module: debug
+2018-07-02 17:52:27 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-07-02 17:52:27 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\Module::getModule] Loading module: gii
+2018-07-02 17:52:27 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-07-02 17:52:27 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-07-02 17:52:27 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\web\Application::handleRequest] Route requested: ''
+2018-07-02 17:52:27 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\Controller::runAction] Route to run: site/error
+2018-07-02 17:52:27 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\Action::runWithParams] Running action: yii\web\ErrorAction::run()
+2018-07-02 17:52:27 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/site/error.php
+2018-07-02 17:52:27 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+2018-07-02 17:52:28 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][info][yii\web\Session::open] Session started
+    in /app/space/jump/views/layouts/main.php:42
+2018-07-02 17:52:28 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:75
+2018-07-02 17:52:28 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:52:27 [192.168.33.1][-][8f738c0da45117f9b4da2a1e9ededaee][info][application] $_COOKIE = [
+    'PHPSESSID' => '8f738c0da45117f9b4da2a1e9ededaee'
+    '_csrf' => 'b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"§+Bî‹%
+H©³µŽá×VÑÉ„mÞé)>ºü{¥\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'PHPSESSID=8f738c0da45117f9b4da2a1e9ededaee; _csrf=b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A7%1E%2BB%EE%8B%08%9D%25%0AH%A9%B3%B5%8E%E1%D7V%D1%C9%84m%DE%E9%29%3E%1F%07%BA%FC%7B%A5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.72.4'
+    'REMOTE_PORT' => '54201'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1530525147.3497
+    'REQUEST_TIME' => 1530525147
+]
+2018-07-02 17:53:12 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-07-02 17:53:12 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-07-02 17:53:12 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-07-02 17:53:12 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-07-02 17:53:12 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-07-02 17:53:12 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-07-02 17:53:12 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii'
+2018-07-02 17:53:12 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/index
+2018-07-02 17:53:13 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionIndex()
+2018-07-02 17:53:13 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/default/index.php
+2018-07-02 17:53:13 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/layouts/main.php
+2018-07-02 17:53:13 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:53:13 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:53:12 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8f738c0da45117f9b4da2a1e9ededaee'
+    '_csrf' => 'b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"§+Bî‹%
+H©³µŽá×VÑÉ„mÞé)>ºü{¥\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'PHPSESSID=8f738c0da45117f9b4da2a1e9ededaee; _csrf=b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A7%1E%2BB%EE%8B%08%9D%25%0AH%A9%B3%B5%8E%E1%D7V%D1%C9%84m%DE%E9%29%3E%1F%07%BA%FC%7B%A5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.72.4'
+    'REMOTE_PORT' => '54319'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1530525192.5423
+    'REQUEST_TIME' => 1530525192
+]
+2018-07-02 17:53:17 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-07-02 17:53:17 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-07-02 17:53:17 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-07-02 17:53:17 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-07-02 17:53:17 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-07-02 17:53:17 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-07-02 17:53:17 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii/default/view'
+2018-07-02 17:53:17 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/view
+2018-07-02 17:53:17 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionView()
+2018-07-02 17:53:17 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/default/view.php
+2018-07-02 17:53:17 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/generators/model/form.php
+2018-07-02 17:53:17 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+2018-07-02 17:53:17 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT c.relname AS table_name
+FROM pg_class c
+INNER JOIN pg_namespace ns ON ns.oid = c.relnamespace
+WHERE ns.nspname = 'public' AND c.relkind IN ('r','v','m','f')
+ORDER BY c.relname
+2018-07-02 17:53:17 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/layouts/generator.php
+2018-07-02 17:53:17 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/layouts/main.php
+2018-07-02 17:53:17 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:53:17 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:53:17 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'model'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8f738c0da45117f9b4da2a1e9ededaee'
+    '_csrf' => 'b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"§+Bî‹%
+H©³µŽá×VÑÉ„mÞé)>ºü{¥\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'PHPSESSID=8f738c0da45117f9b4da2a1e9ededaee; _csrf=b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A7%1E%2BB%EE%8B%08%9D%25%0AH%A9%B3%B5%8E%E1%D7V%D1%C9%84m%DE%E9%29%3E%1F%07%BA%FC%7B%A5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=gii'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.72.4'
+    'REMOTE_PORT' => '54319'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=model'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1530525197.0469
+    'REQUEST_TIME' => 1530525197
+]
+2018-07-02 17:53:53 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-07-02 17:53:53 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-07-02 17:53:53 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-07-02 17:53:53 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-07-02 17:53:53 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-07-02 17:53:53 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-07-02 17:53:53 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii/default/view'
+2018-07-02 17:53:53 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/view
+2018-07-02 17:53:53 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionView()
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'AM_user'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='AM_user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT ns.nspname AS schema_name
+FROM pg_namespace ns
+WHERE ns.nspname != 'information_schema' AND ns.nspname NOT LIKE 'pg_%'
+ORDER BY ns.nspname
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT c.relname AS table_name
+FROM pg_class c
+INNER JOIN pg_namespace ns ON ns.oid = c.relnamespace
+WHERE ns.nspname = 'public' AND c.relkind IN ('r','v','m','f')
+ORDER BY c.relname
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'AM_failQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='AM_failQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'AM_user'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='AM_user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'aaa'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='aaa'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogRecord'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogRecord'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    i.relname as indexname,
+    pg_get_indexdef(idx.indexrelid, k + 1, TRUE) AS columnname
+FROM (
+  SELECT *, generate_subscripts(indkey, 1) AS k
+  FROM pg_index
+) idx
+INNER JOIN pg_class i ON i.oid = idx.indexrelid
+INNER JOIN pg_class c ON c.oid = idx.indrelid
+INNER JOIN pg_namespace ns ON c.relnamespace = ns.oid
+WHERE idx.indisprimary = FALSE AND idx.indisunique = TRUE
+AND c.relname = 'AM_user' AND ns.nspname = 'public'
+ORDER BY i.relname, k
+2018-07-02 17:53:53 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/generators/model/default/model.php
+2018-07-02 17:53:53 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/default/view.php
+2018-07-02 17:53:53 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/generators/model/form.php
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT c.relname AS table_name
+FROM pg_class c
+INNER JOIN pg_namespace ns ON ns.oid = c.relnamespace
+WHERE ns.nspname = 'public' AND c.relkind IN ('r','v','m','f')
+ORDER BY c.relname
+2018-07-02 17:53:53 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/default/view/files.php
+2018-07-02 17:53:53 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/layouts/generator.php
+2018-07-02 17:53:53 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/layouts/main.php
+2018-07-02 17:53:53 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:53:53 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:53:53 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf' => 'H_JGrRS_3LBte3a9qiEtXjWj3V-qePlTNldBjmUQqda47G3v-jTULUhxPhQZlKO_4vUMli4VJ7ofaV6J3-zScw=='
+    'Generator' => [
+        'tableName' => 'AM_user'
+        'modelClass' => 'AMUser'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryClass' => 'AM_userQuery'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8f738c0da45117f9b4da2a1e9ededaee'
+    '_csrf' => 'b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"§+Bî‹%
+H©³µŽá×VÑÉ„mÞé)>ºü{¥\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'PHPSESSID=8f738c0da45117f9b4da2a1e9ededaee; _csrf=b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A7%1E%2BB%EE%8B%08%9D%25%0AH%A9%B3%B5%8E%E1%D7V%D1%C9%84m%DE%E9%29%3E%1F%07%BA%FC%7B%A5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.33.30:82'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '703'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.72.4'
+    'REMOTE_PORT' => '54390'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '703'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=model'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1530525233.1142
+    'REQUEST_TIME' => 1530525233
+]
+2018-07-02 17:54:01 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-07-02 17:54:01 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-07-02 17:54:01 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-07-02 17:54:01 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-07-02 17:54:01 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-07-02 17:54:01 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-07-02 17:54:01 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii/default/preview'
+2018-07-02 17:54:01 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/preview
+2018-07-02 17:54:01 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionPreview()
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'AM_user'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='AM_user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT ns.nspname AS schema_name
+FROM pg_namespace ns
+WHERE ns.nspname != 'information_schema' AND ns.nspname NOT LIKE 'pg_%'
+ORDER BY ns.nspname
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT c.relname AS table_name
+FROM pg_class c
+INNER JOIN pg_namespace ns ON ns.oid = c.relnamespace
+WHERE ns.nspname = 'public' AND c.relkind IN ('r','v','m','f')
+ORDER BY c.relname
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'AM_failQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='AM_failQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'AM_user'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='AM_user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'aaa'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='aaa'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogRecord'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogRecord'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    i.relname as indexname,
+    pg_get_indexdef(idx.indexrelid, k + 1, TRUE) AS columnname
+FROM (
+  SELECT *, generate_subscripts(indkey, 1) AS k
+  FROM pg_index
+) idx
+INNER JOIN pg_class i ON i.oid = idx.indexrelid
+INNER JOIN pg_class c ON c.oid = idx.indrelid
+INNER JOIN pg_namespace ns ON c.relnamespace = ns.oid
+WHERE idx.indisprimary = FALSE AND idx.indisunique = TRUE
+AND c.relname = 'AM_user' AND ns.nspname = 'public'
+ORDER BY i.relname, k
+2018-07-02 17:54:01 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/generators/model/default/model.php
+2018-07-02 17:54:01 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:54:01 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/preview'
+    'id' => 'model'
+    'file' => '988184141b3f67d489b996452d96a6ec'
+]
+
+$_POST = [
+    '_csrf' => 'GllP8Gw8MBzVj6jLMLzzk4KAppnOB0J8Kyq_m0gkx0W9R2Sygrc4gfCF4GKDCX1yVdZ3UEpqnJUCFKCc8ti84A=='
+    'Generator' => [
+        'tableName' => 'AM_user'
+        'modelClass' => 'AMUser'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryClass' => 'AM_userQuery'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'answers' => [
+        '988184141b3f67d489b996452d96a6ec' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8f738c0da45117f9b4da2a1e9ededaee'
+    '_csrf' => 'b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"§+Bî‹%
+H©³µŽá×VÑÉ„mÞé)>ºü{¥\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'PHPSESSID=8f738c0da45117f9b4da2a1e9ededaee; _csrf=b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A7%1E%2BB%EE%8B%08%9D%25%0AH%A9%B3%B5%8E%E1%D7V%D1%C9%84m%DE%E9%29%3E%1F%07%BA%FC%7B%A5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'GllP8Gw8MBzVj6jLMLzzk4KAppnOB0J8Kyq_m0gkx0W9R2Sygrc4gfCF4GKDCX1yVdZ3UEpqnJUCFKCc8ti84A=='
+    'HTTP_ORIGIN' => 'http://192.168.33.30:82'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONTENT_LENGTH' => '742'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.72.4'
+    'REMOTE_PORT' => '54390'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=gii%2Fdefault%2Fpreview&id=model&file=988184141b3f67d489b996452d96a6ec'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '742'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fpreview&id=model&file=988184141b3f67d489b996452d96a6ec'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1530525240.93
+    'REQUEST_TIME' => 1530525240
+]
+2018-07-02 17:54:10 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-07-02 17:54:10 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-07-02 17:54:10 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-07-02 17:54:10 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-07-02 17:54:10 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-07-02 17:54:10 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-07-02 17:54:10 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii/default/view'
+2018-07-02 17:54:10 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/view
+2018-07-02 17:54:10 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionView()
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'AM_user'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='AM_user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT ns.nspname AS schema_name
+FROM pg_namespace ns
+WHERE ns.nspname != 'information_schema' AND ns.nspname NOT LIKE 'pg_%'
+ORDER BY ns.nspname
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT c.relname AS table_name
+FROM pg_class c
+INNER JOIN pg_namespace ns ON ns.oid = c.relnamespace
+WHERE ns.nspname = 'public' AND c.relkind IN ('r','v','m','f')
+ORDER BY c.relname
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'AM_failQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='AM_failQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'AM_user'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='AM_user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'aaa'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='aaa'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogRecord'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogRecord'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    i.relname as indexname,
+    pg_get_indexdef(idx.indexrelid, k + 1, TRUE) AS columnname
+FROM (
+  SELECT *, generate_subscripts(indkey, 1) AS k
+  FROM pg_index
+) idx
+INNER JOIN pg_class i ON i.oid = idx.indexrelid
+INNER JOIN pg_class c ON c.oid = idx.indrelid
+INNER JOIN pg_namespace ns ON c.relnamespace = ns.oid
+WHERE idx.indisprimary = FALSE AND idx.indisunique = TRUE
+AND c.relname = 'AM_user' AND ns.nspname = 'public'
+ORDER BY i.relname, k
+2018-07-02 17:54:10 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/generators/model/default/model.php
+2018-07-02 17:54:10 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/default/view.php
+2018-07-02 17:54:10 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/generators/model/form.php
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT c.relname AS table_name
+FROM pg_class c
+INNER JOIN pg_namespace ns ON ns.oid = c.relnamespace
+WHERE ns.nspname = 'public' AND c.relkind IN ('r','v','m','f')
+ORDER BY c.relname
+2018-07-02 17:54:10 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/default/view/results.php
+2018-07-02 17:54:10 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/layouts/generator.php
+2018-07-02 17:54:10 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/layouts/main.php
+2018-07-02 17:54:10 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:54:10 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:54:10 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf' => 'GllP8Gw8MBzVj6jLMLzzk4KAppnOB0J8Kyq_m0gkx0W9R2Sygrc4gfCF4GKDCX1yVdZ3UEpqnJUCFKCc8ti84A=='
+    'Generator' => [
+        'tableName' => 'AM_user'
+        'modelClass' => 'AMUser'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryClass' => 'AM_userQuery'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'answers' => [
+        '988184141b3f67d489b996452d96a6ec' => '1'
+    ]
+    'generate' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8f738c0da45117f9b4da2a1e9ededaee'
+    '_csrf' => 'b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"§+Bî‹%
+H©³µŽá×VÑÉ„mÞé)>ºü{¥\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'PHPSESSID=8f738c0da45117f9b4da2a1e9ededaee; _csrf=b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A7%1E%2BB%EE%8B%08%9D%25%0AH%A9%B3%B5%8E%E1%D7V%D1%C9%84m%DE%E9%29%3E%1F%07%BA%FC%7B%A5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.33.30:82'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '752'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.72.4'
+    'REMOTE_PORT' => '54390'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '752'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=model'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1530525249.845
+    'REQUEST_TIME' => 1530525249
+]
+2018-07-02 17:55:05 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-07-02 17:55:05 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-07-02 17:55:05 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-07-02 17:55:05 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-07-02 17:55:05 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-07-02 17:55:05 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-07-02 17:55:05 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii/default/view'
+2018-07-02 17:55:05 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/view
+2018-07-02 17:55:05 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionView()
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'AM_failQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='AM_failQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT ns.nspname AS schema_name
+FROM pg_namespace ns
+WHERE ns.nspname != 'information_schema' AND ns.nspname NOT LIKE 'pg_%'
+ORDER BY ns.nspname
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT c.relname AS table_name
+FROM pg_class c
+INNER JOIN pg_namespace ns ON ns.oid = c.relnamespace
+WHERE ns.nspname = 'public' AND c.relkind IN ('r','v','m','f')
+ORDER BY c.relname
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'AM_failQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='AM_failQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'AM_user'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='AM_user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'aaa'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='aaa'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogRecord'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogRecord'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    i.relname as indexname,
+    pg_get_indexdef(idx.indexrelid, k + 1, TRUE) AS columnname
+FROM (
+  SELECT *, generate_subscripts(indkey, 1) AS k
+  FROM pg_index
+) idx
+INNER JOIN pg_class i ON i.oid = idx.indexrelid
+INNER JOIN pg_class c ON c.oid = idx.indrelid
+INNER JOIN pg_namespace ns ON c.relnamespace = ns.oid
+WHERE idx.indisprimary = FALSE AND idx.indisunique = TRUE
+AND c.relname = 'AM_failQueue' AND ns.nspname = 'public'
+ORDER BY i.relname, k
+2018-07-02 17:55:05 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/generators/model/default/model.php
+2018-07-02 17:55:05 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/default/view.php
+2018-07-02 17:55:05 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/generators/model/form.php
+2018-07-02 17:55:05 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT c.relname AS table_name
+FROM pg_class c
+INNER JOIN pg_namespace ns ON ns.oid = c.relnamespace
+WHERE ns.nspname = 'public' AND c.relkind IN ('r','v','m','f')
+ORDER BY c.relname
+2018-07-02 17:55:05 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/default/view/files.php
+2018-07-02 17:55:05 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/layouts/generator.php
+2018-07-02 17:55:05 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/layouts/main.php
+2018-07-02 17:55:05 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:55:05 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:55:04 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf' => 'W6Mjy4icEmzUvBklvK4rcD0S5SRJEPm83wbmuwtbQwX8vQiJZhca8fG2UYwPG6WR6kQ07c19J1X2OPm8sac4oA=='
+    'Generator' => [
+        'tableName' => 'AM_failQueue'
+        'modelClass' => 'AMFailQueue'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryClass' => 'AM_userQuery'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8f738c0da45117f9b4da2a1e9ededaee'
+    '_csrf' => 'b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"§+Bî‹%
+H©³µŽá×VÑÉ„mÞé)>ºü{¥\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'PHPSESSID=8f738c0da45117f9b4da2a1e9ededaee; _csrf=b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A7%1E%2BB%EE%8B%08%9D%25%0AH%A9%B3%B5%8E%E1%D7V%D1%C9%84m%DE%E9%29%3E%1F%07%BA%FC%7B%A5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.33.30:82'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '713'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.72.4'
+    'REMOTE_PORT' => '54513'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '713'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=model'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1530525304.74
+    'REQUEST_TIME' => 1530525304
+]
+2018-07-02 17:55:10 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-07-02 17:55:10 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-07-02 17:55:10 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-07-02 17:55:10 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-07-02 17:55:10 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-07-02 17:55:10 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-07-02 17:55:10 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'gii/default/view'
+2018-07-02 17:55:10 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: gii/default/view
+2018-07-02 17:55:10 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: yii\gii\controllers\DefaultController::actionView()
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'AM_failQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='AM_failQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT ns.nspname AS schema_name
+FROM pg_namespace ns
+WHERE ns.nspname != 'information_schema' AND ns.nspname NOT LIKE 'pg_%'
+ORDER BY ns.nspname
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT c.relname AS table_name
+FROM pg_class c
+INNER JOIN pg_namespace ns ON ns.oid = c.relnamespace
+WHERE ns.nspname = 'public' AND c.relkind IN ('r','v','m','f')
+ORDER BY c.relname
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'AM_failQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='AM_failQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'AM_user'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='AM_user'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'aaa'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='aaa'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogQueue'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogQueue'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogRecord'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogRecord'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    i.relname as indexname,
+    pg_get_indexdef(idx.indexrelid, k + 1, TRUE) AS columnname
+FROM (
+  SELECT *, generate_subscripts(indkey, 1) AS k
+  FROM pg_index
+) idx
+INNER JOIN pg_class i ON i.oid = idx.indexrelid
+INNER JOIN pg_class c ON c.oid = idx.indrelid
+INNER JOIN pg_namespace ns ON c.relnamespace = ns.oid
+WHERE idx.indisprimary = FALSE AND idx.indisunique = TRUE
+AND c.relname = 'AM_failQueue' AND ns.nspname = 'public'
+ORDER BY i.relname, k
+2018-07-02 17:55:10 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/generators/model/default/model.php
+2018-07-02 17:55:10 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/default/view.php
+2018-07-02 17:55:10 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/generators/model/form.php
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT c.relname AS table_name
+FROM pg_class c
+INNER JOIN pg_namespace ns ON ns.oid = c.relnamespace
+WHERE ns.nspname = 'public' AND c.relkind IN ('r','v','m','f')
+ORDER BY c.relname
+2018-07-02 17:55:10 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/default/view/results.php
+2018-07-02 17:55:10 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/layouts/generator.php
+2018-07-02 17:55:10 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2-gii/views/layouts/main.php
+2018-07-02 17:55:10 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:55:10 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-07-02 17:55:10 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf' => 'PiQqDVA2v4qC7xImaoKfC0HGy-BPXn2bT4v0gMMGFcKZOgFPvr23F6flWo_ZNxHqlpAaKcszo3JmteuHefpuZw=='
+    'Generator' => [
+        'tableName' => 'AM_failQueue'
+        'modelClass' => 'AMFailQueue'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryClass' => 'AM_userQuery'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'answers' => [
+        '94847ea8c2a9f2a1313785831724caf8' => '1'
+    ]
+    'generate' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8f738c0da45117f9b4da2a1e9ededaee'
+    '_csrf' => 'b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"§+Bî‹%
+H©³µŽá×VÑÉ„mÞé)>ºü{¥\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'PHPSESSID=8f738c0da45117f9b4da2a1e9ededaee; _csrf=b0803c26c45ce0f101f2964518733b92f062640be52e5f2f8a4c6dd4a3a343dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A7%1E%2BB%EE%8B%08%9D%25%0AH%A9%B3%B5%8E%E1%D7V%D1%C9%84m%DE%E9%29%3E%1F%07%BA%FC%7B%A5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.33.30:82'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '762'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.72.4'
+    'REMOTE_PORT' => '54513'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '762'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=model'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1530525309.9976
+    'REQUEST_TIME' => 1530525309
+]

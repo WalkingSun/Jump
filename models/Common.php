@@ -123,13 +123,11 @@ class Common
         $response = curl_exec($curl);
         $err = curl_error($curl);
 
-        curl_close($curl);
-        Common::addLog('sign.log',$response);
+        curl_close($curl);//Common::addLog('sign.log',$response);
         if ($err) {
             echo "cURL Error #:" . $err;
         } else {
-            preg_match_all("/Set-Cookie:(.*)\n/iU",$response,$str); //正则匹配
-//            print_r($str);die;
+            preg_match_all("/Set-Cookie:(.*)\n/iU",$response,$str); //正则匹配//            print_r($str);die;
             $result['cookie'] = isset($str[1]) ?$str[1]:''; ;
             preg_match("/{.+}/",$response,$str1);
             $result['response'] =  isset($str1) ?array_pop($str1):''; ;
