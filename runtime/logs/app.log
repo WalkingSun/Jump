@@ -3445,3 +3445,67 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1530525309.9976
     'REQUEST_TIME' => 1530525309
 ]
+2018-07-02 21:04:40 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: JSESSIONID_ahmobile in /app/space/Jump/commands/SignController.php:64
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): app\commands\SignController->actionIndex()
+#1 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array ()')
+#2 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('array ()')
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction(''index'', 'array ()')
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction(''index'', 'array ()')
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction(''sign/index'', 'array ()')
+#6 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction(''sign/index'', 'array ()')
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
+#8 /app/space/Jump/yii(20): yii\base\Application->run()
+#9 {main}
+2018-07-02 21:04:38 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1530536678.548
+    'REQUEST_TIME' => 1530536678
+    'argv' => [
+        0 => 'yii'
+        1 => 'sign/index'
+    ]
+    'argc' => 2
+]
+2018-07-02 21:05:29 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: JSESSIONID_ahmobile in /app/space/Jump/commands/SignController.php:64
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): app\commands\SignController->actionIndex()
+#1 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array ()')
+#2 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('array ()')
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction(''index'', 'array ()')
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction(''index'', 'array ()')
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction(''sign/index'', 'array ()')
+#6 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction(''sign/index'', 'array ()')
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
+#8 /app/space/Jump/yii(20): yii\base\Application->run()
+#9 {main}
+2018-07-02 21:05:29 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1530536728.7235
+    'REQUEST_TIME' => 1530536728
+    'argv' => [
+        0 => 'yii'
+        1 => 'sign/index'
+    ]
+    'argc' => 2
+]
