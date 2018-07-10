@@ -11,13 +11,13 @@ class MetaweblogController extends Controller
 {
     public $modelClass= 'app\models\JpBlogQueue';
 
-    public function actionIndex(){Common::addLog('error.log',1111111);
+    public function actionIndex(){
         $model = $this->modelClass;
         $modelBlogRecord = 'app\models\JpBlogRecord';
         $data = $model::find()->where(['publishStatus'=>0])->asArray()->all();
 
         $DB = new DB();
-        Common::addLog('error.log',$data);
+//        Common::addLog('error.log',$data);
 
         if( $data ){
             foreach ($data as $v){

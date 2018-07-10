@@ -1,0 +1,161 @@
+2018-07-07 22:21:11：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"今日已签到","data":null,"code":"0"}',
+)
+
+2018-07-07 22:21:13：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"今日已签到","data":null,"code":"0"}',
+)
+
+2018-07-07 22:21:14：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-07 22:21:44：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"今日已签到","data":null,"code":"0"}',
+)
+
+2018-07-07 22:21:45：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-07 22:27:02：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"今日已签到","data":null,"code":"0"}',
+)
+
+2018-07-07 22:27:03：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"今日已签到","data":null,"code":"0"}',
+)
+
+2018-07-07 22:27:04：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-07 22:30:02：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"今日已签到","data":null,"code":"0"}',
+)
+
+2018-07-07 22:30:07：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"今日已签到","data":null,"code":"0"}',
+)
+
+2018-07-07 22:30:07：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => NULL,
+)
+
+2018-07-07 22:30:08：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-07 22:30:08：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => NULL,
+)
+
+2018-07-07 22:30:09：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-08 16:00:05：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-08 16:00:12：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":8,"awardInfo":[{"awardType":2,"urlSsoFlag":0,"redirectType":4,"giftStatus":0,"loginFlag":0,"awardDesc":"1个福袋","redirectUrl":"http:\\/\\/act.ahydnet.com\\/activity\\/deploy\\/ah\\/lb\\/fd.html?fId=dbe1032ee94a484e97112dcf76928df86580"}],"needCheck":"您本月还需要签到&nbsp;<span>6天<\\/span>&nbsp;即可获得奖励","today":"7月08日","ckNum":1716927},"code":"0"}',
+)
+
+2018-07-08 16:00:16：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-09 16:00:05：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":4,"awardInfo":[],"needCheck":"您本月还需要签到&nbsp;<span>3天<\\/span>&nbsp;即可获得奖励","today":"7月09日","ckNum":1720240},"code":"0"}',
+)
+
+2018-07-09 16:00:06：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":9,"awardInfo":[],"needCheck":"您本月还需要签到&nbsp;<span>5天<\\/span>&nbsp;即可获得奖励","today":"7月09日","ckNum":1720252},"code":"0"}',
+)
+
+2018-07-09 16:00:07：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-10 16:00:03：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":5,"awardInfo":[],"needCheck":"您本月还需要签到&nbsp;<span>2天<\\/span>&nbsp;即可获得奖励","today":"7月10日","ckNum":1704622},"code":"0"}',
+)
+
+2018-07-10 16:00:04：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":10,"awardInfo":[{"awardType":2,"urlSsoFlag":0,"redirectType":4,"giftStatus":0,"loginFlag":0,"awardDesc":"1个福袋","redirectUrl":"http:\\/\\/act.ahydnet.com\\/activity\\/deploy\\/ah\\/lb\\/fd.html?fId=67ce5f28d72f408785edefc5c7fa0be08214"}],"needCheck":"您本月还需要签到&nbsp;<span>4天<\\/span>&nbsp;即可获得奖励","today":"7月10日","ckNum":1704641},"code":"0"}',
+)
+
+2018-07-10 16:00:05：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+

@@ -21,7 +21,7 @@ class SignController extends Controller
         $users = AMUser::find()->where(['isDelete'=>0])->asArray()->all() or exit();
         foreach ($users as $v){
             //签到
-            $signInfo = $this->sign( $v['mobile'],$v['userIn.userPasswd'],$v['imei'],$v['token'],$v['imsi'],$v['loginClass'] );
+            $signInfo = $this->sign( $v['mobile'],$v['userIn.userPasswd'],$v['imei'],$v['token'],$v['imsi'],$v['loginClass'],$v['clientVersion'] );
 
         }
 
@@ -31,7 +31,7 @@ class SignController extends Controller
     }
 
 
-    public function sign( $phone_no,$userPasswd,$imei,$token,$imsi,$loginClass  ){
+    public function sign( $phone_no,$userPasswd,$imei,$token,$imsi,$loginClass,$clientVersion  ){
 
         //app登录
         $loginUrl = "https://api.ahmobile.cn/eip?eip_serv_id=app.ssoLogin";
@@ -48,13 +48,13 @@ class SignController extends Controller
             'imei'  =>  $imei,
             'token' => $token,
             'userIn.phone_no'   =>  $phone_no,
-            'clientVersion'   =>  '5.1.4',
+            'clientVersion'   =>  $clientVersion?:'5.1.4',
             'paramType'   =>  '1',
             'type'   =>  '0',
             'imsi'   =>  $imsi,
             'msgFlag'   =>  0,
             'loginClass'   =>  $loginClass,
-        ];
+        ];//print_r($data);die;
         $loginInfo = Common::httpPostByCookie($loginUrl,'',$header,$data,$returnHeader=1);//        Common::addLog('sign.log',$loginInfo);print_r($loginInfo);die;
         $loginData = json_decode($loginInfo['response'],1);//print_r($loginData);die;
         $setcookie = $loginInfo['cookie'];
@@ -143,6 +143,8 @@ class SignController extends Controller
                 print_r($signInfo);
 
                 //todo 判断可领取奖励
+
+
 
                 //todo 签到成功发送用户邮件
 
