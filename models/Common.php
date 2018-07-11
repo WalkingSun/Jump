@@ -156,7 +156,7 @@ class Common
             CURLOPT_CUSTOMREQUEST => "GET",
             CURLOPT_HTTPHEADER => $header,
             CURLOPT_FOLLOWLOCATION =>  1,
-            CURLOPT_COOKIEJAR => \Yii::$app->basePath.'/cookie.txt',
+//            CURLOPT_COOKIEJAR => \Yii::$app->basePath.'/cookie.txt',
         );
         if($port) $dd[CURLOPT_PORT] = $port;
         if( $returnHeader ) $dd[CURLOPT_HEADER] = 1;   //返回头部信息

@@ -159,3 +159,24 @@
   'response' => '{Session:false}',
 )
 
+2018-07-11 16:00:11：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":6,"awardInfo":[],"needCheck":"您本月还需要签到&nbsp;<span>1天<\\/span>&nbsp;即可获得奖励","today":"7月11日","ckNum":1691566},"code":"0"}',
+)
+
+2018-07-11 16:00:12：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":11,"awardInfo":[{"awardType":2,"urlSsoFlag":0,"redirectType":4,"giftStatus":0,"loginFlag":0,"awardDesc":"1个福袋","redirectUrl":"http:\\/\\/act.ahydnet.com\\/activity\\/deploy\\/ah\\/lb\\/fd.html?fId=bbd87391f0754bd4a7895b2ef5fb17c29308"}],"needCheck":"您本月还需要签到&nbsp;<span>3天<\\/span>&nbsp;即可获得奖励","today":"7月11日","ckNum":1691586},"code":"0"}',
+)
+
+2018-07-11 16:00:13：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
