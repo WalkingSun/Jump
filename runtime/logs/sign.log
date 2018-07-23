@@ -180,3 +180,225 @@
   'response' => '{Session:false}',
 )
 
+2018-07-12 16:00:06：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-12 16:00:07：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":12,"awardInfo":[],"needCheck":"您本月还需要签到&nbsp;<span>2天<\\/span>&nbsp;即可获得奖励","today":"7月12日","ckNum":1684976},"code":"0"}',
+)
+
+2018-07-12 16:00:08：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-13 14:00:04：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-13 14:00:06：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":13,"awardInfo":[{"awardType":2,"urlSsoFlag":0,"redirectType":4,"giftStatus":0,"loginFlag":0,"awardDesc":"1个福袋","redirectUrl":"http:\\/\\/act.ahydnet.com\\/activity\\/deploy\\/ah\\/lb\\/fd.html?fId=dc04b386be75423eb046769983df4efe4357"}],"needCheck":"您本月还需要签到&nbsp;<span>1天<\\/span>&nbsp;即可获得奖励","today":"7月13日","ckNum":1588541},"code":"0"}',
+)
+
+2018-07-13 14:00:08：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-14 14:00:03：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-14 14:00:04：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":14,"awardInfo":[{"awardType":0,"urlSsoFlag":0,"redirectType":3,"giftStatus":0,"loginFlag":0,"awardDesc":"80M流量红包","redirectUrl":"S_LJZX"},{"awardType":2,"urlSsoFlag":0,"redirectType":4,"giftStatus":0,"loginFlag":0,"awardDesc":"1个福袋","redirectUrl":"http:\\/\\/act.ahydnet.com\\/activity\\/deploy\\/ah\\/lb\\/fd.html?fId=fc72997a2cca443bbfedc45715d03d843941"}],"needCheck":"您本月还需要签到&nbsp;<span>7天<\\/span>&nbsp;即可获得奖励","today":"7月14日","ckNum":1574881},"code":"0"}',
+)
+
+2018-07-14 14:00:05：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-16 14:00:04：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-16 14:00:05：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":15,"awardInfo":[{"awardType":2,"urlSsoFlag":0,"redirectType":4,"giftStatus":0,"loginFlag":0,"awardDesc":"1个福袋","redirectUrl":"http:\\/\\/act.ahydnet.com\\/activity\\/deploy\\/ah\\/lb\\/fd.html?fId=68375902876f43a393d274a6f6d311ff1230"}],"needCheck":"您本月还需要签到&nbsp;<span>6天<\\/span>&nbsp;即可获得奖励","today":"7月16日","ckNum":1532225},"code":"0"}',
+)
+
+2018-07-16 14:00:06：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-17 14:00:03：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-17 14:00:04：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":16,"awardInfo":[],"needCheck":"您本月还需要签到&nbsp;<span>5天<\\/span>&nbsp;即可获得奖励","today":"7月17日","ckNum":1560678},"code":"0"}',
+)
+
+2018-07-17 14:00:06：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-18 14:00:03：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-18 14:00:04：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":17,"awardInfo":[],"needCheck":"您本月还需要签到&nbsp;<span>4天<\\/span>&nbsp;即可获得奖励","today":"7月18日","ckNum":1555506},"code":"0"}',
+)
+
+2018-07-18 14:00:05：array (
+  'cookie' => 
+  array (
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-19 14:00:04：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_04',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-19 14:00:05：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_03',
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":18,"awardInfo":[],"needCheck":"您本月还需要签到&nbsp;<span>3天<\\/span>&nbsp;即可获得奖励","today":"7月19日","ckNum":982419},"code":"0"}',
+)
+
+2018-07-19 14:00:07：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_06',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-19 20:00:04：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_03',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-19 20:00:05：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_01',
+  ),
+  'response' => '{"message":"今日已签到","data":null,"code":"0"}',
+)
+
+2018-07-19 20:00:06：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_01',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-23 14:00:03：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_01',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-23 14:00:05：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_03',
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":19,"awardInfo":[{"awardType":2,"urlSsoFlag":0,"redirectType":4,"giftStatus":0,"loginFlag":0,"awardDesc":"1个福袋","redirectUrl":"http:\\/\\/act.ahydnet.com\\/activity\\/deploy\\/ah\\/lb\\/fd.html?fId=fbc9324f62d24cbf99c5f7ec02b004593685"}],"needCheck":"您本月还需要签到&nbsp;<span>2天<\\/span>&nbsp;即可获得奖励","today":"7月23日","ckNum":1135837},"code":"0"}',
+)
+
+2018-07-23 14:00:05：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_05',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-23 20:00:09：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_05',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-23 20:00:10：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_02',
+  ),
+  'response' => '{"message":"今日已签到","data":null,"code":"0"}',
+)
+
+2018-07-23 20:00:22：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_02',
+  ),
+  'response' => '{Session:false}',
+)
+

@@ -25,7 +25,9 @@
         "deepziyu/yii-fast-api": "*",
         "php-amqplib/php-amqplib": "2.6.*",
         "pyurin/yii2-redis-ha": "^1.1",
-        "vlucas/phpdotenv": "^2.4"
+        "vlucas/phpdotenv": "^2.4",
+        "guzzlehttp/guzzle": "^6.3",
+        "league/csv": "^9.1"
     },
 
     "require-dev": {
@@ -60,6 +62,12 @@
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
         }
     }
 }
