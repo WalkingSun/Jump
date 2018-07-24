@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0536f1b7-3fbb-4e09-82fd-3d643c64fbb6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/commands/ScanController.php" afterPath="$PROJECT_DIR$/commands/ScanController.php" />
-      <change beforePath="$PROJECT_DIR$/commands/url.csv" afterPath="$PROJECT_DIR$/commands/url.csv" />
-      <change beforePath="$PROJECT_DIR$/runtime/logs/app.log" afterPath="$PROJECT_DIR$/runtime/logs/app.log" />
-      <change beforePath="$PROJECT_DIR$/runtime/logs/sign.log" afterPath="$PROJECT_DIR$/runtime/logs/sign.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,8 +66,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="144">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -275,12 +272,12 @@
         <option value="$PROJECT_DIR$/public.sql" />
         <option value="$PROJECT_DIR$/models/Common.php" />
         <option value="$PROJECT_DIR$/config/urlmanage.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web/markdown/猴子选大王【PHP】.md" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/commands/url.csv" />
         <option value="$PROJECT_DIR$/commands/ScanController.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -496,7 +493,7 @@
       <workItem from="1532337093441" duration="2836000" />
       <workItem from="1532347081197" duration="5282000" />
       <workItem from="1532396588171" duration="23000" />
-      <workItem from="1532417550858" duration="3086000" />
+      <workItem from="1532417550858" duration="3244000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1528354923483</created>
@@ -621,7 +618,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153173000" />
+    <option name="totallyTimeSpent" value="153331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -1110,8 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="144">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
