@@ -34,23 +34,14 @@ class ScanController  extends Controller
         $client = new \GuzzleHttp\Client();
 
         //打开并迭代处理CSV 参考文档 https://csv.thephpleague.com/9.0/
-//        $csv = \League\Csv\Reader::createFromPath(\Yii::$app->basePath.'/'.$this->argv);
         $csv = Reader::createFromPath(\Yii::$app->basePath.'/commands/'.$this->argv, 'r');
         $csv->setHeaderOffset(0);
+        $records = $csv->getRecords();//print_r($records);die;
+        foreach ($records as $offset => $record) {
 
-        //get 25 records starting from the 11th row
-        $stmt = (new Statement())
-//            ->offset(10)
-//            ->limit(25)
-        ;
-
-        $records = $stmt->process($csv);
-//        print_r($records);die;
-//        $csv = new \League\Csv\Reader($argv[1]);
-        foreach ($records->getHeader() as $record){
             try{
                 //发送HTTP OPTIONS请求
-                $httpResponse = $client->options($record[0]);
+                $httpResponse = $client->request('GET', $url = $record['url']);
 
                 //检查HTTP响应的状态码
                 if( $httpResponse->getStatusCode() >= 400){
@@ -58,9 +49,9 @@ class ScanController  extends Controller
                 }
             }catch(\Exception $e){
                 //把死链发给标准输出
-                echo $record[0] . PHP_EOL;
+                echo $url . PHP_EOL;
             }
-        }
 
+        }
     }
 }

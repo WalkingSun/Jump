@@ -402,3 +402,27 @@
   'response' => '{Session:false}',
 )
 
+2018-07-24 14:00:05：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_01',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-24 14:00:07：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_05',
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":20,"awardInfo":[{"awardType":2,"urlSsoFlag":0,"redirectType":4,"giftStatus":0,"loginFlag":0,"awardDesc":"1个福袋","redirectUrl":"http:\\/\\/act.ahydnet.com\\/activity\\/deploy\\/ah\\/lb\\/fd.html?fId=e3d6d425189143a8ab023761bea104962867"}],"needCheck":"您本月还需要签到&nbsp;<span>1天<\\/span>&nbsp;即可获得奖励","today":"7月24日","ckNum":1019561},"code":"0"}',
+)
+
+2018-07-24 14:00:08：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_06',
+  ),
+  'response' => '{Session:false}',
+)
+

@@ -13140,3 +13140,108 @@ Stack trace:
     ]
     'argc' => 3
 ]
+2018-07-24 16:13:44 [-][-][-][error][League\Csv\Exception] League\Csv\Exception: The header record does not exist or is empty at offset: `2` in /app/space/Jump/vendor/league/csv/src/Reader.php:119
+Stack trace:
+#0 /app/space/Jump/vendor/league/csv/src/Reader.php(101): League\Csv\Reader->setHeader(2)
+#1 /app/space/Jump/commands/ScanController.php(41): League\Csv\Reader->getHeader()
+#2 [internal function]: app\commands\ScanController->actionIndex()
+#3 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('index', Array)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('index', Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('scan/index', Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('scan/index', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /app/space/Jump/yii(20): yii\base\Application->run()
+#11 {main}
+2018-07-24 16:13:44 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1532420024.2355
+    'REQUEST_TIME' => 1532420024
+    'argv' => [
+        0 => './yii'
+        1 => 'scan/index'
+        2 => '--argv=url.csv'
+    ]
+    'argc' => 3
+]
+2018-07-24 16:16:42 [-][-][-][error][League\Csv\Exception] League\Csv\Exception: The header record must be empty or a flat array with unique string values in /app/space/Jump/vendor/league/csv/src/Reader.php:277
+Stack trace:
+#0 /app/space/Jump/vendor/league/csv/src/Reader.php(240): League\Csv\Reader->computeHeader(Array)
+#1 /app/space/Jump/commands/ScanController.php(42): League\Csv\Reader->getRecords()
+#2 [internal function]: app\commands\ScanController->actionIndex()
+#3 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('index', Array)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('index', Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('scan/index', Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('scan/index', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /app/space/Jump/yii(20): yii\base\Application->run()
+#11 {main}
+2018-07-24 16:16:41 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1532420201.6811
+    'REQUEST_TIME' => 1532420201
+    'argv' => [
+        0 => './yii'
+        1 => 'scan/index'
+        2 => '--argv=url.csv'
+    ]
+    'argc' => 3
+]
+2018-07-24 16:19:15 [-][-][-][error][League\Csv\Exception] League\Csv\Exception: The header record must be empty or a flat array with unique string values in /app/space/Jump/vendor/league/csv/src/Reader.php:277
+Stack trace:
+#0 /app/space/Jump/vendor/league/csv/src/Reader.php(240): League\Csv\Reader->computeHeader(Array)
+#1 /app/space/Jump/commands/ScanController.php(42): League\Csv\Reader->getRecords()
+#2 [internal function]: app\commands\ScanController->actionIndex()
+#3 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('index', Array)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('index', Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('scan/index', Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('scan/index', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /app/space/Jump/yii(20): yii\base\Application->run()
+#11 {main}
+2018-07-24 16:19:15 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1532420355.3122
+    'REQUEST_TIME' => 1532420355
+    'argv' => [
+        0 => './yii'
+        1 => 'scan/index'
+        2 => '--argv=url.csv'
+    ]
+    'argc' => 3
+]
