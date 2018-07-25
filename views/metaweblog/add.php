@@ -37,6 +37,14 @@
                 <span class="glyphicon glyphicon-asterisk star"></span>
                 <label class="explain">请输入url地址</label>
             </div>
+            <div class="form-group form-group-sm">
+                <label class="control-label col-md-1">cnblogs分类</label>
+                <div class="col-md-3">
+                    <input class="form-control input-lg" type="text" name="cnblogsType" value="" placeholder="请选择分类">
+                </div>
+                <span class="glyphicon glyphicon-asterisk star"></span>
+                <label class="explain">请输入url地址</label>
+            </div>
         </form>
 
         <div class="form-group form-group-sm" style="margin-top: 30px;">

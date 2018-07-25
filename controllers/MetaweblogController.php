@@ -108,6 +108,18 @@ class MetaweblogController extends Controller
     }
 
     public function actionAdd(){
+
+        //查询分类
+        $blogName = Common::blogParamName(6);
+        $blogid = \Yii::$app->params[$blogName]['blogid'];
+        $blogMetaweblogUrl = Common::MetaweblogUrl(6,$blogid);
+        $target = new MetaWeblog( $blogMetaweblogUrl );
+        $username = \Yii::$app->params[$blogName]['username'];
+        $passwd = \Yii::$app->params[$blogName]['password'];
+        $target->setAuth( $username,$passwd );
+        $Categories = $target->getCategories(\Yii::$app->params[$blogName]['blogid']);
+//        print_r($types);die;
+
         $model = $this->modelClass;
         $d = $this->data;
 
@@ -130,7 +142,7 @@ class MetaweblogController extends Controller
             Common::echoJson('200','添加成功');
         }
 
-        return $this->render('add');
+        return $this->render('add',['Categories'=>$Categories]);
     }
 
     public function actionDel(){

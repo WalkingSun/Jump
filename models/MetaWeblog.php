@@ -216,6 +216,34 @@ EOT;
 EOT;
     }
 
+    private function buildXMLCategories( ){
+        $this->xml = <<<EOD
+<?xml version="1.0" encoding="{$this->charset}"?>
+<methodCall>
+<methodName>{$this->method}</methodName>
+<params>
+    <param>
+        <value>
+        <string>{$this->blog_id}</string>
+        </value>
+    </param>
+    <param>
+        <value>
+        <string>{$this->username}</string>
+        </value>
+    </param>
+    <param>
+        <value>
+        <string>{$this->passwd}</string>
+        </value>
+    </param>
+EOD;
+        $this->xml .= <<<EOT
+
+</params></methodCall>
+EOT;
+    }
+
     private function buildBody( $params ){
         $xml = <<<EOD
 
@@ -280,6 +308,38 @@ EOD;
 
 
     }
+
+    /**
+     * 获取博客分类
+     */
+    public function getCategories( $blog_id='',$is_csdn = false ){
+        $this->method = "metaWeblog.getCategories";
+        if($blog_id) $this->blog_id = $blog_id;
+        if( $is_csdn ){//csdn要特殊处理下
+            $this->blog_id = 895030;
+        }
+        $this->buildXMLCategories(  );
+//        print_r($this->xml);die;
+        $res_xml = $this->doPost();
+        if( !$res_xml ){
+            $this->error = new MetaWeblog_Error(-32700, 'response is empty');
+            return false;
+        }
+        $this->metaweblog_response = new MetaWeblog_Message( $res_xml );
+
+        if( !$this->metaweblog_response->parse() ){
+            $this->error = new MetaWeblog_Error(-32700, 'parse error. not well formed');
+            return false;
+        }
+
+        if ($this->metaweblog_response->messageType == 'fault') {
+            $this->error = new MetaWeblog_Error($this->metaweblog_response->faultCode, $this->metaweblog_response->faultString);
+            return false;
+        }
+
+        return $this->metaweblog_response->params;
+    }
+
 }
 
 

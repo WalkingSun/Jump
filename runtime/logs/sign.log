@@ -426,3 +426,51 @@
   'response' => '{Session:false}',
 )
 
+2018-07-25 14:00:03：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_05',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-25 14:00:26：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_04',
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":21,"awardInfo":[{"awardType":0,"urlSsoFlag":0,"redirectType":3,"giftStatus":0,"loginFlag":0,"awardDesc":"140M流量红包","redirectUrl":"S_LJZX"},{"awardType":2,"urlSsoFlag":0,"redirectType":4,"giftStatus":0,"loginFlag":0,"awardDesc":"1个福袋","redirectUrl":"http:\\/\\/act.ahydnet.com\\/activity\\/deploy\\/ah\\/lb\\/fd.html?fId=5fe9a0860dd24d1cbe676572b2aa590e9235"}],"needCheck":"感谢您一直以来对安徽移动的支持","today":"7月25日","ckNum":903569},"code":"0"}',
+)
+
+2018-07-25 14:00:29：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_03',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-25 22:30:37：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_02',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-25 22:30:38：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_03',
+  ),
+  'response' => '{"message":"今日已签到","data":null,"code":"0"}',
+)
+
+2018-07-25 22:30:39：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_03',
+  ),
+  'response' => '{Session:false}',
+)
+
