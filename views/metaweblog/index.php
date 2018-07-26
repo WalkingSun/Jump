@@ -44,6 +44,7 @@
             <th  scope="col">内容</th>
             <th  scope="col">mark文件</th>
             <th scope="col">cnblogs博客id</th>
+            <th scope="col">cnblogs博客分类</th>
             <th scope="col" >创建时间</th>
             <th  scope="col">操作</th>
         </tr>
@@ -57,6 +58,7 @@
             <td ><?=$v['content']?:'--';?></td>
             <td ><?=$v['fileurl'];?></td>
             <td ><?=$v['cnblogsId'];?></td>
+            <td ><?=$v['cnblogsType'];?></td>
             <td ><?=$v['createtime'];?></td>
             <td >
                 <a href="javascript:checkQueue('<?=$v['id'];?>')"> 查看队列</a>
@@ -91,7 +93,7 @@
         var url = '<?php echo \yii\helpers\Url::to(['metaweblog/queue'])?>&type='+type;
        $.post(url,{blogId:blogId,action:type},function (r) {
              if(r.code==200){
-                 alert(r.msg);
+                 // alert(r.msg);
              }  else{
                  alert(r.msg);
              }

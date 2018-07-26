@@ -2,7 +2,11 @@
 
 
 ?>
-
+<style>
+    .checkboxs{
+        margin: 20px 15px 0px 0px;
+    }
+</style>
 <body ng-app="App" ng-controller="mainController" class="ng-scope">
 <div class="cat_add">
     <div class="cat_add_header">
@@ -37,14 +41,23 @@
                 <span class="glyphicon glyphicon-asterisk star"></span>
                 <label class="explain">请输入url地址</label>
             </div>
-            <div class="form-group form-group-sm">
+
+            <div class="field-record-is_valid">
                 <label class="control-label col-md-1">cnblogs分类</label>
-                <div class="col-md-3">
-                    <input class="form-control input-lg" type="text" name="cnblogsType" value="" placeholder="请选择分类">
+                <div class="checkbox">
+
+                        <?php
+                        foreach ($Categories as $v){
+                            echo '<label class="checkboxs"><input type="checkbox" value="'.$v['title'].'" name="cnblogsType[]" > '.$v['title'].' </label>';
+                        }
+                        ?>
+
+
+                    <p class="help-block help-block-error"></p>
+
                 </div>
-                <span class="glyphicon glyphicon-asterisk star"></span>
-                <label class="explain">请输入url地址</label>
             </div>
+
         </form>
 
         <div class="form-group form-group-sm" style="margin-top: 30px;">

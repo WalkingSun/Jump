@@ -29,13 +29,14 @@ class MetaWeblog {
         'User-Agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Windows Live Writer 1.0)',
     ];
 
+    use BlogCategoreis;         //性状
 
 	/**
 	 * MetaWeblog constructor.
 	 * @param $url api地址
 	 * @param string $charset
 	 */
-    public function __construct( $url,$charset = "utf-8" ){
+    public function __construct( $url='',$charset = "utf-8" ){
         $this->url = $url;
         $this->charset = $charset;
     }

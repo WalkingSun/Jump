@@ -27,6 +27,112 @@ class MetaweblogController extends Controller
         $this->data = array_merge(\Yii::$app->request->get(),\Yii::$app->request->post());
     }
 
+    public function actionIndex(){
+        $d = $this->data;
+        $model =$this->modelClass;
+
+        $filter = ['isDelete'=>0];
+        $offset = !empty($d['page']) ? $d['page']:1;
+        $limit = !empty($d['size']) ? $d['size']:20;
+        $orderType = ['createtime'=>SORT_DESC];
+        $this->result = $model::getList($cols = array(), $filter , $offset , $limit , $andWhere='', $orWhere='', $orderType ,$andWhereArray = []);
+        return $this->render('index',['result'=>$this->result]);
+    }
+
+    public function actionQueue(){
+        $d = $this->data;
+        $model = 'app\models\JpBlogQueue';
+
+        $DB = new DB();
+        $data = [
+            'blogId'    => $d['blogId'],
+            'action'    => $d['action'],
+            'publishStatus'    => '0',
+            'response'    => '',
+            'createtime'    => date('Y-m-d'),
+            'updatetime'    => date('Y-m-d'),
+            'blogType'=> 6
+        ];
+        $DB->insert($model::tableName(),$data);
+
+        echo json_encode(['code'=>200,'msg'=>'添加成功']);
+    }
+
+    public function actionAdd(){
+
+        //查询分类
+        $MetaWeblog = new MetaWeblog();
+        $blogName = Common::blogParamName(6);
+        $Categories = $MetaWeblog->get($blogName);
+        $model = $this->modelClass;
+        $d = $this->data;
+
+        if( !empty($d['edit']) ){
+            $insertData['title'] = !empty($d['title']) ? $d['title']:Common::echoJson(403,'请输入标题');
+            $insertData['content'] = !empty($d['content']) ? $d['content']:'';
+            $insertData['fileurl'] = !empty($d['fileurl']) ? $d['fileurl']:'';
+            if(  !$insertData['content'] && !$insertData['fileurl']  ) Common::echoJson(403,'请输入博客内容');
+
+            $insertData['cnblogsId'] = '';
+            $insertData['51ctoId'] = '';
+            $insertData['sinaId'] = '';
+            $insertData['csdnId'] = '';
+            $insertData['163Id'] = '';
+            $insertData['oschinaId'] = '';
+            $insertData['chinaunixId'] = '';
+            $insertData['createtime'] = date('Y-m-d');
+            $insertData['cnblogsType'] = !empty($d['cnblogsType']) ? implode(",",$d['cnblogsType']):'';
+            $DB = new DB();
+            $DB->insert($model::tableName(),$insertData);
+            Common::echoJson('200','添加成功');
+        }
+
+        return $this->render('add',['Categories'=>$Categories[0]]);
+    }
+
+    public function actionDel(){
+        $d = $this->data;
+        $model = $this->modelClass;
+
+        $id = !empty($d['blogId'])?$d['blogId']:Common::echoJson(403,'id缺失');
+
+        $blog = $model::find()->where(['id'=>$id])->asArray()->one() or Common::echoJson(404,'记录不存在或已删除');
+
+        $DB = new DB();
+        $DB->update($model::tableName(),['isDelete'=>1],['id'=>$id]);
+        Common::echoJson(200,'操作成功');
+    }
+
+    //查看队列
+    public function actionCheckqueue(){
+        $this->layout = false;
+        $d = $this->data;
+        $model = 'app\models\JpBlogQueue';
+
+        $result = [];
+        if( $d['blogid'] ){
+
+            $result = $model::find()->where(['blogId'=>$d['blogid']])->asArray()->all();
+
+        }
+
+        return $this->render('checkqueue',['result'=>$result]);
+    }
+
+    //更新队列
+    public function actionUpdatequeue(){
+        $this->layout = false;
+        $d = $this->data;
+        $model = 'app\models\JpBlogQueue';
+        if( !$d['queueid'] ){
+            Common::echoJson(403,'参数缺失');
+        }
+
+        $DB = new DB();
+        $DB->update($model::tableName(),['publishStatus'=>0],['queueId'=>$d['queueid']]);
+        Common::echoJson(200,'添加成功！');
+    }
+
     /**
      *各大博客MetaWeblog地址
     http://imguowei.blog.51cto.com/xmlrpc.php	51cto
@@ -74,117 +180,5 @@ class MetaweblogController extends Controller
 
 
 
-    }
-
-    public function actionIndex(){
-        $d = $this->data;
-        $model =$this->modelClass;
-
-        $filter = ['isDelete'=>0];
-        $offset = !empty($d['page']) ? $d['page']:1;
-        $limit = !empty($d['size']) ? $d['size']:20;
-        $orderType = ['createtime'=>SORT_DESC];
-        $this->result = $model::getList($cols = array(), $filter , $offset , $limit , $andWhere='', $orWhere='', $orderType ,$andWhereArray = []);
-        return $this->render('index',['result'=>$this->result]);
-    }
-
-    public function actionQueue(){
-        $d = $this->data;
-        $model = 'app\models\JpBlogQueue';
-
-        $DB = new DB();
-        $data = [
-            'blogId'    => $d['blogId'],
-            'action'    => $d['action'],
-            'publishStatus'    => '0',
-            'response'    => '',
-            'createtime'    => date('Y-m-d'),
-            'updatetime'    => date('Y-m-d'),
-            'blogType'=> 6
-        ];
-        $DB->insert($model::tableName(),$data);
-
-        echo json_encode(['code'=>200,'msg'=>'添加成功']);
-    }
-
-    public function actionAdd(){
-
-        //查询分类
-        $blogName = Common::blogParamName(6);
-        $blogid = \Yii::$app->params[$blogName]['blogid'];
-        $blogMetaweblogUrl = Common::MetaweblogUrl(6,$blogid);
-        $target = new MetaWeblog( $blogMetaweblogUrl );
-        $username = \Yii::$app->params[$blogName]['username'];
-        $passwd = \Yii::$app->params[$blogName]['password'];
-        $target->setAuth( $username,$passwd );
-        $Categories = $target->getCategories(\Yii::$app->params[$blogName]['blogid']);
-//        print_r($types);die;
-
-        $model = $this->modelClass;
-        $d = $this->data;
-
-        if( !empty($d['edit']) ){
-            $insertData['title'] = !empty($d['title']) ? $d['title']:Common::echoJson(403,'请输入标题');
-            $insertData['content'] = !empty($d['content']) ? $d['content']:'';
-            $insertData['fileurl'] = !empty($d['fileurl']) ? $d['fileurl']:'';
-            if(  !$insertData['content'] && !$insertData['fileurl']  ) Common::echoJson(403,'请输入博客内容');
-
-            $insertData['cnblogsId'] = '';
-            $insertData['51ctoId'] = '';
-            $insertData['sinaId'] = '';
-            $insertData['csdnId'] = '';
-            $insertData['163Id'] = '';
-            $insertData['oschinaId'] = '';
-            $insertData['chinaunixId'] = '';
-            $insertData['createtime'] = date('Y-m-d');
-            $DB = new DB();
-            $DB->insert($model::tableName(),$insertData);
-            Common::echoJson('200','添加成功');
-        }
-
-        return $this->render('add',['Categories'=>$Categories]);
-    }
-
-    public function actionDel(){
-        $d = $this->data;
-        $model = $this->modelClass;
-
-        $id = !empty($d['blogId'])?$d['blogId']:Common::echoJson(403,'id缺失');
-
-        $blog = $model::find()->where(['id'=>$id])->asArray()->one() or Common::echoJson(404,'记录不存在或已删除');
-
-        $DB = new DB();
-        $DB->update($model::tableName(),['isDelete'=>1],['id'=>$id]);
-        Common::echoJson(200,'操作成功');
-    }
-
-    //查看队列
-    public function actionCheckqueue(){
-        $this->layout = false;
-        $d = $this->data;
-        $model = 'app\models\JpBlogQueue';
-
-        $result = [];
-        if( $d['blogid'] ){
-
-            $result = $model::find()->where(['blogId'=>$d['blogid']])->asArray()->all();
-
-        }
-
-        return $this->render('checkqueue',['result'=>$result]);
-    }
-
-    //更新队列
-    public function actionUpdatequeue(){
-        $this->layout = false;
-        $d = $this->data;
-        $model = 'app\models\JpBlogQueue';
-        if( !$d['queueid'] ){
-            Common::echoJson(403,'参数缺失');
-        }
-
-        $DB = new DB();
-        $DB->update($model::tableName(),['publishStatus'=>0],['queueId'=>$d['queueid']]);
-        Common::echoJson(200,'添加成功！');
     }
 }

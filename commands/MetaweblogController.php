@@ -71,10 +71,11 @@ class MetaweblogController extends Controller
         $content = str_replace("'",'&apos;',$content);
         $content = str_replace(">",'&gt;',$content);
         $content = str_replace("<",'&lt;',$content);
+        $categories = $blog['cnblogsType']? explode(',',$blog['cnblogsType']) : [ '[Markdown]' ];
         $params = [
             'title'=> $blog['title'],
             'description'=> $content,
-            'categories'=> [ '[Markdown]' ]               //编辑器格式
+            'categories'=> $categories            //编辑器格式+分类
         ];
         if( !$blogIteam ){
             if( $target->newPost( $params ) ){

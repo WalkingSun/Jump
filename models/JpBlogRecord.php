@@ -39,7 +39,7 @@ class JpBlogRecord extends Basic
             [['id'], 'required'],
             [['id', 'isDelete'], 'integer'],
             [['createtime'], 'safe'],
-            [['title', 'fileurl'], 'string', 'max' => 255],
+            [['title', 'fileurl','cnblogsType'], 'string', 'max' => 255],
             [['content'], 'string', 'max' => 8000],
             [['cnblogId', '51ctoId', 'sinaId', 'csdnId', '163Id', 'oschinaId', 'chinaunixId'], 'string', 'max' => 32],
         ];
@@ -64,6 +64,7 @@ class JpBlogRecord extends Basic
             'chinaunixId' => 'Chinaunix ID',
             'createtime' => 'Createtime',
             'isDelete' => 'Is Delete',
+            'cnblogsType' => 'cnblogsType',
         ];
     }
 }
