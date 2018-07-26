@@ -90,6 +90,32 @@ class MetaweblogController extends Controller
         return $this->render('add',['Categories'=>$Categories[0]]);
     }
 
+    public function actionEdit(){
+        $d = $this->data;
+        if( empty($d['blogId']) ) Common::echoJson(403,'参数错误');
+
+        //查询分类
+        $MetaWeblog = new MetaWeblog();
+        $blogName = Common::blogParamName(6);
+        $Categories = $MetaWeblog->get($blogName);
+        $model = $this->modelClass;
+
+        $record = $model::find()->where(['id'=> $d['blogId']])->asArray()->one();
+        if( !empty($d['edit']) ){
+            $filter = ['id'=>$record['id']];
+            $upData['title'] = !empty($d['title']) ? $d['title']:Common::echoJson(403,'请输入标题');
+            $upData['content'] = !empty($d['content']) ? $d['content']:'';
+            $upData['fileurl'] = !empty($d['fileurl']) ? $d['fileurl']:'';
+            if(  !$upData['content'] && !$upData['fileurl']  ) Common::echoJson(403,'请输入博客内容');
+            $upData['cnblogsType'] = !empty($d['cnblogsType']) ? implode(",",$d['cnblogsType']):'';
+            $DB = new DB();
+            $DB->update($model::tableName(),$upData,$filter);
+            Common::echoJson('200','添加成功');
+        }
+
+        return $this->render('edit',['Categories'=>$Categories[0],'record'=>$record]);
+    }
+
     public function actionDel(){
         $d = $this->data;
         $model = $this->modelClass;

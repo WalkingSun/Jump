@@ -2,78 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0536f1b7-3fbb-4e09-82fd-3d643c64fbb6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/models/BlogCategoreis.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/cache/ju/jumpfollowyou.bin" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59377e1ebd2.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59377e9f1b8.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59377eb0fdf.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5937febfe2a.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59382a8808a.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59385f39aa8.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593868af38f.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59388cc2477.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5938de05fe7.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5938ee4920e.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593937c6564.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5939426b1df.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593944e4eea.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593976eb31a.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5939a0c1018.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5939c4bf432.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5939c70465b.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5939cac273f.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593a0d9b2f5.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593a28e7740.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593a431c53e.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593a46e1b5b.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593b0885480.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593b0c81f9f.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593b11038a9.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593b1912e81.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593b1e38085.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593b2231294.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593b3f51ecc.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593b430cd6e.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593b467717b.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593b4b10320.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593b65821ad.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593b692cc2f.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593bbc68b0b.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593bc123ad7.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593c25c61c8.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593c2879f64.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593c6ea8b8e.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593cb90140c.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593cc3222d1.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593d0e37295.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593d2389ea5.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593d2644564.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593d2a545fa.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593d70bdeed.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593d72ad122.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593d7c7bc1a.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593d7f903a0.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593dad8815a.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593ef2c91f4.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593ef72f0bb.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593efae06fa.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593f0453325.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593f0662db5.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593f5068d09.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b593f559176e.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59411a66fb2.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5941694c9a7.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5941784ddc7.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b594183219bd.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b594189c4fff.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5942097a282.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b595f5a37b71.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5961a47609b.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5961aa86f41.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5961c658f07.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5961d8addbc.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5961ee5a8f6.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59637e4f992.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5963f4d121e.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5964009af0a.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b596421c981c.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5964283d563.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b596437df112.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5964f735717.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59650166e35.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b596504b6841.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59653cb0d2c.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59654c8a05d.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59658dae7ef.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5965b0ad943.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5965f36afd3.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59661b50fa5.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59661e2546d.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5966969843f.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59669783298.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b59669f7ddb5.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5966c51306a.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5966c7634a9.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5966ceac336.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5966d611dad.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5966f3ed0b8.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b5966f7e6ee6.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/metaweblog/edit.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/commands/MetaweblogController.php" afterPath="$PROJECT_DIR$/commands/MetaweblogController.php" />
-      <change beforePath="$PROJECT_DIR$/config/web.php" afterPath="$PROJECT_DIR$/config/web.php" />
       <change beforePath="$PROJECT_DIR$/controllers/MetaweblogController.php" afterPath="$PROJECT_DIR$/controllers/MetaweblogController.php" />
-      <change beforePath="$PROJECT_DIR$/models/JpBlogRecord.php" afterPath="$PROJECT_DIR$/models/JpBlogRecord.php" />
-      <change beforePath="$PROJECT_DIR$/models/MetaWeblog.php" afterPath="$PROJECT_DIR$/models/MetaWeblog.php" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b4ff2fb3fb0e.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b4ff2fe058b0.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b4ff338bda69.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b4ff33ae0546.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b4ff33f87cd4.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b4ff34fbb4b5.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b4ff3525d06c.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b4ff35640461.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b4ff35bb53c2.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b4ff35fe1b3f.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b4ff360b76f1.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b4ff36ee0126.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b4ff386b038b.data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/runtime/debug/5b4ff38c15a22.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/ju/jumpfollowyou.bin" afterPath="$PROJECT_DIR$/runtime/cache/ju/jumpfollowyou.bin" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b59377e1ebd2.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b59377e9f1b8.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b59377eb0fdf.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b5937febfe2a.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b59382a8808a.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b59385f39aa8.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593868af38f.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b59388cc2477.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b5938de05fe7.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b5938ee4920e.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593937c6564.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b5939426b1df.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593944e4eea.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593976eb31a.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b5939a0c1018.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b5939c4bf432.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b5939c70465b.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b5939cac273f.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593a0d9b2f5.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593a28e7740.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593a431c53e.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593a46e1b5b.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593b0885480.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593b0c81f9f.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593b11038a9.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593b1912e81.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593b1e38085.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593b2231294.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593b3f51ecc.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593b430cd6e.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593b467717b.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593b4b10320.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593b65821ad.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593b692cc2f.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593bbc68b0b.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593bc123ad7.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593c25c61c8.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593c2879f64.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593c6ea8b8e.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593cb90140c.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593cc3222d1.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593d0e37295.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593d2389ea5.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b593d2644564.data" afterPath="" />
       <change beforePath="$PROJECT_DIR$/runtime/debug/index.data" afterPath="$PROJECT_DIR$/runtime/debug/index.data" />
       <change beforePath="$PROJECT_DIR$/runtime/logs/app.log" afterPath="$PROJECT_DIR$/runtime/logs/app.log" />
       <change beforePath="$PROJECT_DIR$/runtime/logs/error.log" afterPath="$PROJECT_DIR$/runtime/logs/error.log" />
@@ -106,14 +126,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="MetaweblogController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MetaweblogController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/MetaweblogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2628">
-              <caret line="78" column="39" lean-forward="true" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+            <state relative-caret-position="365">
+              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding>
-                <element signature="e#112#134#0#PHP" expanded="true" />
-                <element signature="e#4493#5662#0#PHP" expanded="false" />
+                <element signature="e#348#498#0#PHP" expanded="false" />
+                <element signature="e#1009#1545#0#PHP" expanded="false" />
+                <element signature="e#1150#1434#0#PHP" expanded="false" />
+                <element signature="e#1551#2857#0#PHP" expanded="false" />
+                <element signature="e#1804#2782#0#PHP" expanded="false" />
+                <element signature="e#4019#4435#0#PHP" expanded="false" />
+                <element signature="e#4452#4810#0#PHP" expanded="false" />
+                <element signature="e#4619#4739#0#PHP" expanded="false" />
+                <element signature="e#4827#5205#0#PHP" expanded="false" />
+                <element signature="e#4972#5045#0#PHP" expanded="false" />
+                <element signature="e#5211#5644#0#PHP" expanded="false" />
+                <element signature="e#5649#6818#0#PHP" expanded="false" />
+                <element signature="e#6093#6808#0#PHP" expanded="false" />
+                <element signature="e#6131#6269#0#PHP" expanded="false" />
+                <element signature="e#6283#6398#0#PHP" expanded="false" />
+                <element signature="e#6408#6808#0#PHP" expanded="false" />
+                <element signature="e#6436#6566#0#PHP" expanded="false" />
+                <element signature="e#6580#6798#0#PHP" expanded="false" />
+                <element signature="e#6715#6798#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/metaweblog/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="88" column="5" lean-forward="false" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+              <folding>
+                <marker date="1532585712668" expanded="true" signature="3029:3537" ph="..." />
+                <marker date="1532585712668" expanded="true" signature="3080:3522" ph="..." />
+                <marker date="1532585712668" expanded="true" signature="3120:3503" ph="..." />
+                <marker date="1532585712668" expanded="true" signature="3566:3611" ph="..." />
+                <marker date="1532585712668" expanded="true" signature="3566:3650" ph="..." />
               </folding>
             </state>
           </provider>
@@ -139,12 +192,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/metaweblog/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="95" column="33" lean-forward="true" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="3096">
+              <caret line="95" column="32" lean-forward="false" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#a#3;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,16 +209,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="62">
               <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jumpfollowyou.bin" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runtime/cache/ju/jumpfollowyou.bin">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="0" column="15111" lean-forward="false" selection-start-line="0" selection-start-column="15106" selection-end-line="0" selection-end-column="15111" />
               <folding />
             </state>
           </provider>
@@ -279,14 +324,14 @@
       <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/metaweblog/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="504">
+              <caret line="50" column="78" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="78" />
               <folding>
-                <marker date="1532573834840" expanded="true" signature="2549:3057" ph="..." />
-                <marker date="1532573834840" expanded="true" signature="2600:3042" ph="..." />
-                <marker date="1532573834840" expanded="true" signature="2640:3023" ph="..." />
-                <marker date="1532573834840" expanded="true" signature="3086:3131" ph="..." />
-                <marker date="1532573834840" expanded="true" signature="3086:3170" ph="..." />
+                <marker date="1532585291025" expanded="true" signature="2628:3136" ph="..." />
+                <marker date="1532585291025" expanded="true" signature="2679:3121" ph="..." />
+                <marker date="1532585291025" expanded="true" signature="2719:3102" ph="..." />
+                <marker date="1532585291025" expanded="true" signature="3165:3210" ph="..." />
+                <marker date="1532585291025" expanded="true" signature="3165:3249" ph="..." />
               </folding>
             </state>
           </provider>
@@ -365,12 +410,13 @@
         <option value="$PROJECT_DIR$/config/web.php" />
         <option value="$PROJECT_DIR$/models/BlogCategoreis.php" />
         <option value="$PROJECT_DIR$/models/MetaWeblog.php" />
-        <option value="$PROJECT_DIR$/views/metaweblog/add.php" />
         <option value="$PROJECT_DIR$/models/JpBlogRecord.php" />
-        <option value="$PROJECT_DIR$/controllers/MetaweblogController.php" />
         <option value="$PROJECT_DIR$/commands/MetaweblogController.php" />
         <option value="$PROJECT_DIR$/runtime/logs/error.log" />
         <option value="$PROJECT_DIR$/views/metaweblog/index.php" />
+        <option value="$PROJECT_DIR$/views/metaweblog/add.php" />
+        <option value="$PROJECT_DIR$/controllers/MetaweblogController.php" />
+        <option value="$PROJECT_DIR$/views/metaweblog/edit.php" />
       </list>
     </option>
   </component>
@@ -476,6 +522,12 @@
             <path>
               <item name="Jump" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jump" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="runtime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cache" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Jump" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jump" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -499,15 +551,15 @@
     <property name="node.js.selected.package.eslint" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\website\web\space\Jump\web" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\website\web\space\Jump\views\metaweblog" />
       <recent name="C:\website\web\space\Jump\web\js" />
       <recent name="C:\website\web\space\Jump\web\css" />
       <recent name="C:\website\web\space\Jump\models" />
-      <recent name="C:\website\web\space\Jump\views\metaweblog" />
       <recent name="C:\website\web\space\Jump\commands" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\website\web\space\Jump\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -588,7 +640,7 @@
       <workItem from="1532396588171" duration="23000" />
       <workItem from="1532417550858" duration="4908000" />
       <workItem from="1532527362768" duration="3871000" />
-      <workItem from="1532569879290" duration="5319000" />
+      <workItem from="1532569879290" duration="8593000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1528354923483</created>
@@ -723,11 +775,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532530966955</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Metaweblog 博客自动化">
+      <created>1532575317209</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1532575317209</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164185000" />
+    <option name="totallyTimeSpent" value="167459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -784,13 +843,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31392">
-          <caret line="872" column="30" lean-forward="false" selection-start-line="872" selection-start-column="21" selection-end-line="872" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/models/AMUser.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -888,6 +940,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,35 +1266,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/metaweblog/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="95" column="33" lean-forward="true" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/metaweblog/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state relative-caret-position="504">
+          <caret line="50" column="78" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="78" />
           <folding>
-            <marker date="1532573834840" expanded="true" signature="2549:3057" ph="..." />
-            <marker date="1532573834840" expanded="true" signature="2600:3042" ph="..." />
-            <marker date="1532573834840" expanded="true" signature="2640:3023" ph="..." />
-            <marker date="1532573834840" expanded="true" signature="3086:3131" ph="..." />
-            <marker date="1532573834840" expanded="true" signature="3086:3170" ph="..." />
+            <marker date="1532585291025" expanded="true" signature="2628:3136" ph="..." />
+            <marker date="1532585291025" expanded="true" signature="2679:3121" ph="..." />
+            <marker date="1532585291025" expanded="true" signature="2719:3102" ph="..." />
+            <marker date="1532585291025" expanded="true" signature="3165:3210" ph="..." />
+            <marker date="1532585291025" expanded="true" signature="3165:3249" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/MetaweblogController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2628">
-          <caret line="78" column="39" lean-forward="true" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+        <state relative-caret-position="365">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding>
-            <element signature="e#112#134#0#PHP" expanded="true" />
-            <element signature="e#4493#5662#0#PHP" expanded="false" />
+            <element signature="e#348#498#0#PHP" expanded="false" />
+            <element signature="e#1009#1545#0#PHP" expanded="false" />
+            <element signature="e#1150#1434#0#PHP" expanded="false" />
+            <element signature="e#1551#2857#0#PHP" expanded="false" />
+            <element signature="e#1804#2782#0#PHP" expanded="false" />
+            <element signature="e#4019#4435#0#PHP" expanded="false" />
+            <element signature="e#4452#4810#0#PHP" expanded="false" />
+            <element signature="e#4619#4739#0#PHP" expanded="false" />
+            <element signature="e#4827#5205#0#PHP" expanded="false" />
+            <element signature="e#4972#5045#0#PHP" expanded="false" />
+            <element signature="e#5211#5644#0#PHP" expanded="false" />
+            <element signature="e#5649#6818#0#PHP" expanded="false" />
+            <element signature="e#6093#6808#0#PHP" expanded="false" />
+            <element signature="e#6131#6269#0#PHP" expanded="false" />
+            <element signature="e#6283#6398#0#PHP" expanded="false" />
+            <element signature="e#6408#6808#0#PHP" expanded="false" />
+            <element signature="e#6436#6566#0#PHP" expanded="false" />
+            <element signature="e#6580#6798#0#PHP" expanded="false" />
+            <element signature="e#6715#6798#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/metaweblog/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="88" column="5" lean-forward="false" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+          <folding>
+            <marker date="1532585712668" expanded="true" signature="3029:3537" ph="..." />
+            <marker date="1532585712668" expanded="true" signature="3080:3522" ph="..." />
+            <marker date="1532585712668" expanded="true" signature="3120:3503" ph="..." />
+            <marker date="1532585712668" expanded="true" signature="3566:3611" ph="..." />
+            <marker date="1532585712668" expanded="true" signature="3566:3650" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/metaweblog/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3096">
+          <caret line="95" column="32" lean-forward="false" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#a#3;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

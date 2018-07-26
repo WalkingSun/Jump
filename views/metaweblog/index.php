@@ -63,6 +63,7 @@
             <td >
                 <a href="javascript:checkQueue('<?=$v['id'];?>')"> 查看队列</a>
                 <a style="cursor:pointer;" onclick="action('<?=$v['id'];?>','<?=$v['cnblogsId']?2:1;?>')" ><?=$v['cnblogsId']?'发送队列':'发送队列';?></a>
+                <a style="cursor:pointer;" onclick="action('<?=$v['id'];?>',4)">修改</a>
                 <a style="cursor:pointer;" onclick="action('<?=$v['id'];?>',3)">删除</a>
             </td>
         </tr>
@@ -82,7 +83,7 @@
             var url = '<?php echo \yii\helpers\Url::to(['metaweblog/del'])?>';
             $.post(url,{blogId:blogId},function (r) {
                 if(r.code==200){
-                    alert(r.msg);
+                    // alert(r.msg);
                     location.href='<?php echo \yii\helpers\Url::to(['metaweblog/index'])?>';
                 }  else{
                     alert(r.msg);
@@ -90,10 +91,15 @@
             },'json');
             return false;
         }
+        if( type==4 ){
+            var url = '<?php echo \yii\helpers\Url::to(['metaweblog/edit'])?>'+'&blogId='+blogId;
+            location.href = url;
+            return false;
+        }
         var url = '<?php echo \yii\helpers\Url::to(['metaweblog/queue'])?>&type='+type;
        $.post(url,{blogId:blogId,action:type},function (r) {
              if(r.code==200){
-                 // alert(r.msg);
+                 alert(r.msg);
              }  else{
                  alert(r.msg);
              }
