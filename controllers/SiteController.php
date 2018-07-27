@@ -91,4 +91,33 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    public function actionTime(){
+        #正向推移
+        //创建DateTIME实例
+        $datetime = new \DateTime('2018-07-01');
+
+        //创建间隔两天的间隔
+        $interval = new \DateInterval('P2W');
+
+        //修改DateTime实例
+        $datetime->add($interval);
+        echo $datetime->format('Y-m-d H:i:s');
+
+
+        #反向推移
+        $dateStart = new \DateTime();
+        $dateInterval = \DateInterval::createFromDateString('-1 day');
+        $datePeriod = new \DatePeriod($dateStart,$dateInterval,3);
+        foreach ( $datePeriod as $date){
+            echo $date->format('Y-m-d'),PHP_EOL;
+        }
+
+        #时区
+        $timezone = new \DateTimeZone('America/New_York');
+        $datetime = new \DateTime('2018-07-26 09:00:00',$timezone);
+        print_r( $datetime );
+        $datetime->setTimezone(new \DateTimeZone('Asia/Hong_Kong'));    //修改DateTime实例的时区
+        print_r( $datetime );
+    }
 }

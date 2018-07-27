@@ -474,3 +474,27 @@
   'response' => '{Session:false}',
 )
 
+2018-07-27 14:00:04：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_04',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-27 14:00:05：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_03',
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":22,"awardInfo":[],"needCheck":"感谢您一直以来对安徽移动的支持","today":"7月27日","ckNum":739899},"code":"0"}',
+)
+
+2018-07-27 14:00:06：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_03',
+  ),
+  'response' => '{Session:false}',
+)
+
