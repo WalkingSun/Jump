@@ -33,10 +33,11 @@ class MetaweblogController extends Controller
 
         $filter = ['isDelete'=>0];
         $offset = !empty($d['page']) ? $d['page']:1;
-        $limit = !empty($d['size']) ? $d['size']:20;
         $orderType = ['createtime'=>SORT_DESC];
-        $this->result = $model::getList($cols = array(), $filter , $offset , $limit , $andWhere='', $orWhere='', $orderType ,$andWhereArray = []);
-        return $this->render('index',['result'=>$this->result]);
+        $count = $model::find()->select('id')->where(['isDelete'=>0])->count();
+        $pagination = new \yii\data\Pagination([ 'defaultPageSize' => 5, 'totalCount'=>$count,]);//print_r($pagination->limit);die;
+        $this->result = $model::getList($cols = array(), $filter , $offset , $limit=$pagination->limit , $andWhere='', $orWhere='', $orderType ,$andWhereArray = []);
+        return $this->render('index',['result'=>$this->result,'pagination'=>$pagination]);
     }
 
     public function actionQueue(){

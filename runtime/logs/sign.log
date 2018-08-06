@@ -498,3 +498,171 @@
   'response' => '{Session:false}',
 )
 
+2018-07-27 22:30:06：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_01',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-27 22:30:07：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_06',
+  ),
+  'response' => '{"message":"今日已签到","data":null,"code":"0"}',
+)
+
+2018-07-27 22:30:09：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_01',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-28 20:00:04：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_03',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-28 20:00:05：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_03',
+  ),
+  'response' => '{"message":"今日已签到","data":null,"code":"0"}',
+)
+
+2018-07-28 20:00:06：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_05',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-31 14:00:03：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_04',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-07-31 14:00:06：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_02',
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":24,"awardInfo":[],"needCheck":"感谢您一直以来对安徽移动的支持","today":"7月31日","ckNum":561453},"code":"0"}',
+)
+
+2018-07-31 14:00:07：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_02',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-08-01 14:00:16：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_01',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-08-01 14:00:17：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_04',
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":1,"awardInfo":[{"awardType":0,"urlSsoFlag":0,"redirectType":3,"giftStatus":0,"loginFlag":0,"awardDesc":"30M流量红包","redirectUrl":"S_LJZX"},{"awardType":2,"urlSsoFlag":0,"redirectType":4,"giftStatus":0,"loginFlag":0,"awardDesc":"1个福袋","redirectUrl":"http:\\/\\/act.ahydnet.com\\/activity\\/deploy\\/ah\\/lb\\/fd.html?fId=331854ea8e434788b713783b8932d9984386"}],"needCheck":"您本月还需要签到&nbsp;<span>6天<\\/span>&nbsp;即可获得奖励","today":"8月01日","ckNum":1878772},"code":"0"}',
+)
+
+2018-08-01 14:00:18：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_04',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-08-02 14:00:06：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_05',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-08-02 14:00:07：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_06',
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":2,"awardInfo":[],"needCheck":"您本月还需要签到&nbsp;<span>5天<\\/span>&nbsp;即可获得奖励","today":"8月02日","ckNum":1487962},"code":"0"}',
+)
+
+2018-08-02 14:00:08：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_03',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-08-03 14:00:08：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_05',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-08-03 14:00:09：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_06',
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":3,"awardInfo":[],"needCheck":"您本月还需要签到&nbsp;<span>4天<\\/span>&nbsp;即可获得奖励","today":"8月03日","ckNum":1481893},"code":"0"}',
+)
+
+2018-08-03 14:00:09：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_01',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-08-06 14:00:04：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_02',
+  ),
+  'response' => '{Session:false}',
+)
+
+2018-08-06 14:00:05：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_06',
+  ),
+  'response' => '{"message":"签到成功！","data":{"checkInNum":4,"awardInfo":[],"needCheck":"您本月还需要签到&nbsp;<span>3天<\\/span>&nbsp;即可获得奖励","today":"8月06日","ckNum":1508656},"code":"0"}',
+)
+
+2018-08-06 14:00:06：array (
+  'cookie' => 
+  array (
+    0 => ' ZhangTing_http=ZhangTing_http_06',
+  ),
+  'response' => '{Session:false}',
+)
+

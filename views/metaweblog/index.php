@@ -1,4 +1,6 @@
 <?php
+use yii\helpers\Html;
+use yii\helpers\Url;
 
 /* @var $this yii\web\View */
 //$result = $this->result;
@@ -20,6 +22,11 @@
 
     table td,table th{
         text-align: center;
+    }
+    .paginationDiv{
+        /*width:200px;*/
+        text-align: center;
+        /*margin: 0 auto;*/
     }
 </style>
 
@@ -73,8 +80,20 @@
 
      </tbody>
     </table>
+    <div class="paginationDiv">
+        <?php
+        echo \yii\widgets\LinkPager::widget([
+            'pagination'=>$pagination,//分页类
+//            'options'=>['class'=>'page'],  //设置分页组件样式
+            'firstPageLabel' => '首页',
+            'prevPageLabel' => '《',
+            'nextPageLabel' => '》',
+            'lastPageLabel' => '尾页',
+            'maxButtonCount' => 5
+        ]);
+        ?>
 
-
+    </div>
 
 </div>
 <script>
