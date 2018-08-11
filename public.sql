@@ -1,13 +1,5 @@
-CREATE TABLE "public"."aaa" (
-"id" int2 DEFAULT nextval('aaa_id_seq'::regclass) NOT NULL,
-CONSTRAINT "aaa_pkey" PRIMARY KEY ("id")
-)
-WITH (OIDS=FALSE)
-;
-
-ALTER TABLE "public"."aaa" OWNER TO "postgres";
 CREATE TABLE "public"."AM_user" (
-"userid" int4 DEFAULT nextval('aaa_id_seq'::regclass) NOT NULL,
+"userid" SERIAL primary key,    -- 自增 主键
 "mobile" varchar(30) COLLATE "default" NOT NULL,
 "password" varchar(30) COLLATE "default" NOT NULL,
 "userIn.userPasswd" varchar(255) COLLATE "default" NOT NULL,
@@ -37,8 +29,9 @@ COMMENT ON COLUMN "public"."AM_user"."isDelete" IS '是否删除 1是；0否';
 COMMENT ON COLUMN "public"."AM_user"."clientVersion" IS '版本';
 
 
+
 CREATE TABLE "public"."AM_failQueue" (
-"queue_id" int4 DEFAULT nextval('aaa_id_seq'::regclass) NOT NULL,
+"queue_id" SERIAL primary key,
 "mobile" varchar(30) COLLATE "default" NOT NULL,
 "userIn.userPasswd" varchar(64) COLLATE "default" NOT NULL,
 "imei" varchar(255) COLLATE "default" DEFAULT ''::character varying,
@@ -47,8 +40,7 @@ CREATE TABLE "public"."AM_failQueue" (
 "remark" varchar(255) COLLATE "default" DEFAULT ''::character varying,
 "count" int4 DEFAULT 0,
 "createtime" date,
-"isDelete" int2 DEFAULT 0,
-CONSTRAINT "AM_failQueue_pkey" PRIMARY KEY ("queue_id")
+"isDelete" int2 DEFAULT 0
 )
 WITH (OIDS=FALSE)
 ;
@@ -58,7 +50,7 @@ ALTER TABLE "public"."AM_failQueue" OWNER TO "postgres";
 COMMENT ON COLUMN "public"."AM_failQueue"."count" IS '失败计数';
 
 CREATE TABLE "public"."jp_blogRecord" (
-"id" int4 DEFAULT nextval('aaa_id_seq'::regclass) NOT NULL,
+"id"  SERIAL ,
 "title" varchar(255) COLLATE "default",
 "content" varchar(8000) COLLATE "default",
 "fileurl" varchar(255) COLLATE "default",
@@ -69,6 +61,7 @@ CREATE TABLE "public"."jp_blogRecord" (
 "163Id" varchar(32) COLLATE "default",
 "oschinaId" varchar(32) COLLATE "default",
 "chinaunixId" varchar(32) COLLATE "default",
+"cnblogsType" varchar(32) COLLATE "default",
 "createtime" date,
 "isDelete" int2 DEFAULT 0,
 CONSTRAINT "jp_blogRecord_pkey" PRIMARY KEY ("id")
@@ -100,12 +93,14 @@ COMMENT ON COLUMN "public"."jp_blogRecord"."oschinaId" IS 'oschina博客id';
 
 COMMENT ON COLUMN "public"."jp_blogRecord"."chinaunixId" IS 'chinaunix博客id';
 
+COMMENT ON COLUMN "public"."jp_blogRecord"."cnblogsType" IS '博客类型';
+
 COMMENT ON COLUMN "public"."jp_blogRecord"."createtime" IS '创建时间';
 
 COMMENT ON COLUMN "public"."jp_blogRecord"."isDelete" IS '是否删除 1 是；0否';
 
 CREATE TABLE "public"."jp_blogQueue" (
-"queueId" int4 DEFAULT nextval('aaa_id_seq'::regclass) NOT NULL,
+"queueId" SERIAL,
 "blogId" int4 NOT NULL,
 "action" int2 DEFAULT 1,
 "publishStatus" int2,

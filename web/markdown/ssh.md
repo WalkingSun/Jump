@@ -29,7 +29,7 @@ $ scp ~/.ssh/id_rsa.pub deploy@192.168.33.30:
 ```
 $ mkdir ~/.ssh
 ```
-
+ 
 创建~/.ssh/authorized_keys
 ```
 $ touch ~/.ssh/authorized_keys
@@ -51,13 +51,11 @@ $ chmod 600 ~/.ssh/authorized_keys;
 
 # 禁用密码，禁止根用户登录
 
-让远程服务器再安全一些。我们要禁止所有用户通过密码认证登录,还要禁止根用户登录。==记住,根用户能做任何事,所以我们要尽量不让根用户访问服务器。==以deploy用户的身份登录远程服务器,然后在你喜欢的文本编辑器中打开/etc/ssh/sshd_config文件。这是SSH服务器软件的配置文件。找到PasswordAuthentication设置,将其值改为no;如果需要,去掉这个设置的注释。然后,找到PermitRootlogin设置,将其值改为no;如果需要,去掉这个设置的注释。保存改动,然后执行下述命令重启SSH服务器,让改动生效:
+让远程服务器再安全一些。我们要禁止所有用户通过密码认证登录,还要禁止根用户登录。==记住,根用户能做任何事,所以我们要尽量不让根用户访问服务器==。以deploy用户的身份登录远程服务器,然后在你喜欢的文本编辑器中打开/etc/ssh/sshd_config文件。这是SSH服务器软件的配置文件。找到PasswordAuthentication设置,将其值改为no;如果需要,去掉这个设置的注释。然后,找到PermitRootlogin设置,将其值改为no;如果需要,去掉这个设置的注释。保存改动,然后执行下述命令重启SSH服务器,让改动生效:
 ```
 sudo service ssh restart
 sudo systemctl restart sshd. service
 ```
 现在必须通过ssh密钥对连接服务器，并且用户非root。
 
-## 实际使用中
-我待过的公司的做法，定期的对 root或者其他账户的密码进行修改，然后都是通过秘钥对进行连接远程服务器。
 
