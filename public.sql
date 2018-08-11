@@ -126,3 +126,4 @@ COMMENT ON COLUMN "public"."jp_blogQueue"."response" IS '响应';
 COMMENT ON COLUMN "public"."jp_blogQueue"."updatetime" IS 'blog发送队列';
 
 COMMENT ON COLUMN "public"."jp_blogQueue"."blogType" IS '博客类型 1代表51cto;2 sina;3 csdn;4 163;5 oschina;6 cnblogs;7 chinaunix';
+

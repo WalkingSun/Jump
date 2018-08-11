@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0536f1b7-3fbb-4e09-82fd-3d643c64fbb6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b6f023c280a9.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b6f0240cfd5a.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b6f02442b67b.data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b6f028cb92c7.data" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/public.sql" afterPath="$PROJECT_DIR$/public.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,8 +64,8 @@
       <file leaf-file-name="public.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="89" column="64" lean-forward="true" selection-start-line="89" selection-start-column="64" selection-end-line="89" selection-end-column="64" />
+            <state relative-caret-position="602">
+              <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -207,9 +204,9 @@
         <option value="$PROJECT_DIR$/controllers/MetaweblogController.php" />
         <option value="$PROJECT_DIR$/web/markdown/ssh.md" />
         <option value="$PROJECT_DIR$/web/markdown/PHP-FPM.MD" />
-        <option value="$PROJECT_DIR$/public.sql" />
         <option value="$PROJECT_DIR$/web/markdown/PHP调优.md" />
         <option value="$PROJECT_DIR$/runtime/logs/error.log" />
+        <option value="$PROJECT_DIR$/public.sql" />
       </list>
     </option>
   </component>
@@ -455,7 +452,7 @@
       <workItem from="1533261845784" duration="1432000" />
       <workItem from="1533545175546" duration="6097000" />
       <workItem from="1533607402487" duration="8000" />
-      <workItem from="1533971103772" duration="6398000" />
+      <workItem from="1533971103772" duration="6677000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1528354923483</created>
@@ -650,7 +647,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189211000" />
+    <option name="totallyTimeSpent" value="189490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -1110,8 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="89" column="64" lean-forward="true" selection-start-line="89" selection-start-column="64" selection-end-line="89" selection-end-column="64" />
+        <state relative-caret-position="602">
+          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
           <folding />
         </state>
       </provider>
