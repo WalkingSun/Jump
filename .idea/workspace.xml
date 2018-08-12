@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0536f1b7-3fbb-4e09-82fd-3d643c64fbb6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public.sql" afterPath="$PROJECT_DIR$/public.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,9 +64,18 @@
       <file leaf-file-name="public.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
+            <state relative-caret-position="571">
               <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1534003500709" expanded="true" signature="0:670" ph="CREATE TABLE... AM_user" />
+                <marker date="1534003500709" expanded="true" signature="674:724" ph="ALTER TABLE &quot;public&quot;.&quot;AM_user&quot;... " />
+                <marker date="1534003500709" expanded="true" signature="1104:1650" ph="CREATE TABLE... AM_failQueue" />
+                <marker date="1534003500709" expanded="true" signature="1654:1709" ph="ALTER TABLE &quot;public&quot;.&quot;AM_failQueue&quot;... " />
+                <marker date="1534003500709" expanded="true" signature="1774:2406" ph="CREATE TABLE... jp_blogRecord" />
+                <marker date="1534003500709" expanded="true" signature="2410:2466" ph="ALTER TABLE &quot;public&quot;.&quot;jp_blogRecord&quot;... " />
+                <marker date="1534003500709" expanded="true" signature="3426:3736" ph="CREATE TABLE... jp_blogQueue" />
+                <marker date="1534003500709" expanded="true" signature="3740:3795" ph="ALTER TABLE &quot;public&quot;.&quot;jp_blogQueue&quot;... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/runtime/logs/error.log">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
-              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+              <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -260,7 +269,7 @@
       <path value="$PROJECT_DIR$/vendor/league/csv" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1030" />
@@ -452,7 +461,7 @@
       <workItem from="1533261845784" duration="1432000" />
       <workItem from="1533545175546" duration="6097000" />
       <workItem from="1533607402487" duration="8000" />
-      <workItem from="1533971103772" duration="6677000" />
+      <workItem from="1533971103772" duration="6867000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1528354923483</created>
@@ -643,14 +652,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534003203280</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Metaweblog 博客自动化">
+      <created>1534003515857</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1534003515857</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189490000" />
+    <option name="totallyTimeSpent" value="189680000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24838012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1100,16 +1116,25 @@
     <entry file="file://$PROJECT_DIR$/runtime/logs/error.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
+        <state relative-caret-position="571">
           <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1534003500709" expanded="true" signature="0:670" ph="CREATE TABLE... AM_user" />
+            <marker date="1534003500709" expanded="true" signature="674:724" ph="ALTER TABLE &quot;public&quot;.&quot;AM_user&quot;... " />
+            <marker date="1534003500709" expanded="true" signature="1104:1650" ph="CREATE TABLE... AM_failQueue" />
+            <marker date="1534003500709" expanded="true" signature="1654:1709" ph="ALTER TABLE &quot;public&quot;.&quot;AM_failQueue&quot;... " />
+            <marker date="1534003500709" expanded="true" signature="1774:2406" ph="CREATE TABLE... jp_blogRecord" />
+            <marker date="1534003500709" expanded="true" signature="2410:2466" ph="ALTER TABLE &quot;public&quot;.&quot;jp_blogRecord&quot;... " />
+            <marker date="1534003500709" expanded="true" signature="3426:3736" ph="CREATE TABLE... jp_blogQueue" />
+            <marker date="1534003500709" expanded="true" signature="3740:3795" ph="ALTER TABLE &quot;public&quot;.&quot;jp_blogQueue&quot;... " />
+          </folding>
         </state>
       </provider>
     </entry>
