@@ -18,6 +18,6 @@ DIRECTORY STRUCTURE
 
 
 
-RabbitMQ 
+Metawebblog 多博客发布服务 
 ------------
 
