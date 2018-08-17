@@ -120,4 +120,55 @@ class SiteController extends Controller
         $datetime->setTimezone(new \DateTimeZone('Asia/Hong_Kong'));    //修改DateTime实例的时区
         print_r( $datetime );
     }
+
+    //实现下载大文件，解决内存溢出
+    public function actionExport(){
+
+        $filename =  'sun.csv'; //设置文件名
+        header('Content-Type: text/csv');
+        header("Content-Disposition: attachment;filename={$filename}");
+
+        $fp = fopen('php://output', 'w');
+
+        $sql = 'select * from "SCM_tbIOStockDtl"';
+
+        //非迭代器实现  十万多条数据，导出csv服务器直接崩溃,内存溢出
+//        $list = Yii::$app->db->createCommand($sql)->queryAll();
+
+        //PDO::query() 本身由迭代器实现
+        $pdo = new \PDO('pgsql:host=192.168.33.30;port=5432;dbname=jump', 'postgres', '123456');
+        $pdo->setAttribute(\PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, false);
+        $list = $pdo->query($sql);
+
+        foreach ( $list  as  $fields ) {
+            fputcsv ( $fp ,  $fields );
+        }
+
+        fclose ( $fp );
+    }
+
+    //读取大文件
+    public function actionRead(){
+
+        $result = $this->readCsv(Yii::$app->basePath.'/web/file/sun.csv');
+
+        foreach ($result as $v){
+            echo "<pre>";
+            var_dump( $v);
+            echo "</pre>";
+        }
+
+    }
+
+    #生成器
+    function readCsv( $file ){
+
+        $fp = fopen($file,'rb');
+
+        while( !feof($fp) ){
+            yield fgetcsv($fp);
+        }
+
+        fclose($fp);
+    }
 }

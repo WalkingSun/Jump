@@ -2,8 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0536f1b7-3fbb-4e09-82fd-3d643c64fbb6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b718b98c4696.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b726a92daeff.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b766a162ca5a.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b767e2e5b776.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b767f3a741db.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b767f3c1729f.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b767f4229b99.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b767f613aeb8.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b767f915c6c1.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b767f9e56e05.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b767fa809013.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b767fb2b8ad3.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7680abb8a04.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7680cc676a0.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7680d505626.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7680eb331ba.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7681476c2f6.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b768151687a1.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b76815b8d3fe.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b768175e7e08.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b76818b0b639.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7681ae18722.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7681b2c164e.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7681b7296a0.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7681c49179c.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7681c659b62.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7681cd03b16.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7681d97142c.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7681f9e10fe.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b76821e0f0d2.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b76825386e66.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7682c3b1503.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7682d914651.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7682e2837eb.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7682f01a45a.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7683143ceda.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7683529dbc8.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b76838e78ba5.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7683a0dfd8f.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b76851460a6a.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b768526ac7f3.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b76853a87126.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7685c848462.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7685c947529.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7685d04ce04.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b7685f191eb6.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b76862facf4d.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b76899d62e37.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/runtime/debug/5b768ac135530.data" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/file/sun.csv" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/controllers/SiteController.php" afterPath="$PROJECT_DIR$/controllers/SiteController.php" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e93755a362.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e93fb8bdaa.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e94011d211.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e95e4b4fa6.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e95ec9dd8a.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e97e091517.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e97e558340.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9810bc2c9.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9875e039f.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e988372637.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e988574767.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e98f3b801a.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9901e517b.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e99039e451.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9918eaac8.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e99234bccd.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e99257e9c9.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9931874d3.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e99389d068.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e993c3bf2a.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e99409ae66.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9948b8152.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9957004c8.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e995be612d.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9a5150bd6.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9a9390ba0.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9a963358c.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9a9b0346e.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9a9f8ffa7.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9aa4aabab.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9ab284106.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9ab549693.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9ab7d41d8.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9ad545793.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b0281f54.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b072d6df.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b129c707.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b1b4367f.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b1d7d144.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b1e53138.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b2a7d78c.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b41d03f4.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b4a98f35.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b53534df.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b56b61aa.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b5a6ddc1.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b5f1ab74.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b627dfa5.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b68497eb.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b93d6303.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b9807947.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9b9db92fa.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9bb66d434.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6e9bbb43380.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/5b6f023c280a9.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/runtime/debug/index.data" afterPath="$PROJECT_DIR$/runtime/debug/index.data" />
+      <change beforePath="$PROJECT_DIR$/runtime/logs/app.log" afterPath="$PROJECT_DIR$/runtime/logs/app.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,101 +138,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="远程登录服务器配置.md" pinned="false" current-in-tab="false">
-        <entry file="file://D:/document/远程登录服务器配置.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="468">
-                <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ssh.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/markdown/ssh.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="539">
-                <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="public.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public.sql">
+      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+            <state relative-caret-position="674">
+              <caret line="172" column="5" lean-forward="true" selection-start-line="149" selection-start-column="2" selection-end-line="172" selection-end-column="5" />
               <folding>
-                <marker date="1534003500709" expanded="true" signature="0:670" ph="CREATE TABLE... AM_user" />
-                <marker date="1534003500709" expanded="true" signature="674:724" ph="ALTER TABLE &quot;public&quot;.&quot;AM_user&quot;... " />
-                <marker date="1534003500709" expanded="true" signature="1104:1650" ph="CREATE TABLE... AM_failQueue" />
-                <marker date="1534003500709" expanded="true" signature="1654:1709" ph="ALTER TABLE &quot;public&quot;.&quot;AM_failQueue&quot;... " />
-                <marker date="1534003500709" expanded="true" signature="1774:2406" ph="CREATE TABLE... jp_blogRecord" />
-                <marker date="1534003500709" expanded="true" signature="2410:2466" ph="ALTER TABLE &quot;public&quot;.&quot;jp_blogRecord&quot;... " />
-                <marker date="1534003500709" expanded="true" signature="3426:3736" ph="CREATE TABLE... jp_blogQueue" />
-                <marker date="1534003500709" expanded="true" signature="3740:3795" ph="ALTER TABLE &quot;public&quot;.&quot;jp_blogQueue&quot;... " />
+                <element signature="e#3128#3879#0#PHP" expanded="false" />
+                <marker date="1534495630806" expanded="true" signature="3375:3407" ph="select * fro... SCM_tbIOStockDtl" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MetaweblogController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commands/MetaweblogController.php">
+      <file leaf-file-name="DB.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-936">
-              <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="612">
+              <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="59" />
+              <folding>
+                <marker date="1528381651672" expanded="true" signature="2267:2316" ph="INSERT INTO \&quot;${{$table}}\&quot;... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="62" column="11" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runtime/logs/error.log">
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="360">
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PHP调优.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/markdown/PHP调优.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="738">
-                <caret line="184" column="8" lean-forward="false" selection-start-line="184" selection-start-column="8" selection-end-line="184" selection-end-column="8" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FPM.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/markdown/FPM.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="738">
-                <caret line="173" column="39" lean-forward="false" selection-start-line="173" selection-start-column="39" selection-end-line="173" selection-end-column="39" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../config/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -205,7 +268,6 @@
         <option value="$PROJECT_DIR$/commands/MetaweblogController.php" />
         <option value="$PROJECT_DIR$/views/metaweblog/add.php" />
         <option value="$PROJECT_DIR$/views/metaweblog/edit.php" />
-        <option value="$PROJECT_DIR$/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/web/markdown/time.md" />
         <option value="$PROJECT_DIR$/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/web/markdown/https.md" />
@@ -216,6 +278,8 @@
         <option value="$PROJECT_DIR$/web/markdown/PHP调优.md" />
         <option value="$PROJECT_DIR$/runtime/logs/error.log" />
         <option value="$PROJECT_DIR$/public.sql" />
+        <option value="$PROJECT_DIR$/../../config/db.php" />
+        <option value="$PROJECT_DIR$/controllers/SiteController.php" />
       </list>
     </option>
   </component>
@@ -269,10 +333,11 @@
       <path value="$PROJECT_DIR$/vendor/league/csv" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1030" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -289,7 +354,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -301,55 +365,23 @@
             <path>
               <item name="Jump" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jump" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="commands" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Jump" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jump" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Jump" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jump" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Jump" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jump" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="runtime" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Jump" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jump" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="runtime" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="logs" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Jump" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jump" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Jump" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jump" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="metaweblog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Jump" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jump" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Jump" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jump" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="markdown" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,6 +494,11 @@
       <workItem from="1533545175546" duration="6097000" />
       <workItem from="1533607402487" duration="8000" />
       <workItem from="1533971103772" duration="6867000" />
+      <workItem from="1534053391883" duration="1019000" />
+      <workItem from="1534123262599" duration="32000" />
+      <workItem from="1534425005909" duration="948000" />
+      <workItem from="1534471256036" duration="27000" />
+      <workItem from="1534485914808" duration="8372000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1528354923483</created>
@@ -663,13 +700,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189680000" />
+    <option name="totallyTimeSpent" value="200078000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24838012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19654427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -721,35 +757,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/commands/SignController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="76" column="35" lean-forward="false" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/m160829_061735_create_SCM_tbCustType.php" />
-    <entry file="file://$PROJECT_DIR$/web/robots.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/markdown/猴子选大王【PHP】.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -763,13 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18985">
-          <caret line="488" column="33" lean-forward="false" selection-start-line="488" selection-start-column="33" selection-end-line="488" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bin/yii">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -780,13 +780,6 @@
     <entry file="file://$PROJECT_DIR$/vendor/bin/markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/CodeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2638">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -909,13 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="70" column="46" lean-forward="false" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/MetaWeblog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
@@ -948,27 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/metaweblog/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="50" column="78" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/metaweblog/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3168">
-          <caret line="88" column="5" lean-forward="false" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4248">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1012,13 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="65" column="6" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/data/Pagination.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7781">
@@ -1030,13 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="82" column="29" lean-forward="false" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/MetaweblogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="37" column="71" lean-forward="false" selection-start-line="37" selection-start-column="71" selection-end-line="37" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -1056,22 +1007,8 @@
     <entry file="file://D:/document/远程登录服务器配置.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="468">
+          <first_editor relative-caret-position="0">
             <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/markdown/ssh.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="539">
-            <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -1082,7 +1019,7 @@
     <entry file="file://$PROJECT_DIR$/web/markdown/FPM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="738">
+          <first_editor relative-caret-position="6228">
             <caret line="173" column="39" lean-forward="false" selection-start-line="173" selection-start-column="39" selection-end-line="173" selection-end-column="39" />
             <folding />
           </first_editor>
@@ -1094,16 +1031,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/commands/MetaweblogController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-936">
+        <state relative-caret-position="576">
           <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/markdown/PHP调优.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="738">
+          <first_editor relative-caret-position="6624">
             <caret line="184" column="8" lean-forward="false" selection-start-line="184" selection-start-column="8" selection-end-line="184" selection-end-column="8" />
             <folding />
           </first_editor>
@@ -1123,17 +1059,134 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+        <state relative-caret-position="4500">
+          <caret line="125" column="69" lean-forward="true" selection-start-line="125" selection-start-column="69" selection-end-line="125" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/markdown/ssh.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1872">
+            <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/metaweblog/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="50" column="78" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/metaweblog/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3168">
+          <caret line="88" column="5" lean-forward="false" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/metaweblog/checkqueue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/CodeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/MetaweblogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="37" column="71" lean-forward="false" selection-start-line="37" selection-start-column="71" selection-end-line="37" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2124">
+          <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="501" column="24" lean-forward="false" selection-start-line="501" selection-start-column="24" selection-end-line="501" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-255">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="62" column="11" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="59" />
           <folding>
-            <marker date="1534003500709" expanded="true" signature="0:670" ph="CREATE TABLE... AM_user" />
-            <marker date="1534003500709" expanded="true" signature="674:724" ph="ALTER TABLE &quot;public&quot;.&quot;AM_user&quot;... " />
-            <marker date="1534003500709" expanded="true" signature="1104:1650" ph="CREATE TABLE... AM_failQueue" />
-            <marker date="1534003500709" expanded="true" signature="1654:1709" ph="ALTER TABLE &quot;public&quot;.&quot;AM_failQueue&quot;... " />
-            <marker date="1534003500709" expanded="true" signature="1774:2406" ph="CREATE TABLE... jp_blogRecord" />
-            <marker date="1534003500709" expanded="true" signature="2410:2466" ph="ALTER TABLE &quot;public&quot;.&quot;jp_blogRecord&quot;... " />
-            <marker date="1534003500709" expanded="true" signature="3426:3736" ph="CREATE TABLE... jp_blogQueue" />
-            <marker date="1534003500709" expanded="true" signature="3740:3795" ph="ALTER TABLE &quot;public&quot;.&quot;jp_blogQueue&quot;... " />
+            <marker date="1528381651672" expanded="true" signature="2267:2316" ph="INSERT INTO \&quot;${{$table}}\&quot;... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="172" column="5" lean-forward="true" selection-start-line="149" selection-start-column="2" selection-end-line="172" selection-end-column="5" />
+          <folding>
+            <element signature="e#3128#3879#0#PHP" expanded="false" />
+            <marker date="1534495630806" expanded="true" signature="3375:3407" ph="select * fro... SCM_tbIOStockDtl" />
           </folding>
         </state>
       </provider>

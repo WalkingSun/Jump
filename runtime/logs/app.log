@@ -5848,3 +5848,2903 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1534001804.3228
     'REQUEST_TIME' => 1534001804
 ]
+2018-08-13 21:46:00 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-13 21:46:00 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-13 21:46:00 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-13 21:46:00 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-13 21:46:00 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-13 21:46:00 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-13 21:46:00 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-08-13 21:46:00 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-08-13 21:46:00 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-08-13 21:46:01 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT COUNT(*) FROM "jp_blogRecord" WHERE "isDelete"=0
+    in /app/space/jump/controllers/MetaweblogController.php:37
+2018-08-13 21:46:01 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/MetaweblogController.php:37
+2018-08-13 21:46:01 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/exception.php
+2018-08-13 21:46:01 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/previousException.php
+2018-08-13 21:46:01 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:01 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:01 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:01 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:01 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:01 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:01 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:02 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:02 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:02 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:02 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:02 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:02 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:02 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:02 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:02 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:02 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-13 21:46:02 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-13 21:46:02 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-13 21:46:00 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b592d82850fbe526b1269c02e5b92aec5018d218d300d604a1dc6ba350e6d48aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"œ¡U	ÙŒëfžp[ñ•ïºw©Ðî¾‚Š¬—n\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=b592d82850fbe526b1269c02e5b92aec5018d218d300d604a1dc6ba350e6d48aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%9C%A1U%09%D9%8C%06%8F%EBf%12%9E%11p%5B%F1%95%EF%BAw%A9%D0%03%EE%19%BE%82%8A%AC%97%11n%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.2'
+    'REMOTE_PORT' => '52739'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534167959.5341
+    'REQUEST_TIME' => 1534167959
+]
+2018-08-14 13:37:22 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-14 13:37:22 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-14 13:37:22 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-14 13:37:22 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-14 13:37:22 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-14 13:37:22 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-14 13:37:22 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-08-14 13:37:23 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT COUNT(*) FROM "jp_blogRecord" WHERE "isDelete"=0
+    in /app/space/jump/controllers/MetaweblogController.php:37
+2018-08-14 13:37:23 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/MetaweblogController.php:37
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/exception.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/previousException.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-14 13:37:23 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-14 13:37:23 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-14 13:37:22 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.2'
+    'REMOTE_PORT' => '60583'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534225041.7968
+    'REQUEST_TIME' => 1534225041
+]
+2018-08-17 14:24:21 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 14:24:21 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 14:24:22 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 14:24:22 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 14:24:22 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 14:24:22 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 14:24:22 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 14:24:22 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 14:24:22 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 14:24:22 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 14:24:21 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '57750'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534487061.1065
+    'REQUEST_TIME' => 1534487061
+]
+2018-08-17 15:50:06 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 15:50:06 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 15:50:06 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 15:50:06 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 15:50:06 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 15:50:06 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 15:50:06 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 15:50:06 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 15:50:06 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 15:50:08 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 15:50:05 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60148'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534492205.389
+    'REQUEST_TIME' => 1534492205
+]
+2018-08-17 15:54:34 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 15:54:34 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 15:54:34 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 15:54:34 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 15:54:34 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 15:54:34 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 15:54:34 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 15:54:34 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 15:54:34 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 15:54:34 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 15:54:34 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 15:54:35 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 15:54:34 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60206'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534492474.1294
+    'REQUEST_TIME' => 1534492474
+]
+2018-08-17 15:54:36 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 15:54:36 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 15:54:36 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 15:54:36 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 15:54:36 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 15:54:36 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 15:54:36 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 15:54:36 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 15:54:36 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 15:54:36 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 15:54:36 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 15:54:36 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 15:54:35 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60207'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534492475.7328
+    'REQUEST_TIME' => 1534492475
+]
+2018-08-17 15:54:42 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 15:54:42 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 15:54:42 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 15:54:42 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 15:54:42 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 15:54:42 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 15:54:42 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 15:54:42 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 15:54:42 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 15:54:42 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 15:54:42 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 15:54:42 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 15:54:42 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60209'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534492481.8046
+    'REQUEST_TIME' => 1534492481
+]
+2018-08-17 15:55:13 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 15:55:13 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 15:55:13 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 15:55:13 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 15:55:13 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 15:55:13 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 15:55:13 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 15:55:13 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 15:55:13 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 15:55:13 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 15:55:13 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 15:55:14 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 15:55:13 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60222'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534492512.8994
+    'REQUEST_TIME' => 1534492512
+]
+2018-08-17 15:56:01 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 15:56:01 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 15:56:01 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 15:56:01 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 15:56:01 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 15:56:01 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 15:56:01 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 15:56:01 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 15:56:01 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 15:56:03 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 15:56:01 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60236'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534492561.0849
+    'REQUEST_TIME' => 1534492561
+]
+2018-08-17 15:56:14 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 15:56:14 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 15:56:14 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 15:56:14 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 15:56:14 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 15:56:14 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 15:56:14 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 15:56:14 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 15:56:14 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 15:56:16 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 15:56:14 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60239'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534492574.0563
+    'REQUEST_TIME' => 1534492574
+]
+2018-08-17 15:56:24 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 15:56:24 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 15:56:24 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 15:56:24 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 15:56:24 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 15:56:24 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 15:56:24 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 15:56:24 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 15:56:24 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 15:56:24 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 15:56:24 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 15:56:25 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 15:56:23 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60242'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534492583.7465
+    'REQUEST_TIME' => 1534492583
+]
+2018-08-17 15:56:34 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 15:56:34 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 15:56:34 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 15:56:34 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 15:56:34 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 15:56:34 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 15:56:34 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 15:56:34 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 15:56:34 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 15:56:34 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 15:56:34 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 15:56:36 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 15:56:34 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60249'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534492594.4331
+    'REQUEST_TIME' => 1534492594
+]
+2018-08-17 16:00:43 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:00:43 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:00:43 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:00:43 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:00:43 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:00:43 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:00:43 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:00:43 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:00:44 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:00:44 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:00:44 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:00:45 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:00:43 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60328'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534492842.9057
+    'REQUEST_TIME' => 1534492842
+]
+2018-08-17 16:01:16 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:01:16 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:01:16 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:01:16 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:01:16 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:01:16 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:01:16 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:01:16 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:01:16 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:01:16 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:01:16 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:01:17 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:01:16 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60337'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534492876.0543
+    'REQUEST_TIME' => 1534492876
+]
+2018-08-17 16:01:24 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:01:24 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:01:25 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:01:25 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:01:25 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:01:25 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:01:25 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:01:25 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:01:25 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:01:25 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:01:25 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:01:27 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:01:24 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60340'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534492884.6525
+    'REQUEST_TIME' => 1534492884
+]
+2018-08-17 16:01:47 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:01:47 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:01:47 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:01:47 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:01:47 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:01:47 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:01:47 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:01:47 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:01:47 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:01:47 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:01:47 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:01:49 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:01:47 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60344'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534492906.8364
+    'REQUEST_TIME' => 1534492906
+]
+2018-08-17 16:03:19 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:03:19 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:03:19 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:03:19 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:03:19 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:03:19 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:03:19 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:03:19 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:03:19 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:03:19 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:03:19 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:03:20 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:03:19 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60383'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534492999.0724
+    'REQUEST_TIME' => 1534492999
+]
+2018-08-17 16:03:29 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:03:29 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:03:29 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:03:29 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:03:29 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:03:29 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:03:29 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:03:29 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:03:29 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:03:29 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:03:29 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:03:30 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:03:29 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60386'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493009.0517
+    'REQUEST_TIME' => 1534493009
+]
+2018-08-17 16:03:39 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:03:39 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:03:39 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:03:39 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:03:39 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:03:39 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:03:39 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:03:39 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:03:39 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:03:39 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:03:39 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:03:41 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:03:39 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60392'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493019.2367
+    'REQUEST_TIME' => 1534493019
+]
+2018-08-17 16:04:05 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:04:05 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:04:05 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:04:05 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:04:05 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:04:05 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:04:05 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:04:05 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:04:05 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:04:05 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:04:05 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:04:08 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:04:05 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60437'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493045.593
+    'REQUEST_TIME' => 1534493045
+]
+2018-08-17 16:04:27 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:04:27 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:04:27 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:04:27 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:04:27 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:04:27 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:04:27 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:04:27 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:04:27 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:04:27 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:04:27 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:04:29 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:04:26 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60442'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493066.7281
+    'REQUEST_TIME' => 1534493066
+]
+2018-08-17 16:05:02 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:05:02 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:05:02 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:05:02 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:05:02 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:05:02 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:05:02 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:05:02 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:05:02 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:05:02 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:05:02 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:05:03 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:05:02 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60454'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493101.7979
+    'REQUEST_TIME' => 1534493101
+]
+2018-08-17 16:05:06 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:05:06 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:05:06 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:05:06 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:05:06 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:05:06 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:05:06 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:05:06 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:05:06 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:05:06 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:05:06 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:05:08 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:05:06 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60455'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493106.4938
+    'REQUEST_TIME' => 1534493106
+]
+2018-08-17 16:05:11 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:05:11 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:05:11 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:05:11 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:05:11 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:05:11 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:05:11 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:05:11 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:05:11 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:05:11 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:05:11 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:05:12 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:05:11 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60460'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493110.8611
+    'REQUEST_TIME' => 1534493110
+]
+2018-08-17 16:05:24 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:05:24 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:05:24 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:05:24 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:05:24 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:05:24 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:05:24 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:05:24 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:05:24 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:05:24 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:05:24 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:05:25 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:05:24 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60466'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493124.245
+    'REQUEST_TIME' => 1534493124
+]
+2018-08-17 16:05:26 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:05:26 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:05:26 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:05:26 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:05:26 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:05:26 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:05:26 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:05:26 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:05:26 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:05:26 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:05:26 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:05:27 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:05:26 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60467'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493126.0465
+    'REQUEST_TIME' => 1534493126
+]
+2018-08-17 16:05:32 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:05:32 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:05:33 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:05:33 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:05:33 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:05:33 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:05:33 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:05:33 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:05:33 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:05:33 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:05:33 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:05:36 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:05:32 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60469'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493132.6884
+    'REQUEST_TIME' => 1534493132
+]
+2018-08-17 16:05:45 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:05:45 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:05:45 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:05:45 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:05:45 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:05:45 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:05:45 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:05:45 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:05:45 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:05:45 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:05:45 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:05:48 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:05:45 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60474'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493145.1528
+    'REQUEST_TIME' => 1534493145
+]
+2018-08-17 16:06:17 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:06:17 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:06:17 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:06:17 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:06:17 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:06:17 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:06:17 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:06:17 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:06:17 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:06:21 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:06:17 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60478'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493177.5657
+    'REQUEST_TIME' => 1534493177
+]
+2018-08-17 16:06:53 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:06:53 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:06:54 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:06:54 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:06:54 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:06:54 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:06:54 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:06:54 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:06:54 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:06:53 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60494'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493213.2021
+    'REQUEST_TIME' => 1534493213
+]
+2018-08-17 16:07:47 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:07:47 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:07:47 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:07:47 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:07:47 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:07:47 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:07:47 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:07:47 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:07:47 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:07:53 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:07:47 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60573'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493267.164
+    'REQUEST_TIME' => 1534493267
+]
+2018-08-17 16:09:38 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:09:38 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:09:39 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:09:39 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:09:39 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:09:39 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:09:39 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:09:40 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:09:40 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:09:40 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:09:40 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:09:43 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:09:38 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60589'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493377.04
+    'REQUEST_TIME' => 1534493377
+]
+2018-08-17 16:10:01 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:10:01 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:10:01 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:10:01 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:10:01 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:10:01 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:10:01 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:10:01 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:10:01 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:10:01 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:10:01 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:10:02 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:10:00 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60598'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493400.708
+    'REQUEST_TIME' => 1534493400
+]
+2018-08-17 16:10:10 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:10:10 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:10:10 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:10:10 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:10:10 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:10:10 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:10:10 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:10:10 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:10:10 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:10:10 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:10:10 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:10:11 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:10:10 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60604'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493410.1609
+    'REQUEST_TIME' => 1534493410
+]
+2018-08-17 16:10:24 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:10:24 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:10:24 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:10:24 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:10:24 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:10:24 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:10:24 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:10:24 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:10:24 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:10:24 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:10:24 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:10:25 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:10:24 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60631'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493423.7555
+    'REQUEST_TIME' => 1534493423
+]
+2018-08-17 16:11:00 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:11:00 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:11:00 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:11:00 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:11:00 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:11:00 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:11:00 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:11:00 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:11:00 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:11:00 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:11:00 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:11:02 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:11:00 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60696'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493459.9364
+    'REQUEST_TIME' => 1534493459
+]
+2018-08-17 16:12:02 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:12:02 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:12:02 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:12:02 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:12:02 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:12:02 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:12:02 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:12:02 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:12:02 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:12:02 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:12:02 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:12:04 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:12:02 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60789'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493522.2892
+    'REQUEST_TIME' => 1534493522
+]
+2018-08-17 16:13:02 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:13:02 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:13:02 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:13:02 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:13:02 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:13:02 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:13:02 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:13:02 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:13:02 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:13:02 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:13:02 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:13:04 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:13:02 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60875'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493582.1229
+    'REQUEST_TIME' => 1534493582
+]
+2018-08-17 16:13:20 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:13:20 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:13:20 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:13:20 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:13:20 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:13:21 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:13:21 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:13:21 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:13:21 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:13:37 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:13:19 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '60903'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493598.8961
+    'REQUEST_TIME' => 1534493598
+]
+2018-08-17 16:19:32 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:19:32 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:19:32 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:19:32 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:19:32 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:19:32 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:19:32 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:19:32 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:19:32 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:19:32 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '61459'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493971.9953
+    'REQUEST_TIME' => 1534493971
+]
+2018-08-17 16:19:50 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:19:50 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:19:50 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:19:50 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:19:50 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:19:50 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:19:50 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:19:50 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:19:51 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:19:49 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '61487'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534493989.0933
+    'REQUEST_TIME' => 1534493989
+]
+2018-08-17 16:20:08 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:20:08 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:20:09 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:20:11 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:20:11 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:20:15 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:20:15 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:20:16 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:20:17 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:20:18 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:20:18 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:21:16 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/exception.php
+2018-08-17 16:21:19 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/previousException.php
+2018-08-17 16:21:22 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:21:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:21:26 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:21:30 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:21:30 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:21:30 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:21:30 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:21:30 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:21:30 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:21:30 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:21:30 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:21:30 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:21:30 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:21:30 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:21:35 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:21:39 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:20:08 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '61512'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534494006.4669
+    'REQUEST_TIME' => 1534494006
+]
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:22:32 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:22:32 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/exception.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/previousException.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php
+2018-08-17 16:22:32 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:22:32 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:22:32 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '61682'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534494151.7587
+    'REQUEST_TIME' => 1534494151
+]
+2018-08-17 16:22:33 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:22:33 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:22:33 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:22:33 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:22:33 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:22:33 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:22:33 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:22:33 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:22:33 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:22:33 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:22:33 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:22:34 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:22:33 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '61740'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534494152.8965
+    'REQUEST_TIME' => 1534494152
+]
+2018-08-17 16:22:40 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:22:40 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:22:40 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:22:40 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:22:40 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:22:40 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:22:40 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:22:40 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:22:40 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:22:40 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:22:40 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:22:43 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:22:40 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '61751'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534494159.9092
+    'REQUEST_TIME' => 1534494159
+]
+2018-08-17 16:23:13 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:23:13 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:23:13 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:23:13 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:23:13 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:23:13 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:23:13 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:23:13 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:23:13 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:23:13 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:23:13 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:23:15 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:23:13 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '61805'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534494193.1844
+    'REQUEST_TIME' => 1534494193
+]
+2018-08-17 16:24:15 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:24:15 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:24:15 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:24:15 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:24:15 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:24:15 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:24:15 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:24:15 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:24:15 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:24:15 [192.168.33.1][-][-][info][yii\db\Command::query] select * from "SCM_tbIOStockDtl"
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:24:15 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/SiteController.php:136
+2018-08-17 16:24:19 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:24:15 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '61901'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534494255.3735
+    'REQUEST_TIME' => 1534494255
+]
+2018-08-17 16:38:53 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:38:53 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:38:53 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:38:53 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:38:53 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:38:53 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:38:53 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/export'
+2018-08-17 16:38:53 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/export
+2018-08-17 16:38:53 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionExport()
+2018-08-17 16:39:00 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:38:52 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/export'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '63497'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/export'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/export'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534495132.2236
+    'REQUEST_TIME' => 1534495132
+]
+2018-08-17 16:43:45 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-08-17 16:43:45 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-08-17 16:43:45 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-08-17 16:43:45 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-08-17 16:43:45 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-08-17 16:43:45 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-08-17 16:43:45 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'site/read'
+2018-08-17 16:43:45 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: site/read
+2018-08-17 16:43:45 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\SiteController::actionRead()
+2018-08-17 16:44:24 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-08-17 16:43:44 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'site/read'
+]
+
+$_COOKIE = [
+    'jenkins-timestamper-offset' => '-28800000'
+    'ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE' => 'YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => 'jenkins-timestamper-offset=-28800000; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTUzNTQ1Mzk5OTAzMTozODRjMzI1YmI5NDRiYTM1NTJkMmFkM2I3MWRlY2E5ZjM3YzViNGIzODFlNmRjY2YwZmJhNmUzZWNlOWEyODhh'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.63.5'
+    'REMOTE_PORT' => '63944'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/read'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/read'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1534495424.3768
+    'REQUEST_TIME' => 1534495424
+]
