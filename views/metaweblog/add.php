@@ -84,9 +84,9 @@
                 }else{
                     location.href='<?php echo \yii\helpers\Url::to(['metaweblog/index'])?>';
                 }
-                // alert('success');
+                // layer.msg('success');
             }  else{
-                alert(r.msg);
+                layer.msg(r.msg);
             }
         },'json');
     }

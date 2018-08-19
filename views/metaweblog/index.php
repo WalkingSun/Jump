@@ -1,28 +1,43 @@
 <?php
 use yii\helpers\Html;
 use yii\helpers\Url;
-
+//print_r($pagination);die;
 /* @var $this yii\web\View */
 //$result = $this->result;
 ?>
 <style type="text/css">
-    <!--
-    @import url();
-    <?php $this->registerCssFile("@web/css/style.css");?>
-    <?php $this->registerJsFile("@web/js/jquery-3.3.1.min.js");?>
-    <?php $this->registerJsFile("@web/js/layer/layer.js");?>
-    -->
 
     table
     {
-        table-layout: fixed;
-        word-wrap: break-word;
-        width: 100% !important;
+        /*table-layout: fixed;*/
+        /*word-wrap: break-word;*/
+        /*width: 100% !important;*/
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(230, 189, 189);
+        width:100%;
     }
 
     table td,table th{
+        padding: 12px 10px;
+        font-size: 12px;
+        font-family: Verdana;
+        color: rgb(95, 74, 121);
         text-align: center;
     }
+    table thead, #table-4 tr {
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: rgb(211, 202, 221);
+    }
+    /* Alternating background colors */
+    table tr:nth-child(even) {
+        background: rgb(223, 216, 232)
+    }
+    table tr:nth-child(odd) {
+        background: #FFF
+    }
+
     .paginationDiv{
         /*width:200px;*/
         text-align: center;
@@ -36,20 +51,20 @@ use yii\helpers\Url;
 
 <div class="site-index">
 
-    <div>
+    <div style="padding-bottom: 10px">
         <a style="margin-right: 15px;" href="<?=\yii\helpers\Url::to(['metaweblog/init'])?>"> 自动化配置 </a>
 
         <a href="<?=\yii\helpers\Url::to(['metaweblog/add'])?>"> 添加 </a>
 
     </div>
 
-    <table id="hor-zebra" summary="Employee Pay Sheet" border="1">
-        <thead>
+    <table >
+        <thead style=" border-bottom-style: solid;">
         <tr>
             <th  scope="col">Id</th>
             <th scope="col" style="">标题</th>
             <th  scope="col">内容</th>
-            <th  scope="col">mark文件</th>
+<!--            <th  scope="col">mark文件</th>-->
             <th scope="col">cnblogs博客id</th>
             <th scope="col">cnblogs博客分类</th>
             <th scope="col" >创建时间</th>
@@ -63,7 +78,7 @@ use yii\helpers\Url;
             <td ><?=$v['id'];?></td>
             <td ><?=$v['title'];?></td>
             <td ><?=$v['content']?:'--';?></td>
-            <td ><?=$v['fileurl'];?></td>
+<!--            <td >--><?//=$v['fileurl'];?><!--</td>-->
             <td ><?=$v['cnblogsId'];?></td>
             <td ><?=$v['cnblogsType'];?></td>
             <td ><?=$v['createtime'];?></td>
@@ -102,10 +117,10 @@ use yii\helpers\Url;
             var url = '<?php echo \yii\helpers\Url::to(['metaweblog/del'])?>';
             $.post(url,{blogId:blogId},function (r) {
                 if(r.code==200){
-                    // alert(r.msg);
+                    // layer.msg(r.msg);
                     location.href='<?php echo \yii\helpers\Url::to(['metaweblog/index'])?>';
                 }  else{
-                    alert(r.msg);
+                    layer.msg(r.msg);
                 }
             },'json');
             return false;
@@ -118,9 +133,9 @@ use yii\helpers\Url;
         var url = '<?php echo \yii\helpers\Url::to(['metaweblog/queue'])?>&type='+type;
        $.post(url,{blogId:blogId,action:type},function (r) {
              if(r.code==200){
-                 alert(r.msg);
+                 layer.msg(r.msg);
              }  else{
-                 alert(r.msg);
+                 layer.msg(r.msg);
              }
        },'json');
     }
@@ -142,11 +157,11 @@ use yii\helpers\Url;
         var url = '<?=\yii\helpers\Url::to(['metaweblog/updatequeue'])?>&queueid='+queueid;
         $.post(url,{queueid:queueid},function (r) {
             if(r.code==200){
-                alert(r.msg);
+                layer.msg(r.msg);
                 var index = parent.layer.getFrameIndex(window.name);
                 setTimeout(function(){parent.layer.close(index)}, 1000);
             }  else{
-                alert(r.msg);
+                layer.msg(r.msg);
             }
         },'json');
     }

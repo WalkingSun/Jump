@@ -2,26 +2,51 @@
 
 ?>
 <style type="text/css">
-    <!--
-    @import url();
-    <?php $this->registerCssFile("@web/css/style.css");?>
-    -->
 
-    table
-    {
-        table-layout: fixed;
-        word-wrap: break-word;
-        width: 100% !important;
+    /*table*/
+    /*{*/
+        /*table-layout: fixed;*/
+        /*word-wrap: break-word;*/
+        /*width: 100% !important;*/
+    /*}*/
+
+    /*table td,table th{*/
+        /*text-align: center;*/
+    /*}*/
+    /* Border styles */
+    table thead, #table tr {
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: rgb(230, 189, 189);
+    }
+    table {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(230, 189, 189);
+        width:100%;
+        text-align: center;
     }
 
-    table td,table th{
-        text-align: center;
+    /* Padding and font style */
+    table td, #table th {
+        padding: 11px 10px;
+        font-size: 12px;
+        font-family: Verdana;
+        color: rgb(177, 106, 104);
+    }
+
+    /* Alternating background colors */
+    table tr:nth-child(even) {
+        background: rgb(238, 211, 210)
+    }
+    table tr:nth-child(odd) {
+        background: #FFF
     }
 </style>
 
 <div class="site-index">
 
-    <table id="hor-zebra" summary="Employee Pay Sheet" border="1">
+    <table >
         <thead>
         <tr>
             <th  scope="col">队列</th>

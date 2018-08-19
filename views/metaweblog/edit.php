@@ -80,10 +80,10 @@
         var url = '<?php echo \yii\helpers\Url::to(['metaweblog/edit'])?>';
         $.post(url,form,function (r) {
             if(r.code==200){
-                alert('提交成功');
+                layer.msg('提交成功');
                 location.href='<?php echo \yii\helpers\Url::to(['metaweblog/index'])?>';
             }  else{
-                alert(r.msg);
+                layer.msg(r.msg);
             }
         },'json');
     }

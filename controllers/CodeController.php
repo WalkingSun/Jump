@@ -94,4 +94,27 @@ class CodeController extends Controller
         }
 
     }
+
+    public function actionKing(){
+       $result  = $this->monkeyKing(3,10);
+       print_r($result);die;
+
+    }
+
+    function monkeyKing( $m , $n ){
+        $arr = range(1,$n);
+
+        $i = 1;
+        //for循环 数组压栈数据不计入，遍历结束重新遍历
+        while(  count($arr)!=1 ){
+            foreach ($arr as $k => $v){
+                unset($arr[$k]);
+                if( $i%$m!=0 ){
+                    array_push($arr,$v);
+                }
+                $i++;
+            }
+        }
+        return $arr;
+    }
 }

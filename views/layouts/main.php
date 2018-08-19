@@ -20,6 +20,13 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+
+    <!--
+    @import url();
+    <?php $this->registerCssFile("@web/css/style.css");?>
+    <?php $this->registerJsFile("@web/js/jquery-3.3.1.min.js");?>
+    <?php $this->registerJsFile("@web/js/layer/layer.js");?>
+    -->
 </head>
 <body>
 <?php $this->beginBody() ?>
