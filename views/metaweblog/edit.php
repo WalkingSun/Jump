@@ -25,6 +25,7 @@
                 <span class="glyphicon glyphicon-asterisk star"></span>
                 <label class="explain">请输入8个字的以内的中文字符</label>
             </div>
+
             <div class="form-group form-group-sm">
                 <label class="control-label col-md-1">博客内容</label>
                 <div class="col-md-3">

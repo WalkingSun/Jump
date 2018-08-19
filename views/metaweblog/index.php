@@ -4,6 +4,7 @@ use yii\helpers\Url;
 //print_r($pagination);die;
 /* @var $this yii\web\View */
 //$result = $this->result;
+$cnblogName = \Yii::$app->params['cnblogs']['blogid'];
 ?>
 <style type="text/css">
 
@@ -65,7 +66,7 @@ use yii\helpers\Url;
             <th scope="col" style="">标题</th>
             <th  scope="col">内容</th>
 <!--            <th  scope="col">mark文件</th>-->
-            <th scope="col">cnblogs博客id</th>
+            <th scope="col">cnblogs博客</th>
             <th scope="col">cnblogs博客分类</th>
             <th scope="col" >创建时间</th>
             <th  scope="col">操作</th>
@@ -79,7 +80,7 @@ use yii\helpers\Url;
             <td ><?=$v['title'];?></td>
             <td ><?=$v['content']?:'--';?></td>
 <!--            <td >--><?//=$v['fileurl'];?><!--</td>-->
-            <td ><?=$v['cnblogsId'];?></td>
+            <td ><a href="<?="https://www.cnblogs.com/{$cnblogName}/p/{$v['cnblogsId']}.html";?>"  target="view_window"><?=$v['cnblogsId']?'查看':'--'//="https://www.cnblogs.com/{$cnblogName}/p/{$v['cnblogsId']}.html";?></a></td>
             <td ><?=$v['cnblogsType'];?></td>
             <td ><?=$v['createtime'];?></td>
             <td >

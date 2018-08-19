@@ -11,6 +11,7 @@ namespace app\controllers;
 
 use app\models\Common;
 use app\models\DB;
+use app\models\JpBlogConfig;
 use app\models\MetaWeblog;
 use yii\web\Controller;
 
@@ -19,11 +20,11 @@ class MetaweblogController extends Controller
     public $modelClass= 'app\models\JpBlogRecord';
     public $data;
     public $result;
+    public $enableCsrfValidation = false;
 
     public function init()
     {
         parent::init();
-
         $this->data = array_merge(\Yii::$app->request->get(),\Yii::$app->request->post());
     }
 
@@ -203,9 +204,24 @@ class MetaweblogController extends Controller
                 var_dump( $target,$target->getErrorMessage() );
             }
         }
+    }
 
+    /**
+     * 初始化设置
+     */
+    public function actionInit(){
+        $d = $this->data;
+        if( !empty($d['blogType']) ){
+            $DB = new DB();
+            if( !JpBlogConfig::find()->where(['blogType'=>$d['blogType']])->asArray()->one() ){
+                $DB->insert(JpBlogConfig::tableName(),['blogType'=>$d['blogType'],'username'=>$d['username'],'password'=>$d['password'],'blogid'=>$d['blogid']]);
+            }else{
+                $DB->update(JpBlogConfig::tableName(),['username'=>$d['username'],'password'=>$d['password'],'blogid'=>$d['blogid']],['blogType'=>$d['blogType']]);
+            }
+//            Common::echoJson(200,'设置成功');
+        }
+        $blogConfig = JpBlogConfig::find()->asArray()->all();
 
-
-
+        return $this->render('init',['blogConfig'=>$blogConfig]);
     }
 }

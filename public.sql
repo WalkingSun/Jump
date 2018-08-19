@@ -93,7 +93,7 @@ COMMENT ON COLUMN "public"."jp_blogRecord"."oschinaId" IS 'oschina博客id';
 
 COMMENT ON COLUMN "public"."jp_blogRecord"."chinaunixId" IS 'chinaunix博客id';
 
-COMMENT ON COLUMN "public"."jp_blogRecord"."cnblogsType" IS '博客类型';
+COMMENT ON COLUMN "public"."jp_blogRecord"."cnblogsType" IS '博客分类';
 
 COMMENT ON COLUMN "public"."jp_blogRecord"."createtime" IS '创建时间';
 
@@ -127,3 +127,15 @@ COMMENT ON COLUMN "public"."jp_blogQueue"."updatetime" IS 'blog发送队列';
 
 COMMENT ON COLUMN "public"."jp_blogQueue"."blogType" IS '博客类型 1代表51cto;2 sina;3 csdn;4 163;5 oschina;6 cnblogs;7 chinaunix';
 
+create TABLE "jp_blogConfig"(
+  "blogType"  int2 not null,
+  "username"  varchar(64) COLLATE "default" NOT NULL,
+  "password" varchar(64) collate "default" not null,
+  "blogid" varchar(64) collate "default" not null
+)
+WITH (OIDS=FALSE)
+;
+COMMENT ON COLUMN "public"."jp_blogConfig"."blogType" IS '博客类型 1代表51cto;2 sina;3 csdn;4 163;5 oschina;6 cnblogs;7 chinaunix';
+COMMENT ON COLUMN "public"."jp_blogConfig"."username" IS '用户名';
+COMMENT ON COLUMN "public"."jp_blogConfig"."password" IS '密码';
+COMMENT ON COLUMN "public"."jp_blogConfig"."blogid" IS '博客地址Id';
