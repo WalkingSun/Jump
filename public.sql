@@ -127,15 +127,24 @@ COMMENT ON COLUMN "public"."jp_blogQueue"."updatetime" IS 'blog发送队列';
 
 COMMENT ON COLUMN "public"."jp_blogQueue"."blogType" IS '博客类型 1代表51cto;2 sina;3 csdn;4 163;5 oschina;6 cnblogs;7 chinaunix';
 
-create TABLE "jp_blogConfig"(
-  "blogType"  int2 not null,
-  "username"  varchar(64) COLLATE "default" NOT NULL,
-  "password" varchar(64) collate "default" not null,
-  "blogid" varchar(64) collate "default" not null
+CREATE TABLE "public"."jp_blogConfig" (
+  "blogType" int2 NOT NULL,
+  "username" varchar(64) COLLATE "default" NOT NULL,
+  "password" varchar(64) COLLATE "default" NOT NULL,
+  "blogid" varchar(64) COLLATE "default",
+  "isEnable" int2 DEFAULT 1
 )
 WITH (OIDS=FALSE)
 ;
+
+ALTER TABLE "public"."jp_blogConfig" OWNER TO "postgres";
+
 COMMENT ON COLUMN "public"."jp_blogConfig"."blogType" IS '博客类型 1代表51cto;2 sina;3 csdn;4 163;5 oschina;6 cnblogs;7 chinaunix';
+
 COMMENT ON COLUMN "public"."jp_blogConfig"."username" IS '用户名';
+
 COMMENT ON COLUMN "public"."jp_blogConfig"."password" IS '密码';
+
 COMMENT ON COLUMN "public"."jp_blogConfig"."blogid" IS '博客地址Id';
+
+COMMENT ON COLUMN "public"."jp_blogConfig"."isEnable" IS '是否启用 1是，0 否';

@@ -63,9 +63,9 @@ class MetaweblogController extends Controller
     public function actionAdd(){
 
         //查询分类
+        $blogConfig = JpBlogConfig::find()->where(['blogType'=>6])->asArray()->one();       //获取博客园配置
         $MetaWeblog = new MetaWeblog();
-        $blogName = Common::blogParamName(6);
-        $Categories = $MetaWeblog->get($blogName);
+        $Categories = $MetaWeblog->get( $blogConfig['blogType'],$blogConfig['username'] , $blogConfig['password'] ,$blogConfig['blogid'], $isCache = 1 );
         $model = $this->modelClass;
         $d = $this->data;
 
@@ -97,11 +97,11 @@ class MetaweblogController extends Controller
         if( empty($d['blogId']) ) Common::echoJson(403,'参数错误');
 
         //查询分类
+        $blogConfig = JpBlogConfig::find()->where(['blogType'=>6])->asArray()->one();       //获取博客园配置
         $MetaWeblog = new MetaWeblog();
-        $blogName = Common::blogParamName(6);
-        $Categories = $MetaWeblog->get($blogName);
-        $model = $this->modelClass;
+        $Categories = $MetaWeblog->get( $blogConfig['blogType'],$blogConfig['username'] , $blogConfig['password'] ,$blogConfig['blogid'], $isCache = 1 );
 
+        $model = $this->modelClass;
         $record = $model::find()->where(['id'=> $d['blogId']])->asArray()->one();
         if( !empty($d['edit']) ){
             $filter = ['id'=>$record['id']];
@@ -212,11 +212,18 @@ class MetaweblogController extends Controller
     public function actionInit(){
         $d = $this->data;
         if( !empty($d['blogType']) ){
+            //检测是否正确
+            //查询分类
+            $MetaWeblog = new MetaWeblog();
+            $blogName = Common::blogParamName($d['blogType']);
+            $Categories = $MetaWeblog->get( $d['blogType'],$d['username'] , $d['password'] ,$d['blogid'], $isCache = 0 );
+            if( !is_array($Categories) ) Common::echoJson(400,'设置参数有误，请仔细核对下');
+
             $DB = new DB();
             if( !JpBlogConfig::find()->where(['blogType'=>$d['blogType']])->asArray()->one() ){
-                $DB->insert(JpBlogConfig::tableName(),['blogType'=>$d['blogType'],'username'=>$d['username'],'password'=>$d['password'],'blogid'=>$d['blogid']]);
+                $DB->insert(JpBlogConfig::tableName(),['blogType'=>$d['blogType'],'username'=>$d['username'],'password'=>$d['password'],'blogid'=>$d['blogid'],'isEnable'=>$d['isEnable']]);
             }else{
-                $DB->update(JpBlogConfig::tableName(),['username'=>$d['username'],'password'=>$d['password'],'blogid'=>$d['blogid']],['blogType'=>$d['blogType']]);
+                $DB->update(JpBlogConfig::tableName(),['username'=>$d['username'],'password'=>$d['password'],'blogid'=>$d['blogid'],'isEnable'=>$d['isEnable']],['blogType'=>$d['blogType']]);
             }
 //            Common::echoJson(200,'设置成功');
         }
