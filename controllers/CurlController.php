@@ -11,6 +11,14 @@ use app\models\ContactForm;
 
 class CurlController extends Controller
 {
+    #参考 https://segmentfault.com/a/1190000016343861#articleHeader0
+    /**
+     * 测试13个请求  循环处理时间 13050ms，curl批处理时间 6309ms,我本地环境CPU不行，相信生产的性能会更佳；
+     * 超时时间：为了防止慢请求影响整个服务，可以设置CURLOPT_TIMEOUT来控制超时时间，防止部分假死的请求无限阻塞进程处理，最后打死机器服务。
+     * CPU负载打满：如果持续查询并发的执行状态，会导致cpu的负载过高，所以，需要在代码里加上usleep(50000);的语句。同时，curl_multi_select也可以控制cpu占用，在数据有回应前会一直处于等待状态，新数据一来就会被唤醒并继续执行，减少了CPU的无谓消耗。
+     * 并发数限制：curl_multi会消耗很多的系统资源，在并发请求时并发数有一定阈值，一般为512，是由于CURL内部限制，超过最大并发会导致失败。具体的测试结果我没有做，可以参考别人的文章：每次使用curl multi同时并发多少请求合适
+     */
+
     public $urls =  [
         ['url'=>'http://192.168.33.30:83/wx/users/customerlist','params'=>''],
         ['url'=>'http://192.168.33.30:83/wx/users/customerlist','params'=>''],
@@ -35,8 +43,6 @@ class CurlController extends Controller
         ['url'=> '192.168.33.30:81','params'=>''],
         ['url'=> 'http://www.cnblogs.com/followyou/p/9725136.html','params'=>''],
     ];
-
-    #参考https://segmentfault.com/a/1190000016343861#articleHeader0
 
     //curl循环请求
     public function actionLoop(){
@@ -104,12 +110,4 @@ class CurlController extends Controller
         var_dump($urlData);
     }
 
-    /**
-     * 测试13个请求  循环处理时间 13050ms，curl批处理时间 6309ms,我本地环境CPU不行，相信生产的性能会更佳；
-     * 超时时间：为了防止慢请求影响整个服务，可以设置CURLOPT_TIMEOUT来控制超时时间，防止部分假死的请求无限阻塞进程处理，最后打死机器服务。
-     * CPU负载打满：如果持续查询并发的执行状态，会导致cpu的负载过高，所以，需要在代码里加上usleep(50000);的语句。
-    同时，curl_multi_select也可以控制cpu占用，在数据有回应前会一直处于等待状态，新数据一来就会被唤醒并继续执行，减少了CPU的无谓消耗。
-     * 并发数限制：
-    curl_multi会消耗很多的系统资源，在并发请求时并发数有一定阈值，一般为512，是由于CURL内部限制，超过最大并发会导致失败。具体的测试结果我没有做，可以参考别人的文章：每次使用curl multi同时并发多少请求合适
-     */
 }
