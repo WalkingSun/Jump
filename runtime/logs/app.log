@@ -33777,3 +33777,1573 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1539690806.2857
     'REQUEST_TIME' => 1539690806
 ]
+2018-10-19 11:13:16 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-10-19 11:13:16 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-10-19 11:13:17 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-10-19 11:13:17 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-10-19 11:13:17 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-10-19 11:13:17 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-10-19 11:13:17 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog'
+2018-10-19 11:13:17 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-10-19 11:13:17 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-10-19 11:13:17 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT COUNT(*) FROM "jp_blogRecord" WHERE "isDelete"=0
+    in /app/space/jump/controllers/MetaweblogController.php:38
+2018-10-19 11:13:17 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/MetaweblogController.php:38
+2018-10-19 11:13:17 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 5
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:40
+2018-10-19 11:13:17 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:41
+2018-10-19 11:13:17 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:41
+2018-10-19 11:13:17 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:82
+    in /app/space/jump/controllers/MetaweblogController.php:41
+2018-10-19 11:13:17 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-10-19 11:13:16 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.87.4'
+    'REMOTE_PORT' => '54480'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539918796.6398
+    'REQUEST_TIME' => 1539918796
+]
+2018-10-19 11:13:23 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-10-19 11:13:23 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-10-19 11:13:23 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-10-19 11:13:23 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-10-19 11:13:23 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-10-19 11:13:23 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-10-19 11:13:23 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/init'
+2018-10-19 11:13:23 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/init
+2018-10-19 11:13:23 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionInit()
+2018-10-19 11:13:23 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogConfig"
+    in /app/space/jump/controllers/MetaweblogController.php:230
+2018-10-19 11:13:23 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/MetaweblogController.php:230
+2018-10-19 11:13:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/init.php
+    in /app/space/jump/controllers/MetaweblogController.php:232
+2018-10-19 11:13:23 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:232
+2018-10-19 11:13:23 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:82
+    in /app/space/jump/controllers/MetaweblogController.php:232
+2018-10-19 11:13:23 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-10-19 11:13:23 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/init'
+]
+
+$_COOKIE = [
+    '_csrf' => '455766ec7353566ab9c9051992c874dc564d87632d5d36654de168df34ebe869a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"±DÊ[ä^ÉeÊÐ\'Õ³ás”M’^:Ôýo‚ì@ZÉŸ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=455766ec7353566ab9c9051992c874dc564d87632d5d36654de168df34ebe869a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%B1D%CA%5B%E4%11%01%5E%C9e%CA%D0%27%05%D5%B3%E1s%94M%92%5E%3A%D4%FDo%82%EC%40Z%C9%9F%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.87.4'
+    'REMOTE_PORT' => '54486'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog%2Finit'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog%2Finit'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539918802.7429
+    'REQUEST_TIME' => 1539918802
+]
+2018-10-19 11:13:31 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-10-19 11:13:31 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-10-19 11:13:31 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-10-19 11:13:31 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-10-19 11:13:31 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-10-19 11:13:31 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-10-19 11:13:31 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/init'
+2018-10-19 11:13:31 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/init
+2018-10-19 11:13:31 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionInit()
+2018-10-19 11:13:31 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogConfig"
+    in /app/space/jump/controllers/MetaweblogController.php:230
+2018-10-19 11:13:31 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/MetaweblogController.php:230
+2018-10-19 11:13:31 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/init.php
+    in /app/space/jump/controllers/MetaweblogController.php:232
+2018-10-19 11:13:31 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:232
+2018-10-19 11:13:31 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:82
+    in /app/space/jump/controllers/MetaweblogController.php:232
+2018-10-19 11:13:31 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-10-19 11:13:31 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/init'
+]
+
+$_COOKIE = [
+    '_csrf' => '455766ec7353566ab9c9051992c874dc564d87632d5d36654de168df34ebe869a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"±DÊ[ä^ÉeÊÐ\'Õ³ás”M’^:Ôýo‚ì@ZÉŸ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=455766ec7353566ab9c9051992c874dc564d87632d5d36654de168df34ebe869a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%B1D%CA%5B%E4%11%01%5E%C9e%CA%D0%27%05%D5%B3%E1s%94M%92%5E%3A%D4%FDo%82%EC%40Z%C9%9F%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.87.4'
+    'REMOTE_PORT' => '54486'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog%2Finit'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog%2Finit'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539918810.9452
+    'REQUEST_TIME' => 1539918810
+]
+2018-10-19 11:13:54 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-10-19 11:13:54 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-10-19 11:13:54 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-10-19 11:13:54 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-10-19 11:13:54 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-10-19 11:13:54 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-10-19 11:13:54 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-10-19 11:13:54 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-10-19 11:13:54 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-10-19 11:13:54 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogConfig" WHERE "blogType"=6
+    in /app/space/jump/controllers/MetaweblogController.php:66
+2018-10-19 11:13:54 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/MetaweblogController.php:66
+2018-10-19 11:13:55 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/add.php
+    in /app/space/jump/controllers/MetaweblogController.php:92
+2018-10-19 11:13:55 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:92
+2018-10-19 11:13:55 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:82
+    in /app/space/jump/controllers/MetaweblogController.php:92
+2018-10-19 11:13:55 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-10-19 11:13:54 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_COOKIE = [
+    '_csrf' => '455766ec7353566ab9c9051992c874dc564d87632d5d36654de168df34ebe869a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"±DÊ[ä^ÉeÊÐ\'Õ³ás”M’^:Ôýo‚ì@ZÉŸ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=455766ec7353566ab9c9051992c874dc564d87632d5d36654de168df34ebe869a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%B1D%CA%5B%E4%11%01%5E%C9e%CA%D0%27%05%D5%B3%E1s%94M%92%5E%3A%D4%FDo%82%EC%40Z%C9%9F%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.87.4'
+    'REMOTE_PORT' => '54486'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog%2Fadd'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539918834.1579
+    'REQUEST_TIME' => 1539918834
+]
+2018-10-19 11:16:15 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-10-19 11:16:15 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-10-19 11:16:15 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-10-19 11:16:15 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-10-19 11:16:15 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-10-19 11:16:15 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-10-19 11:16:15 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/add'
+2018-10-19 11:16:15 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/add
+2018-10-19 11:16:15 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionAdd()
+2018-10-19 11:16:15 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogConfig" WHERE "blogType"=6
+    in /app/space/jump/controllers/MetaweblogController.php:66
+2018-10-19 11:16:15 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/MetaweblogController.php:66
+2018-10-19 11:16:15 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'jp_blogRecord'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-10-19 11:16:15 [192.168.33.1][-][-][info][yii\db\Command::query] select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='jp_blogRecord'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-10-19 11:16:15 [192.168.33.1][-][-][info][yii\db\Command::execute] INSERT INTO "jp_blogRecord" ("title", "content", "fileurl", "cnblogsId", "51ctoId", "sinaId", "csdnId", "163Id", "oschinaId", "chinaunixId", "createtime", "cnblogsType") VALUES ('nginx+php+swooleå®‰è£…è®°å½•', '', 'https://raw.githubusercontent.com/WalkingSun/WindBlog/gh-pages/_posts/PHP/2018-10-18-nginx_php_swoole.md', '', '', '', '', '', '', '', '2018-10-19', '[Markdown],[éšç¬”åˆ†ç±»]æœåŠ¡å™¨')
+    in /app/space/jump/models/DB.php:57
+    in /app/space/jump/controllers/MetaweblogController.php:88
+2018-10-19 11:16:15 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/add'
+]
+
+$_POST = [
+    'edit' => '1'
+    'id' => ''
+    'title' => 'nginx+php+swooleå®‰è£…è®°å½•'
+    'content' => ''
+    'fileurl' => 'https://raw.githubusercontent.com/WalkingSun/WindBlog/gh-pages/_posts/PHP/2018-10-18-nginx_php_swoole.md'
+    'cnblogsType' => [
+        0 => '[Markdown]'
+        1 => '[éšç¬”åˆ†ç±»]æœåŠ¡å™¨'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '455766ec7353566ab9c9051992c874dc564d87632d5d36654de168df34ebe869a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"±DÊ[ä^ÉeÊÐ\'Õ³ás”M’^:Ôýo‚ì@ZÉŸ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=455766ec7353566ab9c9051992c874dc564d87632d5d36654de168df34ebe869a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%B1D%CA%5B%E4%11%01%5E%C9e%CA%D0%27%05%D5%B3%E1s%94M%92%5E%3A%D4%FDo%82%EC%40Z%C9%9F%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog%2Fadd'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => '4KMaqHVnBCeg21DPRI0hU8vUcdnOpeRo4IkBebvmmG5R59DzkXYFeWm-mh9jiPTgKqfllFz73rwd5oOV-7xR8Q=='
+    'HTTP_ORIGIN' => 'http://192.168.33.30:82'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_LENGTH' => '334'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.87.4'
+    'REMOTE_PORT' => '54565'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog%2Fadd'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '334'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=metaweblog%2Fadd'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539918975.1609
+    'REQUEST_TIME' => 1539918975
+]
+2018-10-19 11:16:18 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-10-19 11:16:18 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2018-10-19 11:16:18 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2018-10-19 11:16:18 [192.168.33.1][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2018-10-19 11:16:18 [192.168.33.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2018-10-19 11:16:18 [192.168.33.1][-][-][trace][yii\web\UrlManager::parseRequest] Pretty URL not enabled. Using default URL parsing logic.
+2018-10-19 11:16:18 [192.168.33.1][-][-][trace][yii\web\Application::handleRequest] Route requested: 'metaweblog/index'
+2018-10-19 11:16:18 [192.168.33.1][-][-][trace][yii\base\Controller::runAction] Route to run: metaweblog/index
+2018-10-19 11:16:18 [192.168.33.1][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\MetaweblogController::actionIndex()
+2018-10-19 11:16:18 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT COUNT(*) FROM "jp_blogRecord" WHERE "isDelete"=0
+    in /app/space/jump/controllers/MetaweblogController.php:38
+2018-10-19 11:16:18 [192.168.33.1][-][-][info][yii\db\Connection::open] Opening DB connection: pgsql:host=192.168.33.30;port=5432;dbname=jump
+    in /app/space/jump/controllers/MetaweblogController.php:38
+2018-10-19 11:16:18 [192.168.33.1][-][-][info][yii\db\Command::query] SELECT * FROM "jp_blogRecord" WHERE (("isDelete"=0)) ORDER BY "createtime" DESC LIMIT 5
+    in /app/space/jump/models/Basic.php:42
+    in /app/space/jump/controllers/MetaweblogController.php:40
+2018-10-19 11:16:18 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/metaweblog/index.php
+    in /app/space/jump/controllers/MetaweblogController.php:41
+2018-10-19 11:16:18 [192.168.33.1][-][-][trace][yii\base\View::renderFile] Rendering view file: /app/space/jump/views/layouts/main.php
+    in /app/space/jump/controllers/MetaweblogController.php:41
+2018-10-19 11:16:18 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+    in /app/space/jump/views/layouts/main.php:82
+    in /app/space/jump/controllers/MetaweblogController.php:41
+2018-10-19 11:16:18 [192.168.33.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.33.1
+2018-10-19 11:16:17 [192.168.33.1][-][-][info][application] $_GET = [
+    'r' => 'metaweblog/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '455766ec7353566ab9c9051992c874dc564d87632d5d36654de168df34ebe869a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"±DÊ[ä^ÉeÊÐ\'Õ³ás”M’^:Ôýo‚ì@ZÉŸ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'nobody'
+    'HOME' => '/'
+    'HTTP_COOKIE' => '_csrf=455766ec7353566ab9c9051992c874dc564d87632d5d36654de168df34ebe869a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%B1D%CA%5B%E4%11%01%5E%C9e%CA%D0%27%05%D5%B3%E1s%94M%92%5E%3A%D4%FDo%82%EC%40Z%C9%9F%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.33.30:82/index.php?r=metaweblog%2Fadd'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.33.30:82'
+    'SCRIPT_FILENAME' => '/app/space/jump/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'jump.com'
+    'SERVER_PORT' => '82'
+    'SERVER_ADDR' => '172.17.87.4'
+    'REMOTE_PORT' => '54565'
+    'REMOTE_ADDR' => '192.168.33.1'
+    'SERVER_SOFTWARE' => 'nginx/1.11.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/app/space/jump/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=metaweblog%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=metaweblog%2Findex'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1539918977.6828
+    'REQUEST_TIME' => 1539918977
+]
+2018-10-23 10:05:51 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php:568
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/HelpController.php(334): yii\console\Controller->getActionHelpSummary('NULL')
+#1 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/HelpController.php(67): yii\console\controllers\HelpController->getDefaultHelp()
+#2 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): yii\console\controllers\HelpController->actionIndex('NULL')
+#3 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array (0 => NUL...')
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('array ()')
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('''', 'array ()')
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('''', 'array ()')
+#7 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('''', 'array ()')
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('''', 'array ()')
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
+#10 /app/space/Jump/yii(20): yii\base\Application->run()
+#11 {main}
+2018-10-23 10:05:51 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540260351.3599
+    'REQUEST_TIME' => 1540260351
+    'argv' => [
+        0 => 'yii'
+    ]
+    'argc' => 1
+]
+2018-10-23 10:47:12 [-][-][-][error][Error] Error: Call to a member function notNull() on null in /app/space/Jump/migrations/m181023_021117_create_news_table.php:17
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(671): m181023_021117_create_news_table->up()
+#1 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->migrateUp('m181023_021117_...')
+#2 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#3 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /app/space/Jump/yii(20): yii\base\Application->run()
+#11 {main}
+2018-10-23 10:47:10 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540262830.463
+    'REQUEST_TIME' => 1540262830
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2018-10-23 10:48:20 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "."
+LINE 5:  "userIn"."userPasswd" varchar(255) NOT NULL,
+                 ^ in /app/space/Jump/vendor/yiisoft/yii2/db/Command.php:842
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(842): PDOStatement->execute()
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(288): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(26): yii\db\Migration->createTable('AM_user1', Array)
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(671): m181023_021117_create_news_table->up()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->migrateUp('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "."
+LINE 5:  "userIn"."userPasswd" varchar(255) NOT NULL,
+                 ^
+The SQL being executed was: CREATE TABLE "AM_user1" (
+	"userid" serial NOT NULL PRIMARY KEY,
+	"mobile" integer NOT NULL,
+	"password" varchar(64) NOT NULL,
+	"userIn"."userPasswd" varchar(255) NOT NULL,
+	"imei" varchar(255) NOT NULL,
+	"token" varchar(255) NOT NULL,
+	"imsi" varchar(255) NOT NULL,
+	"remark" varchar(255) NOT NULL,
+	"isDelete" varchar(255) NOT NULL,
+	"loginClass" varchar(255) NOT NULL,
+	"clientVersion" varchar(255) NOT NULL
+) in /app/space/Jump/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE "A...')
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(288): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(26): yii\db\Migration->createTable('AM_user1', Array)
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(671): m181023_021117_create_news_table->up()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->migrateUp('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42601
+    [1] => 7
+    [2] => ERROR:  syntax error at or near "."
+LINE 5:  "userIn"."userPasswd" varchar(255) NOT NULL,
+                 ^
+)
+
+2018-10-23 10:48:18 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540262898.6938
+    'REQUEST_TIME' => 1540262898
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2018-10-23 10:49:35 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "."
+LINE 5:  "userIn"."userPasswd" varchar(255) NOT NULL,
+                 ^ in /app/space/Jump/vendor/yiisoft/yii2/db/Command.php:842
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(842): PDOStatement->execute()
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(288): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(26): yii\db\Migration->createTable('AM_user1', Array)
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(671): m181023_021117_create_news_table->up()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->migrateUp('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "."
+LINE 5:  "userIn"."userPasswd" varchar(255) NOT NULL,
+                 ^
+The SQL being executed was: CREATE TABLE "AM_user1" (
+	"userid" serial NOT NULL PRIMARY KEY,
+	"mobile" integer NOT NULL,
+	"password" varchar(64) NOT NULL,
+	"userIn"."userPasswd" varchar(255) NOT NULL,
+	"imei" varchar(255) NOT NULL,
+	"token" varchar(255) NOT NULL,
+	"imsi" varchar(255) NOT NULL,
+	"remark" varchar(255) NOT NULL,
+	"isDelete" smallint NOT NULL,
+	"loginClass" varchar(255) NOT NULL,
+	"clientVersion" varchar(255) NOT NULL
+) in /app/space/Jump/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE "A...')
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(288): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(26): yii\db\Migration->createTable('AM_user1', Array)
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(671): m181023_021117_create_news_table->up()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->migrateUp('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42601
+    [1] => 7
+    [2] => ERROR:  syntax error at or near "."
+LINE 5:  "userIn"."userPasswd" varchar(255) NOT NULL,
+                 ^
+)
+
+2018-10-23 10:49:32 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540262972.739
+    'REQUEST_TIME' => 1540262972
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2018-10-23 10:50:28 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "."
+LINE 5:  "userIn\"."userPasswd" varchar(255) NOT NULL,
+                  ^ in /app/space/Jump/vendor/yiisoft/yii2/db/Command.php:842
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(842): PDOStatement->execute()
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(288): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(26): yii\db\Migration->createTable('AM_user1', Array)
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(671): m181023_021117_create_news_table->up()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->migrateUp('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "."
+LINE 5:  "userIn\"."userPasswd" varchar(255) NOT NULL,
+                  ^
+The SQL being executed was: CREATE TABLE "AM_user1" (
+	"userid" serial NOT NULL PRIMARY KEY,
+	"mobile" integer NOT NULL,
+	"password" varchar(64) NOT NULL,
+	"userIn\"."userPasswd" varchar(255) NOT NULL,
+	"imei" varchar(255) NOT NULL,
+	"token" varchar(255) NOT NULL,
+	"imsi" varchar(255) NOT NULL,
+	"remark" varchar(255) NOT NULL,
+	"isDelete" smallint NOT NULL,
+	"loginClass" varchar(255) NOT NULL,
+	"clientVersion" varchar(255) NOT NULL
+) in /app/space/Jump/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE "A...')
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(288): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(26): yii\db\Migration->createTable('AM_user1', Array)
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(671): m181023_021117_create_news_table->up()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->migrateUp('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42601
+    [1] => 7
+    [2] => ERROR:  syntax error at or near "."
+LINE 5:  "userIn\"."userPasswd" varchar(255) NOT NULL,
+                  ^
+)
+
+2018-10-23 10:50:26 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540263026.4366
+    'REQUEST_TIME' => 1540263026
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2018-10-23 14:01:28 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42P01]: Undefined table: 7 ERROR:  table "JP_blogCategories" does not exist in /app/space/Jump/vendor/yiisoft/yii2/db/Command.php:842
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(842): PDOStatement->execute()
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(318): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(108): yii\db\Migration->dropTable('JP_blogCategori...')
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(699): m181023_021117_create_news_table->down()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(244): yii\console\controllers\BaseMigrateController->migrateDown('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('down', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('down', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42P01]: Undefined table: 7 ERROR:  table "JP_blogCategories" does not exist
+The SQL being executed was: DROP TABLE "JP_blogCategories" in /app/space/Jump/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'DROP TABLE "JP_...')
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(318): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(108): yii\db\Migration->dropTable('JP_blogCategori...')
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(699): m181023_021117_create_news_table->down()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(244): yii\console\controllers\BaseMigrateController->migrateDown('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('down', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('down', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42P01
+    [1] => 7
+    [2] => ERROR:  table "JP_blogCategories" does not exist
+)
+
+2018-10-23 14:01:24 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540274484.2049
+    'REQUEST_TIME' => 1540274484
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
+2018-10-23 14:02:36 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42P01]: Undefined table: 7 ERROR:  table "AM_user" does not exist in /app/space/Jump/vendor/yiisoft/yii2/db/Command.php:842
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(842): PDOStatement->execute()
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(318): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(104): yii\db\Migration->dropTable('AM_user')
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(699): m181023_021117_create_news_table->down()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(244): yii\console\controllers\BaseMigrateController->migrateDown('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('down', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('down', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42P01]: Undefined table: 7 ERROR:  table "AM_user" does not exist
+The SQL being executed was: DROP TABLE "AM_user" in /app/space/Jump/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'DROP TABLE "AM_...')
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(318): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(104): yii\db\Migration->dropTable('AM_user')
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(699): m181023_021117_create_news_table->down()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(244): yii\console\controllers\BaseMigrateController->migrateDown('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('down', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('down', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42P01
+    [1] => 7
+    [2] => ERROR:  table "AM_user" does not exist
+)
+
+2018-10-23 14:02:34 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540274553.9957
+    'REQUEST_TIME' => 1540274553
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
+2018-10-23 14:03:47 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42P01]: Undefined table: 7 ERROR:  table "AM_user" does not exist in /app/space/Jump/vendor/yiisoft/yii2/db/Command.php:842
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(842): PDOStatement->execute()
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(318): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(104): yii\db\Migration->dropTable('AM_user')
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(699): m181023_021117_create_news_table->down()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(244): yii\console\controllers\BaseMigrateController->migrateDown('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('down', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('down', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42P01]: Undefined table: 7 ERROR:  table "AM_user" does not exist
+The SQL being executed was: DROP TABLE "AM_user" in /app/space/Jump/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'DROP TABLE "AM_...')
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(318): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(104): yii\db\Migration->dropTable('AM_user')
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(699): m181023_021117_create_news_table->down()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(244): yii\console\controllers\BaseMigrateController->migrateDown('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('down', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('down', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42P01
+    [1] => 7
+    [2] => ERROR:  table "AM_user" does not exist
+)
+
+2018-10-23 14:03:44 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540274624.8949
+    'REQUEST_TIME' => 1540274624
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
+2018-10-23 14:05:04 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42P01]: Undefined table: 7 ERROR:  table "AM_user" does not exist in /app/space/Jump/vendor/yiisoft/yii2/db/Command.php:842
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(842): PDOStatement->execute()
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(318): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(104): yii\db\Migration->dropTable('AM_user')
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(699): m181023_021117_create_news_table->down()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(244): yii\console\controllers\BaseMigrateController->migrateDown('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('down', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('down', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42P01]: Undefined table: 7 ERROR:  table "AM_user" does not exist
+The SQL being executed was: DROP TABLE "AM_user" in /app/space/Jump/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'DROP TABLE "AM_...')
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(318): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(104): yii\db\Migration->dropTable('AM_user')
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(699): m181023_021117_create_news_table->down()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(244): yii\console\controllers\BaseMigrateController->migrateDown('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('down', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('down', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42P01
+    [1] => 7
+    [2] => ERROR:  table "AM_user" does not exist
+)
+
+2018-10-23 14:05:02 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540274702.62
+    'REQUEST_TIME' => 1540274702
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
+2018-10-23 14:06:39 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42P01]: Undefined table: 7 ERROR:  table "AM_user" does not exist in /app/space/Jump/vendor/yiisoft/yii2/db/Command.php:842
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(842): PDOStatement->execute()
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(318): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(104): yii\db\Migration->dropTable('AM_user')
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(699): m181023_021117_create_news_table->down()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(244): yii\console\controllers\BaseMigrateController->migrateDown('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('down', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('down', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42P01]: Undefined table: 7 ERROR:  table "AM_user" does not exist
+The SQL being executed was: DROP TABLE "AM_user" in /app/space/Jump/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'DROP TABLE "AM_...')
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(318): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(104): yii\db\Migration->dropTable('AM_user')
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(699): m181023_021117_create_news_table->down()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(244): yii\console\controllers\BaseMigrateController->migrateDown('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('down', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('down', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42P01
+    [1] => 7
+    [2] => ERROR:  table "AM_user" does not exist
+)
+
+2018-10-23 14:06:34 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540274794.1276
+    'REQUEST_TIME' => 1540274794
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
+2018-10-23 14:07:08 [-][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: m181023_021117_create_news_table::int() in /app/space/Jump/vendor/yiisoft/yii2/base/Component.php:290
+Stack trace:
+#0 /app/space/Jump/migrations/m181023_021117_create_news_table.php(89): yii\base\Component->__call('int', Array)
+#1 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(671): m181023_021117_create_news_table->up()
+#2 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->migrateUp('m181023_021117_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /app/space/Jump/yii(20): yii\base\Application->run()
+#12 {main}
+2018-10-23 14:07:06 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540274826.2792
+    'REQUEST_TIME' => 1540274826
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2018-10-23 14:09:00 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "AM_user" already exists in /app/space/Jump/vendor/yiisoft/yii2/db/Command.php:842
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(842): PDOStatement->execute()
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(288): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(32): yii\db\Migration->createTable('AM_user', Array, NULL)
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(671): m181023_021117_create_news_table->up()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->migrateUp('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "AM_user" already exists
+The SQL being executed was: CREATE TABLE "AM_user" (
+	"userid" serial NOT NULL PRIMARY KEY,
+	"mobile" integer NOT NULL,
+	"password" varchar(64) NOT NULL,
+	"userIn_userPasswd" varchar(255) NOT NULL,
+	"imei" varchar(255) DEFAULT '',
+	"token" varchar(255) DEFAULT '',
+	"imsi" varchar(255) DEFAULT '',
+	"remark" varchar(255) DEFAULT '',
+	"isDelete" smallint DEFAULT 0,
+	"loginClass" smallint NOT NULL,
+	"clientVersion" varchar(255) DEFAULT '5.1.4'
+) in /app/space/Jump/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE "A...')
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(288): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(32): yii\db\Migration->createTable('AM_user', Array, NULL)
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(671): m181023_021117_create_news_table->up()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->migrateUp('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42P07
+    [1] => 7
+    [2] => ERROR:  relation "AM_user" already exists
+)
+
+2018-10-23 14:08:58 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540274938.1256
+    'REQUEST_TIME' => 1540274938
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2018-10-23 14:09:25 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "AM_user" already exists in /app/space/Jump/vendor/yiisoft/yii2/db/Command.php:842
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(842): PDOStatement->execute()
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(288): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(32): yii\db\Migration->createTable('AM_user', Array, NULL)
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(671): m181023_021117_create_news_table->up()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->migrateUp('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "AM_user" already exists
+The SQL being executed was: CREATE TABLE "AM_user" (
+	"userid" serial NOT NULL PRIMARY KEY,
+	"mobile" integer NOT NULL,
+	"password" varchar(64) NOT NULL,
+	"userIn_userPasswd" varchar(255) NOT NULL,
+	"imei" varchar(255) DEFAULT '',
+	"token" varchar(255) DEFAULT '',
+	"imsi" varchar(255) DEFAULT '',
+	"remark" varchar(255) DEFAULT '',
+	"isDelete" smallint DEFAULT 0,
+	"loginClass" smallint NOT NULL,
+	"clientVersion" varchar(255) DEFAULT '5.1.4'
+) in /app/space/Jump/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE "A...')
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(288): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(32): yii\db\Migration->createTable('AM_user', Array, NULL)
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(671): m181023_021117_create_news_table->up()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->migrateUp('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42P07
+    [1] => 7
+    [2] => ERROR:  relation "AM_user" already exists
+)
+
+2018-10-23 14:09:23 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540274963.4386
+    'REQUEST_TIME' => 1540274963
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2018-10-23 14:12:06 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "AM_user" already exists in /app/space/Jump/vendor/yiisoft/yii2/db/Command.php:842
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(842): PDOStatement->execute()
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(288): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(32): yii\db\Migration->createTable('AM_user', Array, NULL)
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(671): m181023_021117_create_news_table->up()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->migrateUp('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "AM_user" already exists
+The SQL being executed was: CREATE TABLE "AM_user" (
+	"userid" serial NOT NULL PRIMARY KEY,
+	"mobile" integer NOT NULL,
+	"password" varchar(64) NOT NULL,
+	"userIn_userPasswd" varchar(255) NOT NULL,
+	"imei" varchar(255) DEFAULT '',
+	"token" varchar(255) DEFAULT '',
+	"imsi" varchar(255) DEFAULT '',
+	"remark" varchar(255) DEFAULT '',
+	"isDelete" smallint DEFAULT 0,
+	"loginClass" smallint NOT NULL,
+	"clientVersion" varchar(255) DEFAULT '5.1.4'
+) in /app/space/Jump/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE "A...')
+#1 /app/space/Jump/vendor/yiisoft/yii2/db/Migration.php(288): yii\db\Command->execute()
+#2 /app/space/Jump/migrations/m181023_021117_create_news_table.php(32): yii\db\Migration->createTable('AM_user', Array, NULL)
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(671): m181023_021117_create_news_table->up()
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->migrateUp('m181023_021117_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/space/Jump/yii(20): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42P07
+    [1] => 7
+    [2] => ERROR:  relation "AM_user" already exists
+)
+
+2018-10-23 14:12:04 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app/space'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540275124.9181
+    'REQUEST_TIME' => 1540275124
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2018-10-24 18:17:13 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php:568
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/HelpController.php(334): yii\console\Controller->getActionHelpSummary('NULL')
+#1 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/HelpController.php(67): yii\console\controllers\HelpController->getDefaultHelp()
+#2 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): yii\console\controllers\HelpController->actionIndex('NULL')
+#3 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array (0 => NUL...')
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('array ()')
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('''', 'array ()')
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('''', 'array ()')
+#7 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('''', 'array ()')
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('''', 'array ()')
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
+#10 /app/space/Jump/yii(20): yii\base\Application->run()
+#11 {main}
+2018-10-24 18:17:13 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540376233.5559
+    'REQUEST_TIME' => 1540376233
+    'argv' => [
+        0 => 'yii'
+    ]
+    'argc' => 1
+]
+2018-10-24 18:17:39 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: userIn.userPasswd in /app/space/Jump/commands/SignController.php:24
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array ()')
+#1 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('array ()')
+#2 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('''', 'array ()')
+#3 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('''', 'array ()')
+#4 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction(''sign'', 'array ()')
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction(''sign'', 'array ()')
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
+#7 /app/space/Jump/yii(20): yii\base\Application->run()
+#8 {main}
+2018-10-24 18:17:39 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540376259.3677
+    'REQUEST_TIME' => 1540376259
+    'argv' => [
+        0 => 'yii'
+        1 => 'sign'
+    ]
+    'argc' => 2
+]
+2018-10-24 18:18:13 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: JSESSIONID_ahmobile in /app/space/Jump/commands/SignController.php:63
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): app\commands\SignController->actionIndex()
+#1 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array ()')
+#2 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('array ()')
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('''', 'array ()')
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('''', 'array ()')
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction(''sign'', 'array ()')
+#6 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction(''sign'', 'array ()')
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
+#8 /app/space/Jump/yii(20): yii\base\Application->run()
+#9 {main}
+2018-10-24 18:18:08 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540376288.0115
+    'REQUEST_TIME' => 1540376288
+    'argv' => [
+        0 => 'yii'
+        1 => 'sign'
+    ]
+    'argc' => 2
+]
+2018-10-24 18:19:27 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php:568
+Stack trace:
+#0 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/HelpController.php(334): yii\console\Controller->getActionHelpSummary('NULL')
+#1 /app/space/Jump/vendor/yiisoft/yii2/console/controllers/HelpController.php(67): yii\console\controllers\HelpController->getDefaultHelp()
+#2 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): yii\console\controllers\HelpController->actionIndex('NULL')
+#3 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): ::call_user_func_array:{/app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php:57}('array (0 => cla...', 'array (0 => NUL...')
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('array ()')
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('''', 'array ()')
+#6 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('''', 'array ()')
+#7 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('''', 'array ()')
+#8 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('''', 'array ()')
+#9 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest('class yii\\conso...')
+#10 /app/space/Jump/yii(20): yii\base\Application->run()
+#11 {main}
+2018-10-24 18:19:27 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540376367.6218
+    'REQUEST_TIME' => 1540376367
+    'argv' => [
+        0 => 'yii'
+    ]
+    'argc' => 1
+]
+2018-10-24 18:19:56 [-][-][-][error][yii\console\Exception] yii\console\Exception: The limit must be greater than 0. in /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php:521
+Stack trace:
+#0 [internal function]: yii\console\controllers\BaseMigrateController->actionNew(0)
+#1 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('new', Array)
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('new', Array)
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/new', Array)
+#6 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/new', Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /app/space/Jump/yii(20): yii\base\Application->run()
+#9 {main}
+2018-10-24 18:19:56 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540376396.5745
+    'REQUEST_TIME' => 1540376396
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/new'
+        2 => 'AM_user_modify'
+    ]
+    'argc' => 3
+]
+2018-10-24 18:21:09 [-][-][-][error][yii\console\Exception] yii\console\Exception: The limit must be greater than 0. in /app/space/Jump/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php:521
+Stack trace:
+#0 [internal function]: yii\console\controllers\BaseMigrateController->actionNew(0)
+#1 /app/space/Jump/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /app/space/Jump/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /app/space/Jump/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('new', Array)
+#4 /app/space/Jump/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('new', Array)
+#5 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/new', Array)
+#6 /app/space/Jump/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/new', Array)
+#7 /app/space/Jump/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /app/space/Jump/yii(20): yii\base\Application->run()
+#9 {main}
+2018-10-24 18:21:09 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => '49a263f703fe'
+    'SHLVL' => '1'
+    'OLDPWD' => '/app'
+    'HOME' => '/root'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PWD' => '/app/space/Jump'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1540376469.7948
+    'REQUEST_TIME' => 1540376469
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/new'
+        2 => 'AM_user'
+    ]
+    'argc' => 3
+]

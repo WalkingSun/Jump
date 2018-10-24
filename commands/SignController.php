@@ -21,7 +21,7 @@ class SignController extends Controller
         $users = AMUser::find()->where(['isDelete'=>0])->asArray()->all() or exit();
         foreach ($users as $v){
             //签到
-            $signInfo = $this->sign( $v['mobile'],$v['userIn.userPasswd'],$v['imei'],$v['token'],$v['imsi'],$v['loginClass'],$v['clientVersion'] );
+            $signInfo = $this->sign( $v['mobile'],$v['userIn_userPasswd'],$v['imei'],$v['token'],$v['imsi'],$v['loginClass'],$v['clientVersion'] );
 
         }
 
