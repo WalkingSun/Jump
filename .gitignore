@@ -2,3 +2,4 @@
 ./.idea
 params.*
 ./web/markdown
+./vendor

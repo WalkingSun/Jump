@@ -61,7 +61,7 @@ $config = [
             ]
         ],
         'db' => require(__DIR__ . '/db.php'),
-//        'redis' => require(__DIR__ . '/../../config/redis.php'),
+        'redis' => require(__DIR__ . '/../config/redis.php'),
 //        'session' => [
 //            'class' => 'yii\redis\Session',
 //            'timeout' => 10000,
@@ -71,7 +71,7 @@ $config = [
             'keyPrefix' => 'jump',    // 唯一键前缀
 
         ],
-//        'urlManager' => require(__DIR__ . '/urlmanage.php'),
+        'urlManager' => require(__DIR__ . '/urlmanage.php'),
 
     ],
     'params' => $params,
