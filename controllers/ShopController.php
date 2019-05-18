@@ -180,4 +180,7 @@ class ShopController extends Controller
 
         die('success');
     }
+
+    # 队列
+    # 排队处理，让先进来的下单，后面的拦截掉  （此处不做模拟）
 }

@@ -101,7 +101,7 @@ class RabbitmqController extends Controller
     /**持久性及调度**/
 
     #生产者
-    public function actionNew_task(){
+    public function actionNewTask(){
         $connection =  new AMQPStreamConnection($this->host,$this->port,$this->user,$this->psd,$this->vhost);
         $channel = $connection->channel();
 
@@ -157,7 +157,7 @@ class RabbitmqController extends Controller
     //构建一个简单的日志系统。它将由两个程序组成，第一个程序将发出日志消息，第二个程序将接收并打印它们。
 
     //生成日志
-    public function actionEmit_log(){
+    public function actionEmitLog(){
         $connection = new AMQPStreamConnection($this->host,$this->port,$this->user,$this->psd,$this->vhost);
         $channel = $connection->channel();
 
@@ -179,7 +179,7 @@ class RabbitmqController extends Controller
     }
 
     //接受显示日志
-    public function actionReceive_logs(){
+    public function actionReceiveLogs(){
         $connection = new AMQPStreamConnection($this->host,$this->port,$this->user,$this->psd,$this->vhost);
         $channel = $connection->channel();
 
@@ -216,7 +216,7 @@ class RabbitmqController extends Controller
      * 参考链接：https://segmentfault.com/a/1190000013488291
      */
 
-    public function actionEmit_log_direct(){
+    public function actionEmitlogdirect(){
         $connection = new AMQPStreamConnection($this->host,$this->port,$this->user,$this->psd,$this->vhost);
         $channel = $connection->channel();
 
@@ -238,7 +238,7 @@ class RabbitmqController extends Controller
 
     //php /app/space/jump/yii jump/receive_logs_direct --severities=info,warning
     //只接受路由键 info、warning 的日志
-    public function actionReceive_logs_direct(){
+    public function actionReceiveLogsDirect(){
         $connection = new AMQPStreamConnection($this->host,$this->port,$this->user,$this->psd,$this->vhost);
         $channel = $connection->channel();
 
@@ -283,7 +283,7 @@ class RabbitmqController extends Controller
     //php receive_logs_topic.php "*.critical"  接受关于 critical 的日志
     //php receive_logs_topic.php "kern.*" "*.critical"  多个绑定
     //php emit_log_topic.php "kern.critical" "A critical kernel error"   触发一个日志来自路由键kern.critical类型
-    public function actionEmit_log_topic(){
+    public function actionEmitLogTopic(){
         $connection = new AMQPStreamConnection($this->host,$this->port,$this->user,$this->psd,$this->vhost);
         $channel = $connection->channel();
 
@@ -302,7 +302,7 @@ class RabbitmqController extends Controller
         $connection->close();
     }
 
-    public function actionReceive_logs_topic(){
+    public function actionReceiveLogsTopic(){
         $connection  = new AMQPStreamConnection($this->host,$this->port,$this->user,$this->psd,$this->vhost);
         $channel = $connection->channel();
 
@@ -358,7 +358,7 @@ class RabbitmqController extends Controller
     }
 
     //RPC服务端
-    public function actionRpc_server(){
+    public function actionRpcServer(){
         $connection = new AMQPStreamConnection($this->host,$this->port,$this->user,$this->psd,$this->vhost);
         $channel = $connection->channel();
 
@@ -407,7 +407,7 @@ class RabbitmqController extends Controller
     }
 
     //RPC 客户端
-    public function actionRpc_client(){
+    public function actionRpcClient(){
         $fibonacci = new FibonacciRpcClient($this->host,$this->port,$this->user,$this->psd,$this->vhost);
         $response = $fibonacci->call(30);
         echo "[.] Got ",$response,"\n";
