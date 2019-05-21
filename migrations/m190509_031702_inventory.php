@@ -14,7 +14,8 @@ class m190509_031702_inventory extends Migration
         $this->createTable('Ms_inventory', [
             'id' => $this->primaryKey(),
             'goods'=>$this->string(16)->notNull(),
-            'num' => $this->integer(11)->defaultValue(0)
+            'num' => $this->integer(11)->defaultValue(0),
+            'version' => $this->integer(11)->defaultValue(0),
         ],$tableOptions);
 
     }

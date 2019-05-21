@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\JpBlogConfig;
 use Yii;
 use yii\web\Controller;
 use app\modules\Common;
@@ -183,4 +184,26 @@ class ShopController extends Controller
 
     # 队列
     # 排队处理，让先进来的下单，后面的拦截掉  （此处不做模拟）
+    /**=================================================**/
+
+    # mysql乐观锁
+    # 探查事务中update操作会不会加锁
+    public function actionBuy_bysql(){
+        $connect = yii::$app->db;
+        $transaction = $connect->beginTransaction();
+        try{
+
+
+
+
+            var_dump(111);die;
+
+
+        }catch (\Exception $e){
+
+        }
+
+
+
+    }
 }
