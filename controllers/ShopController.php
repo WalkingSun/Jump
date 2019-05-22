@@ -21,6 +21,10 @@ class ShopController extends Controller
         $redis = Yii::$app->redis;
         $redis->set('goodNums',100);   //设置库存
         $redis->del('order');           //清空抢购订单
+
+        $connect = yii::$app->db;
+        $connect->createCommand()->update('Ms_inventory',['num'=>100,'version'=>0],['id'=>1])->execute();
+
         die('success');
     }
 
@@ -187,23 +191,34 @@ class ShopController extends Controller
     /**=================================================**/
 
     # mysql乐观锁
-    # 探查事务中update操作会不会加锁
+    # 压测 ab -c 100 -n 1000 http://192.168.33.30:81/shop/buy_bysql
+    # 探查事务中update操作会不会加锁,经过测试update会加锁，其他并发的事务版本变化了update会失败，这样就可以做到抢购失败处理
     public function actionBuy_bysql(){
+        $userId = mt_rand(1,99999999);
         $connect = yii::$app->db;
+        $redis = Yii::$app->redis;
         $transaction = $connect->beginTransaction();
         try{
+            $goods = $connect->createCommand("select * from Ms_inventory where id=1")->queryOne();
 
+            $num = $goods['num']-1;
+            if($num<0){
+                throw new \Exception('库存不足,剩余库存'.$num);
+            }
+            $up = $connect->createCommand()->update('Ms_inventory',['num'=>$num,'version'=>$goods['version']+1],['id'=>1,'version'=>$goods['version']])->execute();
 
+            if( !$up ){
+                throw new \Exception($userId.' 失败 '.$num);
+            }
 
-
-            var_dump(111);die;
-
-
+            $redis->sadd('order',$userId);
+            $transaction->commit();
         }catch (\Exception $e){
-
+            Common::addLog('shop.log',$e->getMessage());
+            $transaction->rollBack();
         }
 
-
+        Common::addLog('shop.log',$userId.' 抢购成功');
 
     }
 }
