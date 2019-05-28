@@ -20,13 +20,13 @@ Class TreeController extends \yii\console\Controller{
         $node->add(8);
         $node->add(5);
 
-        var_dump($node);
+//        var_dump($node);
         //die;
 
 
         $node->select('pre');//前序遍历
-        $node->select('in');//中序遍历 （结果是顺序）
-        $node->select('last');//后序遍历 应用：未二分搜索树释放内存
+//        $node->select('in');//中序遍历 （结果是顺序）
+//        $node->select('last');//后序遍历 应用：未二分搜索树释放内存
     }
 
 

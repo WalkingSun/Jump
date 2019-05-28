@@ -39,7 +39,7 @@ class TreeBinarySearch
     public function select( $type='pre' ){
         switch ( $type ){
             case 'pre':
-                $this->selectPreorder($this);
+                $this->selectPreorderByStack($this);
                 break;
             case 'in':
                 $this->selectInorder($this);    //中序结果是顺序结构
@@ -93,6 +93,31 @@ class TreeBinarySearch
         $this->selectPreorder($node->right,$level+1);
     }
 
+
+    /**
+     *  前序遍历（栈）
+     */
+    public function selectPreorderByStack($node){
+        //栈
+        $stack = [];
+        array_push($stack,$node);
+        while (!empty($stack)){
+
+            $cur = array_pop($stack);
+
+            echo $cur->val . "\n";
+
+
+            if( $cur->right ){
+                $stack[] = $cur->right;
+            }
+
+            if( $cur->left ){
+                $stack[] = $cur->left;
+            }
+        }
+    }
+
     /**
      * 中序遍历
      */
@@ -110,7 +135,39 @@ class TreeBinarySearch
     }
 
     /**
-     * 中序遍历
+     * 中序遍历(栈)
+     */
+    public function selectInorderByStack($node){
+
+        $stack = [$node];
+        while( !empty($stack) ){
+
+            $cur = array_pop($stack);
+
+            if( $cur->left ){
+                $stack[] = $cur->left;
+            }else{
+                echo $cur->val . "\n";
+            }
+
+
+            if( $cur->right ){
+                $stack[] = $cur->right;
+            }else{
+                echo $cur->val . "\n";
+            }
+
+
+
+
+        }
+
+
+
+    }
+
+    /**
+     * 后序遍历
      */
     public function selectLastorder($node,$level=1){
         if( $node == null ){
