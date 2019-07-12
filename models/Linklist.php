@@ -107,7 +107,7 @@ class Linklist
         $prev = $this->head->next;
         for($i=0;$i<=$index;$i++){
             if( $i==$index )
-                return $prev;
+                return $prev->val;
             $prev = $prev->next;
         }
     }
@@ -162,4 +162,21 @@ class Linklist
         return implode('->',$r);
 
     }
+
+    /**
+     * 删除指定的节点值
+     * @param $value
+     */
+    public function removeFileds( $value ){
+        $prev = $this->head;
+        while( $prev->next ){
+            if( $prev->val == $value ){
+                $prev->val = $prev->next->val;
+                $prev->next = $prev->next->next;
+            }else{
+                $prev = $prev->next;
+            }
+        }
+    }
+
 }

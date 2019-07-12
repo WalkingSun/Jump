@@ -7,7 +7,10 @@
  */
 namespace app\commands;
 
+use app\models\Linklist;
+use app\models\LinkListQueue;
 use app\models\LinklistStack;
+use yii\web\Link;
 
 Class LinklistController extends \yii\console\Controller{
 
@@ -30,16 +33,29 @@ Class LinklistController extends \yii\console\Controller{
 //        var_export($node->tostring());
 
 
-        $stack = new LinklistStack();
-        $stack->push(1);
-        $stack->push(3);
-        $stack->push(6);
-        $stack->push(9);
+//        $stack = new LinklistStack();
+//        $stack = new LinkListQueue();
+//        $stack->push(1);
+//        $stack->push(3);
+//        $stack->push(6);
+//        $stack->push(9);
+//
+//        print_r($stack->pop());
+//        print_r($stack->head);
+//        print_r($stack->checkHead());
+//        print_r($stack->checkEnd());
+//        print_r($stack->toString());
 
-        print_r($stack->pop());
-        print_r($stack->head);
 
+        $link = new Linklist();
+        $link->addLast(1);
+        $link->addLast(3);
+        $link->addLast(5);
+        $link->addLast(5);
+        $link->addLast(9);
 
+        $link->removeFileds(5);
+        var_dump($link->head->next);
         die;
 
     }
