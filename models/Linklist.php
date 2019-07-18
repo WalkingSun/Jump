@@ -179,4 +179,42 @@ class Linklist
         }
     }
 
+    /**
+     * 通过递归方式删除指定的节点值
+     * @param $value
+     */
+    public function removeFiledsByRecursion( $value ){
+        $this->head = $this->removeByRecursion( $this->head ,$value);
+        return $this->head;
+    }
+
+    public function removeByRecursion( $node , $value, $level=0 ){
+        if( $node->next == null ){
+            $this->showDeeep($level,$node->val);
+            return $node->val == $value ? $node->next:$node;
+        }
+
+        $this->showDeeep($level,$node->val);
+        $node->next = $this->removeByRecursion( $node->next,$value,++$level );
+        $this->showDeeep($level,$node->val);
+        return $node->val == $value ? $node->next:$node;
+    }
+
+    /**
+     * 显示深度
+     * @param int $level 深度层级
+     * @param $val
+     * @return bool
+     */
+    public function showDeeep( $level=1,$val ){
+        if( $level<1 ){
+            return false;
+        }
+
+        while($level--){
+            echo '-';
+        }
+        echo "$val\n";
+    }
+
 }

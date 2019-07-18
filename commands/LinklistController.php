@@ -51,11 +51,18 @@ Class LinklistController extends \yii\console\Controller{
         $link->addLast(1);
         $link->addLast(3);
         $link->addLast(5);
-        $link->addLast(5);
         $link->addLast(9);
+        $link->addLast(5);
+        $link->addLast(8);
+        $link->addLast(5);
 
-        $link->removeFileds(5);
-        var_dump($link->head->next);
+
+//        $link->removeFileds(5);
+
+        $link->removeFiledsByRecursion(5);
+
+
+        print_r($link->head->next);
         die;
 
     }

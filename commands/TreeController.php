@@ -19,9 +19,10 @@ Class TreeController extends \yii\console\Controller{
         $node->add(6);
         $node->add(8);
         $node->add(5);
-
-//        var_dump($node);
-        //die;
+        $node->deleteMin($node);
+        $node->deleteMax($node);
+        var_dump($node);
+        die;
 
 
         $node->select('pre');//前序遍历

@@ -193,4 +193,32 @@ class TreeBinarySearch
         }
     }
 
+    /**
+     * 删除最小节点
+     * @param TreeBinarySearch $node
+     */
+    public function deleteMin( $node ){
+        if( $node->left==null ){
+            $rightNode = $node->right;
+            $node->right = null;
+            return $rightNode;
+        }
+
+        $node->left = $this->deleteMin($node->left);
+        return $node;
+    }
+
+    /**
+     * 删除最大节点
+     * @param  TreeBinarySearch $node
+     */
+    public function deleteMax($node){
+        if( $node->right == null ){
+            $leftNode = $node->left;
+            $node->left = null;
+            return $leftNode;
+        }
+        $node->right = $this->deleteMax($node->right);
+        return $node;
+    }
 }

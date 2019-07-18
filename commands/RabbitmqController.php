@@ -38,19 +38,25 @@ class RabbitmqController extends Controller
 
         //建立通道
         $channel = $connection->channel();
-//        $channel->tx_select();
+        $channel->tx_select();   //开启事务
 
-        //声明队列
-        $mqName = $this->mqName;
-        $channel->queue_declare($mqName,false,false,false,false);
+        try{
+            //声明队列
+            $mqName = $this->mqName;
+            $channel->queue_declare($mqName,false,false,false,false);
 
-        //消息
-        $content = !empty($_GET['content']) ? $_GET['content']: 'Hello World!';
-        $msg = new AMQPMessage($content,['delivery_mode'=>2]);
+            //消息
+            $content = !empty($_GET['content']) ? $_GET['content']: 'Hello World!';
+            $msg = new AMQPMessage($content,['delivery_mode'=>2]);
 
-        //发布消息
-        $channel->basic_publish($msg,'',$mqName);
-//        $channel->tx_commit();
+            //发布消息
+            $channel->basic_publish($msg,'',$mqName);
+            $channel->tx_commit();   //提交事务
+        }catch(\Exception $e){
+            $channel->tx_rollback();   //回滚事务
+            echo  "[x] Sent fail'{$content}!'\n";
+        }
+
 
         echo "[x] Sent '{$content}!'\n";
 
