@@ -17,6 +17,7 @@ class TreeBinarySearch
     public $val = null;
     public $left = null;
     public $right = null;
+    public $size=0;
 
     public function __construct($value=null){
         $this->val = $value;
@@ -32,11 +33,26 @@ class TreeBinarySearch
         return $this->add2($node,$value);
     }
 
+    public function selectBinary( $node, $value  ){
+        if( $node->val == $value ){
+            return $node;
+        }
+
+        if( $node->val > $value ){
+            return  $this->selectBinary($node->left,$value);
+        }else{
+            return  $this->selectBinary($node->right,$value);
+        }
+        return false;
+    }
 
     /**查询
      * @param string $type 'pre'前序遍历，'in'中序遍历，'last'后序遍历
      */
-    public function select( $type='pre' ){
+    public function select( $value=null,$type='pre' ){
+        if($value)
+            return $this->selectBinary($this,$value);
+
         switch ( $type ){
             case 'pre':
                 $this->selectPreorderByStack($this);
@@ -50,6 +66,28 @@ class TreeBinarySearch
         }
     }
 
+    /**
+     * 查询最小值
+     */
+    public function selectMin( $node ){
+        if( $node->left != null ){
+            $this->selectMin($node->left);
+        }
+
+        return $node;
+
+    }
+
+    /**
+     * 查询最大值
+     */
+    public function selectMax( $node ){
+        if( $node->right != null ){
+            $this->selectMax($node->right);
+        }
+
+        return $node;
+    }
 
     public function add2( $node,$value ){
         if(!is_object($node)){
@@ -62,6 +100,7 @@ class TreeBinarySearch
 
         if( $node->val == null ){
             $node->val = $value;
+            $this->size++;
             return $node;
         }
 
@@ -201,6 +240,7 @@ class TreeBinarySearch
         if( $node->left==null ){
             $rightNode = $node->right;
             $node->right = null;
+            $this->size--;
             return $rightNode;
         }
 
@@ -216,9 +256,61 @@ class TreeBinarySearch
         if( $node->right == null ){
             $leftNode = $node->left;
             $node->left = null;
+            $this->size--;
             return $leftNode;
         }
         $node->right = $this->deleteMax($node->right);
         return $node;
     }
+
+    /**
+     * 删除任意节点
+     * @param $node
+     * @param $value
+     */
+    public function delete($value){
+        return $this->deleteByRecursion($this,$value);
+    }
+
+    public function deleteByRecursion($node,$value){
+        if( $this->size==0 )
+            throw new \Exception('节点为空');
+
+        //空返回错误
+        if( $node==null )
+            return false;
+
+        //找到节点
+        if(  $node->val != $value ){
+            //先从左节点找 再又节点  性能较差
+//            return $this->deleteByRecursion($node->left,$value) or $this->deleteByRecursion($node->right,$value);
+            //二分查找
+            $node =  $this->select($value);
+        }
+
+        //目标节点左右节点为空 返回空
+        if( $node->left==null && $node->right == null ){
+            $node->val=null;
+            $this->size--;
+            return $node;
+        }
+
+        //右节点
+        if( $node->right ){
+            //获取右边最大值
+            $nodeRightMin = $this->selectMin($node->right);
+
+            //当前节点
+            $node->val = $nodeRightMin->val;
+            $node->right = $this->deleteMin($node->right);
+        }else{
+            //获取左节点最大值
+            $nodeLeftMax = $this->selectMax($node->left);
+            $node->val = $nodeLeftMax->val;
+            $node->left = $this->deleteMax($node->left);
+        }
+
+        return $node;
+    }
+
 }

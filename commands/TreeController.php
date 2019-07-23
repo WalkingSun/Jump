@@ -30,7 +30,19 @@ Class TreeController extends \yii\console\Controller{
 //        $node->select('last');//后序遍历 应用：未二分搜索树释放内存
     }
 
+    public function actionIndex(){
+        $node = new \app\models\TreeBinarySearch();
 
+        $node->add(5);
+        $node->add(3);
+        $node->add(10);
+        $node->add(15);
+//var_dump($node);die;
+        $node->delete(10);
+//        var_dump($node->select(15));
+        var_dump($node);
+        die;
+    }
 
 
 
