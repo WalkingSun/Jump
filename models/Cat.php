@@ -15,7 +15,7 @@ class Cat extends Component
 
     public function shut(){
 
-        echo "there have a car is shuting!\r\n";
+        echo "There have a cat is barking !\r\n";
         $this->trigger('miao');
     }
 

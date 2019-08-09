@@ -16,7 +16,7 @@ class Dog extends Component
 
     public function see(){
 
-        echo 'The dog see a cat';
+        echo "The dog see a cat\r\n";
     }
 
 
