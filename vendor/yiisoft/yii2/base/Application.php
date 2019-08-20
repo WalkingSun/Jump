@@ -194,15 +194,18 @@ abstract class Application extends Module
     public function __construct($config = [])
     {
         Yii::$app = $this;
-        static::setInstance($this);
+        static::setInstance($this);//将\yii\base\Application中的所有的属性和方法交给Yii::$app->loadedModules数组中
 
         $this->state = self::STATE_BEGIN;
 
-        $this->preInit($config);
+        $this->preInit($config);//加载配置文件的框架信息 如：设置别名，设置框架路径等等 最为重要的是给加载默认组件
 
-        $this->registerErrorHandler($config);
+        $this->registerErrorHandler($config);//加载配置文件中的异常组件
 
-        Component::__construct($config);
+        //Component 是当前类的父类  Component::__construct 调用父类的构造函数
+        Component::__construct($config);//将配置文件中的所有信息赋值给Object，也就是Yii::$app->配置文件参数可以直接调用配置文件的内容
+        // 如：Yii::$app->vendorPath//输出框架路径  Yii::$app->components['redis']//输出redis配置信息
+        //var_dump( Yii::$app->components['db']);die;
     }
 
     /**
@@ -254,7 +257,7 @@ abstract class Application extends Module
         }
 
         // merge core components with custom components
-        foreach ($this->coreComponents() as $id => $component) {
+        foreach ($this->coreComponents() as $id => $component) {  //$this->coreComponents() 核心应用程序组件（默认）的配置。
             if (!isset($config['components'][$id])) {
                 $config['components'][$id] = $component;
             } elseif (is_array($config['components'][$id]) && !isset($config['components'][$id]['class'])) {
@@ -372,7 +375,6 @@ abstract class Application extends Module
     public function run()
     {
         try {
-
             $this->state = self::STATE_BEFORE_REQUEST;
             $this->trigger(self::EVENT_BEFORE_REQUEST);
 

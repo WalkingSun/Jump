@@ -147,33 +147,36 @@ class Container extends Component
      * @throws InvalidConfigException if the class cannot be recognized or correspond to an invalid definition
      * @throws NotInstantiableException If resolved to an abstract class or an interface (since 2.0.9)
      */
-    public function get($class, $params = [], $config = [])
+    public function get($class, $params = [], $config = []) //$params 构造函数的参数键值对（顺序），如果跳过参数，请按顺序指定数字索引
     {
+        //存在类的单例，获取单例对象；
         if (isset($this->_singletons[$class])) {
             // singleton
             return $this->_singletons[$class];
-        } elseif (!isset($this->_definitions[$class])) {
+        } elseif (!isset($this->_definitions[$class])) {//不存在类的单例，且未找到类的定义（一般set设置），调用build创建类的实例
             return $this->build($class, $params, $config);
         }
 
-        $definition = $this->_definitions[$class];
+        $definition = $this->_definitions[$class];  //获取类的定义（set设置）
 
+        //是否回调
         if (is_callable($definition, true)) {
-            $params = $this->resolveDependencies($this->mergeParams($class, $params));
-            $object = call_user_func($definition, $this, $params, $config);
-        } elseif (is_array($definition)) {
+            $params = $this->resolveDependencies($this->mergeParams($class, $params));  //获取依赖（构造函数参数）
+            $object = call_user_func($definition, $this, $params, $config); //调用回调函数,
+        } elseif (is_array($definition)) {//数组
             $concrete = $definition['class'];
             unset($definition['class']);
 
             $config = array_merge($definition, $config);
             $params = $this->mergeParams($class, $params);
 
+            //定义类与获取类一致，构建类实例，反之获取类实例
             if ($concrete === $class) {
-                $object = $this->build($class, $params, $config);
+                $object = $this->build($class, $params, $config);  //构建类实例
             } else {
                 $object = $this->get($concrete, $params, $config);
             }
-        } elseif (is_object($definition)) {
+        } elseif (is_object($definition)) {//定义项是对象  放入$_singletons
             return $this->_singletons[$class] = $definition;
         } else {
             throw new InvalidConfigException('Unexpected object definition type: ' . gettype($definition));
@@ -272,9 +275,9 @@ class Container extends Component
      */
     public function setSingleton($class, $definition = [], array $params = [])
     {
-        $this->_definitions[$class] = $this->normalizeDefinition($class, $definition);
-        $this->_params[$class] = $params;
-        $this->_singletons[$class] = null;
+        $this->_definitions[$class] = $this->normalizeDefinition($class, $definition);  //类定义检测
+        $this->_params[$class] = $params;  //类的构造函数参数
+        $this->_singletons[$class] = null;   //类的数组单列
         return $this;
     }
 
@@ -361,25 +364,27 @@ class Container extends Component
     protected function build($class, $params, $config)
     {
         /* @var $reflection ReflectionClass */
-        list ($reflection, $dependencies) = $this->getDependencies($class);
+        list ($reflection, $dependencies) = $this->getDependencies($class);//获取类的反射对象和依赖参数
 
         foreach ($params as $index => $param) {
             $dependencies[$index] = $param;
         }
 
-        $dependencies = $this->resolveDependencies($dependencies, $reflection);
+        $dependencies = $this->resolveDependencies($dependencies, $reflection);//通过用实际对象实例替换依赖项来解析依赖项
         if (!$reflection->isInstantiable()) {
             throw new NotInstantiableException($reflection->name);
         }
-        if (empty($config)) {
+        if (empty($config)) {//属性初始化数组为空，直接返回填充依赖参数的新的实例
             return $reflection->newInstanceArgs($dependencies);
         }
 
+        //依赖不为空且检查它是否实现了yii\base\Configurable接口
         if (!empty($dependencies) && $reflection->implementsInterface('yii\base\Configurable')) {
-            // set $config as the last parameter (existing one will be overwritten)
+            // set $config as the last parameter (existing one will be overwritten) 将$config设置为最后一个参数（现有参数将被覆盖）
             $dependencies[count($dependencies) - 1] = $config;
             return $reflection->newInstanceArgs($dependencies);
         } else {
+            //根据依赖获取实例，且设置属性值
             $object = $reflection->newInstanceArgs($dependencies);
             foreach ($config as $name => $value) {
                 $object->$name = $value;
@@ -395,12 +400,12 @@ class Container extends Component
      * @return array the merged parameters
      */
     protected function mergeParams($class, $params)
-    {
+    {   //$_params 类参数为空，返回所传参数$params;
         if (empty($this->_params[$class])) {
             return $params;
-        } elseif (empty($params)) {
+        } elseif (empty($params)) {//$params为空返回$_params[$class];
             return $this->_params[$class];
-        } else {
+        } else {//获取$params，$param存在则替换
             $ps = $this->_params[$class];
             foreach ($params as $index => $value) {
                 $ps[$index] = $value;
@@ -421,15 +426,15 @@ class Container extends Component
         }
 
         $dependencies = [];
-        $reflection = new ReflectionClass($class);
+        $reflection = new ReflectionClass($class);   //创建一个对$class变量对应值的类的反射对象
 
-        $constructor = $reflection->getConstructor();
+        $constructor = $reflection->getConstructor(); //获取类的构造函数
         if ($constructor !== null) {
             foreach ($constructor->getParameters() as $param) {
-                if ($param->isDefaultValueAvailable()) {
+                if ($param->isDefaultValueAvailable()) { //检查默认值是否可用
                     $dependencies[] = $param->getDefaultValue();
                 } else {
-                    $c = $param->getClass();
+                    $c = $param->getClass();  //反射 获取类
                     $dependencies[] = Instance::of($c === null ? null : $c->getName());
                 }
             }

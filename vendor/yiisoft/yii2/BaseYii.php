@@ -528,7 +528,6 @@ class BaseYii
         foreach ($properties as $name => $value) {
             $object->$name = $value;
         }
-
         return $object;
     }
 

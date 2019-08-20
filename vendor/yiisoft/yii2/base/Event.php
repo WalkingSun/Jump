@@ -37,18 +37,18 @@ class Event extends Object
      * This property may also be a `null` when this event is a
      * class-level event which is triggered in a static context.
      */
-    public $sender;
+    public $sender;   // 事件发布者，通常是调用了 trigger() 的对象或类。
     /**
      * @var bool whether the event is handled. Defaults to `false`.
      * When a handler sets this to be `true`, the event processing will stop and
      * ignore the rest of the uninvoked event handlers.
      */
-    public $handled = false;
+    public $handled = false; // 是否终止事件的后续处理
     /**
      * @var mixed the data that is passed to [[Component::on()]] when attaching an event handler.
      * Note that this varies according to which event handler is currently executing.
      */
-    public $data;
+    public $data;    // 事件相关数据
 
     /**
      * @var array contains all globally registered event handlers.
@@ -163,8 +163,8 @@ class Event extends Object
 
         $classes = array_merge(
             [$class],
-            class_parents($class, true),
-            class_implements($class, true)
+            class_parents($class, true),    //返回给定类的父类
+            class_implements($class, true)  //返回由给定类或接口实现的接口
         );
 
         foreach ($classes as $class) {
@@ -208,7 +208,7 @@ class Event extends Object
             [$class],
             class_parents($class, true),
             class_implements($class, true)
-        );
+        );//获取类及类的父类或接口
 
         foreach ($classes as $class) {
             if (empty(self::$_events[$name][$class])) {

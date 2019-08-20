@@ -30,10 +30,34 @@ class EventController extends  Controller
 
     public function actionCall(){
 
-        var_dump(\Yii::$container->get('app\models\MyClass',[1=>1]));die;
+        $object = \Yii::createObject([
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=127.0.0.1;dbname=demo',
+            'username' => 'root',
+            'password' => '',
+            'charset' => 'utf8',
+        ]);
 
-        $obj = new MyClass(/*...*/);
-        \Yii::$container->invoke([$obj, 'doSomething'], ['param1' => 42]); // $something will be provided by the DI container
+
+
+        //构造函数注入
+//        var_dump(\Yii::$container->get('app\models\MyClass',[1=>1]));
+
+        //方法注入
+//        $obj = new MyClass(/*...*/);
+//        \Yii::$container->invoke([$obj, 'doSomething'], ['param1' => 42]); // $something will be provided by the DI container
+
+        //回调方法注入
+        \Yii::$container->set('yii\db\Connection',['class'=>'app\models\MyClass'],[1=>1]);
+//        \Yii::$container->set('Foo', function () {
+//            $foo =1111;
+//             ... 其他初始化 ...
+//            return $foo;
+//        });
+
+        $foo =  \Yii::$container->get('yii\db\Connection');
+//        $foo =  \Yii::$container->get('Foo');
+        var_dump($foo);
         die;
         $cat = new Cat();
         $dog = new Dog();
