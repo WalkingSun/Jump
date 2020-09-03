@@ -27,7 +27,9 @@
         "pyurin/yii2-redis-ha": "^1.1",
         "vlucas/phpdotenv": "^2.4",
         "guzzlehttp/guzzle": "^6.3",
-        "league/csv": "^9.1"
+        "league/csv": "^9.1",
+        "paquettg/php-html-parser": "2.2",
+        "alibabacloud/sdk": "^1.8"
     },
 
     "require-dev": {

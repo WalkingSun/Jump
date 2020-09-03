@@ -9,13 +9,13 @@ use PhpAmqpLib\Message\AMQPMessage;
 
 class RabbitmqController extends Controller
 {
-    public $host = '192.168.33.30';
+    public $host = '172.16.100.205';
     public $port = '5672';
-    public $user = 'guest';
-    public $psd = 'guest';
+    public $user = 'admin';
+    public $psd = 'admin123BD';
     public $vhost = '/';
 
-    public $mqName = 'hellos';
+    public $mqName = 'reader_free_new_user.log';
 
     public $argv;             //定义接受参数
     public $severity;             //路由键
@@ -167,7 +167,7 @@ class RabbitmqController extends Controller
         $connection = new AMQPStreamConnection($this->host,$this->port,$this->user,$this->psd,$this->vhost);
         $channel = $connection->channel();
 
-        $channel->exchange_declare('logs','fanout',false,false,false);
+        $channel->exchange_declare('logs','fanout',false,true,false);
 
         //在建立连接之后，我们声明交换。这一步是必要的，因为发布到一个不存在的交换机是禁止的。
         //如果没有队列绑定到Exchange，消息将丢失，但这对我们来说是好的；如果没有用户正在监听，我们可以安全地丢弃消息。
@@ -226,15 +226,27 @@ class RabbitmqController extends Controller
         $connection = new AMQPStreamConnection($this->host,$this->port,$this->user,$this->psd,$this->vhost);
         $channel = $connection->channel();
 
-        $channel->exchange_declare('direct_logs','direct',false,false,false);
+        $channel->exchange_declare('reader_free_new_user.exchange.log','direct',false,true,false);
+        $mqName = $this->mqName;
 
-        $severity = $this->severity?$this->severity:"info";   //
+        $severity = $this->severity?$this->severity:$mqName;   //
 
-        $data = $this->argv?$this->argv:'Hello World!';
+        $channel->queue_declare($mqName,false,true,false,false);
+
+        $detail['uid'] = "123456";
+        $detail['channel'] = "1";
+        $detail['servertime']="2020-02-10";
+        $detail['activedate']="2020-02-10";
+        $detail['attributionChannel']= "1";
+        $detail['version'] = "1";
+        $detail['uid_md5'] = md5("123456");
+
+        $data = $this->argv?$this->argv:json_encode($detail);
 
         $msg = new AMQPMessage($data);
 
-        $channel->basic_publish($msg,'direct_logs',$severity);
+        $channel->queue_bind($this->mqName,'reader_free_new_user.exchange.log',$severity);
+        $channel->basic_publish($msg,'reader_free_new_user.exchange.log',$mqName);
 
         echo " [x] Sent ",$severity,':',$data,"\n";
 
