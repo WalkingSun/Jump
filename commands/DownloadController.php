@@ -2,6 +2,7 @@
 
 namespace app\commands;
 
+use function GuzzleHttp\Psr7\parse_query;
 use PHPHtmlParser\Dom;
 use Yii;
 use yii\console\Controller;
@@ -140,4 +141,31 @@ class DownloadController extends Controller
         return $encoded_str;
     }
 
+
+    public function actionXianjie3()
+    {
+        header("Content-type:text/html;charset=utf-8");
+
+        $filepath = \Yii::$app->basePath.'/runtime/fanren/';
+        $path = "https://m.tingshubao.com/player/tingchina.php?url=yousheng%2F30773%2Fplay_30773_{i}.htm";
+        for($i=365;$i<546;$i++){
+            $file=str_replace("{i}",$i,$path);
+            $content = file_get_contents($file);//var_dump($file,$content);die;
+            $url = json_decode($content,true)['url'];
+            $urls = parse_url($url);
+            $title = trim($urls['path'],'/');
+            $handle = fopen($url,'rb');
+            $filepathMp3 = $filepath."/{$title}";
+            if( !file_exists($filepathMp3) ){
+                $handle1 = fopen($filepathMp3, "w");
+                fclose($handle1);
+            }
+
+            $r = file_put_contents($filepathMp3, $handle);
+            fclose($handle);
+            var_dump("success". $i." $r $title $url \r\n");
+            sleep(1);
+        }
+
+    }
 }
